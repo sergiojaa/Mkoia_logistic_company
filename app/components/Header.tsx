@@ -39,7 +39,7 @@ export default function Header() {
                         { name: "Products", path: "/products" },
                     ].map((item) => (
                         <li
-                            className={`text-[20px] ${pathname === item.path ? "text-[#001E62]" : "text-[#556996]"
+                            className={`text-[18px] ${pathname === item.path ? "text-[#001E62]" : "text-[#556996]"
                                 }`}
                             key={item.path}
                         >
@@ -48,7 +48,7 @@ export default function Header() {
                     ))}
 
                     <li className="bg-[#001E62] flex items-center text-white px-4 py-2 rounded-full">
-                        <Link href="/contact" className="flex text-[20px] items-center gap-3">
+                        <Link href="/contact" className="flex text-[16px] items-center gap-3">
                             <span>Contact</span>
                             <div className="bg-white text-[#001E62] w-8 h-8 flex items-center justify-center rounded-full">
                                 <ArrowRight size={20} />
@@ -84,8 +84,8 @@ export default function Header() {
                     className="bg-[#001E62] text-white px-4 py-2 rounded-full flex items-center gap-3"
                     onClick={() => setMenuOpen(false)}
                 >
-                    <span>Contact</span>
-                    <div className="bg-white text-[#001E62] w-8 h-8 flex items-center justify-center rounded-full">
+                    <span >Contact</span>
+                    <div className="bg-white text-[#001E62] w-6 h-6 flex items-center justify-center rounded-full">
                         <ArrowRight size={20} />
                     </div>
                 </Link>
