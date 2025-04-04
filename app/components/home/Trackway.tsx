@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import { ArrowRight } from 'lucide-react'
+import PlanningCard from './PlanningCard'
 export default function Trackway() {
     return (
         <div>
@@ -16,11 +17,15 @@ export default function Trackway() {
                 </button>
             </div>
             <div className='relative'>
-                <Image className=' h-[550px]' src={'/content.png'} width={1440} height={100} alt='content image' />
-                <h4 className='absolute top-10 text-white left-20'>WORK PROCESS</h4>
+                <Image className=' h-[800px]' src={'/content.png'} width={1440} height={100} alt='content image' />
+                <h4 className='absolute top-10 text-white text-[14px] left-20'>WORK PROCESS</h4>
                 <h3 className='absolute top-20 text-[20px] font-bold text-white left-20'>How We Work</h3>
-                <p>Our process is simple yet effective. From the initial consultation to understand your logistics needs, to careful planning and execution, we ensure every detail is handled with precision.</p>
+                <p className='absolute top-22 max-w-[550px] text-[18px] text-white right-10 '>Our process is simple yet effective. From the initial consultation to understand your logistics needs, to careful planning and execution, we ensure every detail is handled with precision.</p>
+                <div className='absolute top-55 left-100'>
+                    <PlanningCard number="01" title='strategic planning' description='Designing a plan to ensure efficient and optimal delivery of your goods.' image='/process-card.png' />
+                </div>
             </div>
+
 
         </div>
     )
