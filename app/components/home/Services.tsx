@@ -18,9 +18,9 @@ export default function Services() {
                     description='Navigating customs with ease, ensuring your goods clear borders swiftly and compliantly.' />
                 <ServiceCards icon='/fourth-icon.png' title='Cross-Border Solutions'
                     description='Seamless cross-border logistics to connect your business with international markets.' />
-                <ServiceCards icon='/custom-icon.png' title='Last-Mile Delivery'
+                <ServiceCards icon='/fifth-icon.png' title='Last-Mile Delivery'
                     description='Reliable last-mile delivery that gets your products to customers’ doorsteps with precision.' />
-                <ServiceCards icon='/custom-icon.png' title='Project Cargo Handling'
+                <ServiceCards icon='/sixth-icon.png' title='Project Cargo Handling'
                     description='Specialized handling for oversized or complex shipments, with tailored logistics solutions.' />
 
             </div>
