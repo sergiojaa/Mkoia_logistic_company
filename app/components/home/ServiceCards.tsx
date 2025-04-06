@@ -1,25 +1,30 @@
-import React from 'react'
-import Image from 'next/image'
+import Image from "next/image"
+
 interface ServiceCard {
-    icon: string,
-    title: string,
+    icon: string
+    title: string
     description: string
 }
+
 export default function ServiceCards({ icon, title, description }: ServiceCard) {
     return (
-        <div className='mx-5' >
-            <div className='border  border-[#CCD2DF]  rounded-xl px-10 py-5 lg:flex-row    max-w-[1200px] mx-auto flex flex-col gap-6'>
-                <div className='flex items-start'>
-                    <Image className='object-cover' src={icon} alt=' icon' width={48} height={48} />
+        <div className="px-4 py-2 sm:px-6 md:py-4">
+            <div className="border border-[#CCD2DF] rounded-xl p-5 sm:p-6 md:p-8 max-w-[1200px] mx-auto flex flex-col lg:flex-row items-start gap-4 lg:gap-6">
+                <div className="flex-shrink-0">
+                    <Image
+                        className="object-cover"
+                        src={icon || "/placeholder.svg"}
+                        alt={`${title} icon`}
+                        width={48}
+                        height={48}
+                    />
                 </div>
-                <div className='flex lg:flex-row w-[950px] justify-between   flex-col gap-6'>
-                    <h3 className='text-[#001E62] text-[28px] '>{title}</h3>
-                    <p className='text-[#556996] max-w-[500px] text-[16px]'>{description}</p>
-
+                <div className="flex flex-col max-w-[900px] lg:flex-row lg:items-center w-full justify-between gap-3 lg:gap-6">
+                    <h3 className="text-[#001E62] text-2xl sm:text-xl font-medium max-w-[350px]">{title}</h3>
+                    <p className="text-[#556996] text-base max-w-[500px]">{description}</p>
                 </div>
-
             </div>
-
         </div>
     )
 }
+
