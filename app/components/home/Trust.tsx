@@ -1,4 +1,5 @@
 import React from 'react'
+import TrustCard from './TrustCard'
 
 export default function Trust() {
     return (
@@ -9,7 +10,10 @@ export default function Trust() {
                     <h1 className='text-[#001E62] text-3xl font-bold'> <span className='text-[#C8102E]'>Trusted</span> by Worldwide</h1>
                     <p className='text-[#2A437C] max-w-[620px] text-lg'>Many companies already work with us. Praise pleases us, criticism helps us because we want to get better every day.</p>
                 </div>
+                <div>
+                    <TrustCard />
 
+                </div>
             </div>
         </div>
     )
