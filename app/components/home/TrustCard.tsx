@@ -4,8 +4,8 @@ import { BriefcaseBusiness } from 'lucide-react'
 
 export default function TrustCard() {
     return (
-        <div className="w-full max-w-[1200px] px-4 md:px-6 lg:px-8 mx-auto">
-            <div className='flex  flex-col lg:flex-row items-center max-w-[1200px]     lg:items-start justify-around  p-5 border border-[#CCD2DF] rounded-xl  '>
+        <div className="w-full">
+            <div className='flex flex-col lg:flex-row items-center lg:items-start justify-around  p-5 border border-[#CCD2DF] rounded-xl  '>
 
                 <div className='w-[360px] '>
                     <Image src={'/picture.png'} alt='track' width={250} height={100} />
