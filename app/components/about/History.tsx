@@ -7,6 +7,25 @@ export default function History() {
                 <Image
                     className=' hidden lg:block  rounded-4xl'
                     src='/about/History-desktop.png' width={1200} height={200} alt='image' />
+                <div>
+
+                </div>
+                <div className='  text-white'>
+                    <p className='absolute top-30 left-38' >1999</p>
+                    <p className='absolute text-sm text-center text-[#CCD2DF] max-w-[220px] left-20 bottom-30'>Logix was founded with a vision to provide efficient regional logistics solutions</p>
+                </div>
+                <div className='  text-white'>
+                    <p className='absolute top-30 left-114' >1999</p>
+                    <p className='absolute text-sm text-center text-[#CCD2DF] max-w-[185px] left-95 bottom-30'>Logix was founded with a vision to provide efficient regional logistics solutions</p>
+                </div>
+                <div className='  text-white'>
+                    <p className='absolute top-30 right-116' >1999</p>
+                    <p className='absolute text-sm text-center  text-[#CCD2DF] max-w-[190px] right-95 bottom-30'>Logix was founded with a vision to provide efficient regional logistics solutions</p>
+                </div>
+                <div className='  text-white'>
+                    <p className='absolute top-30 right-66' >1999</p>
+                    <p className='absolute text-sm text-center text-[#CCD2DF] max-w-[180px] right-45 bottom-30'>Logix was founded with a vision to provide efficient regional logistics solutions</p>
+                </div>
                 <div className='  text-white'>
                     <p className='absolute top-30 left-38' >1999</p>
                     <p className='absolute text-sm text-center text-[#CCD2DF] max-w-[220px] left-20 bottom-30'>Logix was founded with a vision to provide efficient regional logistics solutions</p>
