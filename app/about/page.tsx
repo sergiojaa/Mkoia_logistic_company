@@ -3,6 +3,7 @@ import Head from '../components/about/Head'
 import Whoarewe from '../components/about/Whoarewe'
 import Experience from '../components/about/Experience'
 import Action from '../components/about/Action'
+import History from '../components/about/History'
 
 export default function page() {
     return (
@@ -11,6 +12,7 @@ export default function page() {
             <Whoarewe />
             <Experience />
             <Action />
+            <History />
         </div>
     )
 }
