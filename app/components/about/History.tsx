@@ -1,51 +1,79 @@
-import React from 'react'
-import Image from 'next/image'
-export default function History() {
-    return (
-        <div className='p-5 hidden lg:block w-full mx-auto'>
-            <div className='relative '>
-                <Image
-                    className=' hidden lg:block  rounded-4xl'
-                    src='/about/History-desktop.png' width={1200} height={200} alt='image' />
-                <div className='flex items-center left-110 absolute top-10'>
-                    <div className="w-4 h-4 rounded-full bg-red-500 mr-2"></div>
-                    <p className='text-white text-xl '>Our History Since Inception</p>
-                </div>
+import { Circle } from "lucide-react"
 
-                <div className='  text-white'>
-                    <p className='absolute top-30 left-38' >1999</p>
-                    <p className='absolute text-sm text-center text-[#CCD2DF] max-w-[220px] left-20 bottom-30'>Logix was founded with a vision to provide efficient regional logistics solutions</p>
+export default function History() {
+    const milestones = [
+        {
+            year: "1999",
+            description: "Established company with focus on providing efficient regional logistics solutions.",
+        },
+        {
+            year: "2012",
+            description: "Opened new offices across major global trade hubs, strengthening global reach.",
+        },
+        {
+            year: "2018",
+            description: "Launched our proprietary tracking technology for real-time shipment visibility.",
+        },
+        {
+            year: "2023",
+            description: "Achieved 99% on-time delivery rate, establishing as a trusted industry leader.",
+        },
+    ]
+
+    return (
+        <div className="bg-[#001E62] text-white p-6 rounded-lg max-w-full mx-auto">
+            <div
+                className="border border-dashed border-blue-400 p-4 mb-6 rounded-md text-center lg:border-0 lg:p-0"
+            >
+                <div className="flex items-center justify-center gap-2 mb-2">
+                    <div className="h-3 w-3 bg-red-500 rounded-full"></div>
+                    <p className="text-sm font-medium tracking-wider">MILESTONE</p>
                 </div>
-                <div className='  text-white'>
-                    <p className='absolute top-30 left-114' >1999</p>
-                    <p className='absolute text-sm text-center text-[#CCD2DF] max-w-[185px] left-95 bottom-30'>Logix was founded with a vision to provide efficient regional logistics solutions</p>
-                </div>
-                <div className='  text-white'>
-                    <p className='absolute top-30 right-116' >1999</p>
-                    <p className='absolute text-sm text-center  text-[#CCD2DF] max-w-[190px] right-95 bottom-30'>Logix was founded with a vision to provide efficient regional logistics solutions</p>
-                </div>
-                <div className='  text-white'>
-                    <p className='absolute top-30 right-66' >1999</p>
-                    <p className='absolute text-sm text-center text-[#CCD2DF] max-w-[180px] right-45 bottom-30'>Logix was founded with a vision to provide efficient regional logistics solutions</p>
-                </div>
-                <div className='  text-white'>
-                    <p className='absolute top-30 left-38' >1999</p>
-                    <p className='absolute text-sm text-center text-[#CCD2DF] max-w-[220px] left-20 bottom-30'>Logix was founded with a vision to provide efficient regional logistics solutions</p>
+                <h2 className="text-2xl font-bold">Our History Since Inception</h2>
+            </div>
+
+            <div className="relative pl-8 lg:hidden">
+                <div
+                    className="absolute left-3 top-2 bottom-2 w-0.5 border-l-2 border-dashed border-blue-400"
+                ></div>
+
+                {milestones.map((milestone, index) => (
+                    <div key={index} className={`mb-10 relative ${index === milestones.length - 1 ? "mb-0" : ""}`}>
+                        <div className="absolute -left-8 top-0 flex items-center justify-center">
+                            <Circle className="h-6 w-6 text-white fill-white stroke-blue-800" />
+                        </div>
+                        <h3 className="text-xl font-bold mb-2">{milestone.year}</h3>
+                        <p className="text-sm text-blue-100">{milestone.description}</p>
+                    </div>
+                ))}
+            </div>
+
+            <div className="hidden lg:block mt-12">
+                <div className="relative pt-8">
+                    <div className="flex justify-between absolute top-0 left-0 right-0">
+                        {milestones.map((milestone, index) => (
+                            <div key={`year-${index}`} className="text-center w-1/4">
+                                <h3 className="text-xl font-bold">{milestone.year}</h3>
+                            </div>
+                        ))}
+                    </div>
+
+                    <div className="absolute left-0 right-0 top-16 h-0.5 bg-white"></div>
+
+                    <div className="absolute left-[12.5%] right-[12.5%] top-16 h-0.5 border-t-2 border-dashed "></div>
+
+                    <div className="flex justify-between pt-20">
+                        {milestones.map((milestone, index) => (
+                            <div key={`content-${index}`} className="text-center w-1/4 px-2">
+                                <div className="relative">
+                                    <Circle className="h-8 w-8 mx-auto -mt-12 mb-6 text-white fill-white  relative z-10" />
+                                </div>
+                                <p className="text-sm text-blue-100 mt-2">{milestone.description}</p>
+                            </div>
+                        ))}
+                    </div>
                 </div>
             </div>
         </div>
     )
 }
-
-
-
-
-{/* <div className='relative'>
-                    <Image
-                        className='md:hidden rounded-4xl'
-                        src='/about/History-mobile.png' width={1200} height={200} alt='image' /> */}
-{/* <div className='absolute top-35 left-20'>
-                        <p className='text-white'>2005</p>
-                        <p className='text-[#CCD2DF]'> Expanded services to include international freight and cross-border solutions.</p>
-                    </div> */}
-{/* </div> */ }
