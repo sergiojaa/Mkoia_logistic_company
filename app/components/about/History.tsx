@@ -23,7 +23,7 @@ export default function History() {
     return (
         <div className="bg-[#001E62] text-white p-6 rounded-lg max-w-full mx-auto">
             <div
-                className="border border-dashed border-blue-400 p-4 mb-6 rounded-md text-center lg:border-0 lg:p-0"
+                className="border border-dashed  p-4 mb-6 rounded-md text-center lg:border-0 lg:p-0"
             >
                 <div className="flex items-center justify-center gap-2 mb-2">
                     <div className="h-3 w-3 bg-red-500 rounded-full"></div>
@@ -34,7 +34,7 @@ export default function History() {
 
             <div className="relative pl-8 lg:hidden">
                 <div
-                    className="absolute left-3 top-2 bottom-2 w-0.5 border-l-2 border-dashed border-blue-400"
+                    className="absolute left-3 top-2 bottom-2 w-0.5 border-l-2 border-dashed "
                 ></div>
 
                 {milestones.map((milestone, index) => (
