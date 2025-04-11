@@ -2,7 +2,7 @@ import Image from "next/image"
 
 export default function Servicesimage() {
     return (
-        <div className="w-full p-5">
+        <div className="w-full p-7">
             <div className="relative">
                 <div>
                     <Image
