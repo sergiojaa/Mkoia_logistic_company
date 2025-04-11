@@ -14,7 +14,7 @@ export default function Community() {
                     <div className='flex flex-col gap-7'>
                         <h2 className='text-[#001E62] max-w-[700px] text-4xl md:text-5xl font-bold leading-tight'>Join a <span className='text-[#D13851]'>Growing <br /> Community</span> of Business and Logistics Partners </h2>
                         <p className='text-[#2A437C] text-[19px] max-w-[595px]'>Join a dynamic community of businesses and logistics partners.optimizing supply chains and driving growth</p>
-                        <button className="flex max-w-max hover:bg-[#3366CC] hover:text-white cursor-pointer items-center gap-3 rounded-full border border-[#001E62] text-[#001E62] px-6 py-2 transition-colors hover:border-[#3366CC]">
+                        <button className="flex max-w-max hover:bg-[#001E62] hover:text-white cursor-pointer items-center gap-3 rounded-full border border-[#001E62] text-[#001E62] px-6 py-2 transition-colors hover:border-[#3366CC]">
                             <span>Join Us</span>
                             <div className="border  rounded-full p-1 transition-colors ">
                                 <ArrowRight size={16} />
