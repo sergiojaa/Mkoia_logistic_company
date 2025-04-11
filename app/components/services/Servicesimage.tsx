@@ -1,21 +1,37 @@
-import React from 'react'
-import Image from 'next/image'
+import Image from "next/image"
+
 export default function Servicesimage() {
     return (
-        <div className='w-full p-5'>
-            <div className='relative'>
+        <div className="w-full p-5">
+            <div className="relative">
                 <div>
-                    <Image className='md:hidden' src='/services/image-mobile.png' alt='logistic image' width={1200} height={100} />
-                    <Image className='hidden md:block' src='/services/image-desktop.png' alt='logistic image' width={1200} height={100} />
-
+                    <Image
+                        className="md:hidden w-full h-[370px] object-cover brightness-[0.7]"
+                        src="/services/image-mobile.png"
+                        alt="logistic image"
+                        width={1200}
+                        height={370}
+                    />
+                    <Image
+                        className="hidden md:block w-full object-cover "
+                        src="/services/image-desktop.png"
+                        alt="logistic image"
+                        width={1200}
+                        height={500}
+                    />
                 </div>
-                <div className='absolute text-center text-white top-10 flex flex-col items-center justify-center'>
-                    <h2 className='font-bolt text-[40px] '>Logistics Services</h2>
-                    <p>Our comprehensive logistics solution is designed to optimize your supply chain and enhance your business operations.</p>
-                    <p>CUSTOM SOLUTIONS FOR EVERY NEED</p>
+                <div className="absolute inset-0 text-center text-white flex flex-col items-center justify-center px-4">
+                    <h2 className="font-bold text-3xl md:text-5xl lg:text-6xl mb-4">Logistics Services</h2>
+                    <p className="max-w-2xl text-sm md:text-lg mb-6">
+                        Our comprehensive logistics solution is designed to optimize your supply chain and enhance your business
+                        operations.
+                    </p>
+                    <div className="flex items-center">
+                        <div className="w-2 h-2 md:w-3 md:h-3 rounded-full bg-red-500 mr-2"></div>
+                        <p className="text-xs md:text-sm font-medium tracking-wider">CUSTOM SOLUTIONS FOR EVERY NEED</p>
+                    </div>
                 </div>
             </div>
-
         </div>
     )
 }
