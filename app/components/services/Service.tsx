@@ -15,12 +15,15 @@ export default function Service() {
                     <p className='text-[#2A437C] text-center mx-auto max-w-[800px]'>Our vision is to be the leading logistics partner, known for excellence in supply chain management, innovation, and customer satisfaction, while exceeding expectations and driving success for our clients globally.</p>
                 </div>
             </div>
-            <ServiceCards Icon={SquareUser} title='Customs Brokerage' description='Navigating customs with ease, ensuring your goods clear borders swiftly and compliantly.' />
-            <ServiceCards Icon={SquareUser} title='Customs Brokerage' description='Navigating customs with ease, ensuring your goods clear borders swiftly and compliantly.' />
-            <ServiceCards Icon={SquareUser} title='Customs Brokerage' description='Navigating customs with ease, ensuring your goods clear borders swiftly and compliantly.' />
-            <ServiceCards Icon={SquareUser} title='Customs Brokerage' description='Navigating customs with ease, ensuring your goods clear borders swiftly and compliantly.' />
-            <ServiceCards Icon={SquareUser} title='Customs Brokerage' description='Navigating customs with ease, ensuring your goods clear borders swiftly and compliantly.' />
-            <ServiceCards Icon={SquareUser} title='Customs Brokerage' description='Navigating customs with ease, ensuring your goods clear borders swiftly and compliantly.' />
+            <div className='grid mt-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10'>
+                <ServiceCards Icon={SquareUser} title='Customs Brokerage' description='Navigating customs with ease, ensuring your goods clear borders swiftly and compliantly.' />
+                <ServiceCards Icon={SquareUser} title='Warehousing & Distribution' description='Secure storage and efficient distribution solutions to keep your inventory flowing smoothly.' />
+                <ServiceCards Icon={SquareUser} title='Supply Chain Management' description='Optimizing every step of your supply chain for streamlined, efficient and cost-effective operations.' />
+                <ServiceCards Icon={SquareUser} title='Cross-Border Solutions' description='Seamless cross-border logistics to connect your business with international markets.' />
+                <ServiceCards Icon={SquareUser} title='Last-Mile Delivery' description='Reliable last-mile delivery that gets your products to customers’ doorsteps with precision.' />
+                <ServiceCards Icon={SquareUser} title='Project Cargo Handling' description='Specialized handling for oversized or complex shipments, with tailored logistics solutions.' />
+            </div>
+
 
         </div>
     )
