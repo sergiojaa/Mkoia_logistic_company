@@ -17,7 +17,7 @@ export default function ContactInputs() {
                             name='firstname'
                             placeholder='Enter your first name'
                             type="text"
-                            className='w-[250px] border border-[#AAB4CB] rounded-md px-4 py-3 text-gray-600 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#3E64AA]'
+                            className='w-full border border-[#AAB4CB] rounded-md px-4 py-3 text-gray-600 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#3E64AA]'
                         />
                     </div>
 
@@ -27,7 +27,7 @@ export default function ContactInputs() {
                             name='lastName'
                             placeholder='Enter your last name'
                             type="text"
-                            className='w-[250px] border border-[#AAB4CB] rounded-md px-4 py-3 text-gray-600 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#3E64AA]'
+                            className='w-full border border-[#AAB4CB] rounded-md px-4 py-3 text-gray-600 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#3E64AA]'
                         />
                     </div>
 
@@ -37,7 +37,7 @@ export default function ContactInputs() {
                             name='email'
                             placeholder='Enter your email address'
                             type="text"
-                            className='w-[250px] border border-[#AAB4CB] rounded-md px-4 py-3 text-gray-600 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#3E64AA]'
+                            className='w-full border border-[#AAB4CB] rounded-md px-4 py-3 text-gray-600 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#3E64AA]'
                         />
                     </div>
 
@@ -47,7 +47,7 @@ export default function ContactInputs() {
                             name='phone'
                             placeholder='Enter your phone number'
                             type="text"
-                            className='w-[250px] border border-[#AAB4CB] rounded-md px-4 py-3 text-gray-600 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#3E64AA]'
+                            className='w-full border border-[#AAB4CB] rounded-md px-4 py-3 text-gray-600 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#3E64AA]'
                         />
                     </div>
                     <div className='md:col-span-2 max-w-[570px]'>
