@@ -3,7 +3,7 @@ import Image from "next/image"
 
 export default function Head() {
     return (
-        <div className="w-full">
+        <div className="w-full mx-auto px-7">
             <div className="relative">
                 <div className="block md:hidden w-full">
                     <Image
@@ -18,7 +18,7 @@ export default function Head() {
                 <div className="hidden md:block w-full">
                     <Image
                         src="/about/head-desktop.png"
-                        width={1440}
+                        width={1200}
                         height={400}
                         alt="Logix desktop header"
                         className="w-full"
