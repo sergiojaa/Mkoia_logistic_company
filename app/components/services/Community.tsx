@@ -1,4 +1,4 @@
-import { ArrowRight, MoveRight } from 'lucide-react'
+import { ArrowRight, } from 'lucide-react'
 import React from 'react'
 import ExperienceCards from './ExperienceCards'
 

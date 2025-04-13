@@ -1,7 +1,5 @@
 import React from 'react'
 import Image from 'next/image'
-import { ArrowRight } from 'lucide-react'
-import PlanningCard from './PlanningCard'
 export default function Trackway() {
     return (
         <div className="max-w-[1440px] mx-auto">

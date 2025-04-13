@@ -1,6 +1,5 @@
 import React from 'react'
-import Image from 'next/image'
-import { ArrowRight, FolderKanban, LayoutTemplate, LucideIcon, PackageOpen, Proportions, SquareUser, Truck } from 'lucide-react'
+import { ArrowRight, LucideIcon } from 'lucide-react'
 type ServiceCardProps = {
     Icon: LucideIcon;
     title: string;
