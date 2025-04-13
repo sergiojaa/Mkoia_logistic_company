@@ -17,13 +17,14 @@ export default function Process() {
                     <p className='text-[#556996] max-w-[500px]'>Our process is simple yet effective. Every project is different, but we’ve seen thousands of them since we first launched. Our experience is your asset.</p>
 
                 </div>
-                <div className='lg:flex items-center'>
+                <div className='lg:flex-row flex flex-col items-center  justify-center gap-16 lg:items-start'>
                     <div>
                         <Image className='lg:hidden' src='/services/process-desktop.png' alt='logistic process' width={350} height={100} />
-                        <Image className='hidden lg:block' src='/services/process-desktop.png' alt='logistic process' width={608} height={100} />
+                        <Image className='hidden lg:mt-24 lg:block' src='/services/process-desktop.png' alt='logistic process' width={608} height={100} />
 
                     </div>
-                    <div>
+                    <div className='grid grid-cols-1  md:mt-0 md:grid-cols-2 lg:grid-cols-1 gap-12'>
+
                         <ProcessCard plan='01' title='In-Depth Consultation' description='Carefully assessing your logistics needs to ensure tailored and effective solutions.' />
                         <ProcessCard plan='02' title='Strategic Planning' description='Designing a best plan to ensure efficient and optimal delivery of your goods.' />
                         <ProcessCard plan='03' title='Efficient Execution   ' description='Carefully coordinating every detail of the shipment process to ensure smooth and timely execution.' />
