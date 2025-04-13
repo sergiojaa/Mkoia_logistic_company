@@ -10,7 +10,7 @@ export default function ContactInfoTexts() {
                 </div>
                 <div className='flex flex-col gap-5'>
                     <h2 className='text-[#001E62]  text-4xl md:text-5xl  max-w-[545px] leading-tight'>Connect <span className='text-[#D13851]'>with Us</span> Today and We'll Help Your Business</h2>
-                    <p className='text-[#2A437C] text-[19px] max-w-[595px]'>Ready to take your logistics to the next level? Contact us today to discover how our tailored solutions and industry expertise can transform your supply chain.</p>
+                    <p className='text-[#2A437C] text-[19px] max-w-[595px]'>Ready to take your logistics to the next level? Contact us today to discover how our tailored solutions and  industry expertise can transform your supply chain.</p>
                 </div>
             </div>
         </div>

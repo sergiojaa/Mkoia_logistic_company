@@ -5,8 +5,8 @@ export default function ContactInputs() {
         <div className='mt-10 flex flex-col  items-center justify-center px-4 lg:px-10'>
             <div>
                 <p className='text-[#2A437C] text-2xl  max-w-xl mb-8'>
-                    Please fill out the form below, and
-                    our team will get back to you
+                    Please fill out the form below, and <br />
+                    our team will get back to you <br />
                     promptly.
                 </p>
 
