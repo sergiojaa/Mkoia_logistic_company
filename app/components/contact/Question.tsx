@@ -18,18 +18,20 @@ export default function Question({ active, setActive, questionNumber, questionOb
                     <p className="text-[#001E62] text-base lg:text-2xl max-w-[85%]">
                         {questionObj.question}
                     </p>
-                    <span className="shrink-0">
-                        {active === questionNumber ? (
-                            <ChevronUp className="w-6 h-6 text-[#001E62]" />
-                        ) : (
-                            <ChevronDown className="w-6 h-6 text-[#001E62]" />
-                        )}
+                    <span className={`shrink-0 transition-transform duration-300 ease-in-out ${active === questionNumber ? 'rotate-180' : 'rotate-0'
+                        }`}>
+                        <ChevronDown className="w-6 h-6 text-[#001E62]" />
                     </span>
+
                 </div>
 
-                {active === questionNumber && (
-                    <p className="text-[#556996] text-sm">{questionObj.answer}</p>
-                )}
+                <div
+                    className={`text-[#556996] text-sm overflow-hidden transition-all duration-300 ease-in-out ${active === questionNumber ? 'max-h-[500px] opacity-100' : 'max-h-0 opacity-0'
+                        }`}
+                >
+                    {questionObj.answer}
+                </div>
+
             </div>
         </div>
 
