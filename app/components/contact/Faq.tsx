@@ -1,31 +1,10 @@
 'use client'
 import React, { useState } from 'react'
 import Question from './Question'
-
+import questions from './questions.json'
 export default function Faq() {
     const [active, setActive] = useState(0)
-    const questionNumbers = [
-        {
-            question: "question1",
-            answer: 'answer1'
-        },
-        {
-            question: "question2",
-            answer: 'answer2'
-        },
-        {
-            question: "question3",
-            answer: 'answer3'
-        },
-        {
-            question: "question4",
-            answer: 'answer4'
-        },
-        {
-            question: "question5",
-            answer: 'answer5'
-        },
-    ]
+
     return (
         <div className='max-w-[1200px] mt-20 mx-auto'>
             <div className='flex  flex-col gap-7 justify-center items-center'>
@@ -37,7 +16,7 @@ export default function Faq() {
                 <div className='flex flex-col items-center gap-6'>
                     <p className='text-[#001E62] text-2xl lg:text-3xl mx-auto max-w-[450px] text-center'>Comprehensive <span className='text-[#D13851]'>Questions</span> About Our Services </p>
                 </div>
-                {questionNumbers.map((questionObj, index) => {
+                {questions.map((questionObj, index) => {
                     return (
                         <div key={index}>
                             <Question
