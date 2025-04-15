@@ -5,7 +5,26 @@ import Question from './Question'
 export default function Faq() {
     const [active, setActive] = useState(0)
     const questionNumbers = [
-        1, 2, 3, 4, 5
+        {
+            question: "question1",
+            answer: 'answer1'
+        },
+        {
+            question: "question2",
+            answer: 'answer2'
+        },
+        {
+            question: "question3",
+            answer: 'answer3'
+        },
+        {
+            question: "question4",
+            answer: 'answer4'
+        },
+        {
+            question: "question5",
+            answer: 'answer5'
+        },
     ]
     return (
         <div className='max-w-[1200px] mt-20 mx-auto'>
@@ -18,10 +37,15 @@ export default function Faq() {
                 <div className='flex flex-col items-center gap-6'>
                     <p className='text-[#001E62] text-2xl lg:text-3xl mx-auto max-w-[450px] text-center'>Comprehensive <span className='text-[#D13851]'>Questions</span> About Our Services </p>
                 </div>
-                {questionNumbers.map(questionNumber => {
+                {questionNumbers.map((questionObj, index) => {
                     return (
-                        <div key={questionNumber}>
-                            <Question active={active} setActive={setActive} questionNumber={questionNumber} />
+                        <div key={index}>
+                            <Question
+                                questionNumber={index + 1}
+                                questionObj={questionObj}
+                                active={active}
+                                setActive={setActive}
+                            />
 
                         </div>
 

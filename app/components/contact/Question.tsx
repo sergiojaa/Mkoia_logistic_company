@@ -1,5 +1,5 @@
 import React from 'react'
-export default function Question({ active, setActive, questionNumber }: any) {
+export default function Question({ active, setActive, questionNumber, questionObj, }: any) {
     return (
         <div>
             <div>
@@ -11,9 +11,15 @@ export default function Question({ active, setActive, questionNumber }: any) {
 
                     }
 
-                }} >question {questionNumber}</p>
+                }} >
+                    {questionObj.question}
+                </p>
+                {active === questionNumber ? (
+                    <p>{questionObj.answer}</p>
 
-                {active === questionNumber ? <p>answer {questionNumber}</p> : null}
+                ) : null}
+
+
             </div>
         </div>
     )
