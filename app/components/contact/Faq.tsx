@@ -18,8 +18,8 @@ export default function Faq() {
                 </div>
 
             </div>
-            <div className="flex flex-col items-center justify-center">
-                <div className="flex flex-col w-full max-w-[700px] gap-4">
+            <div className="flex  mt-10 flex-col items-center justify-center">
+                <div className="flex flex-col w-full max-w-[800px] gap-4">
                     {questions.map((questionObj, index) => (
                         <Question
                             key={index}
