@@ -1,5 +1,6 @@
 'use client'
 import React, { useState } from 'react'
+import Question from './Question'
 
 export default function Faq() {
     const [active, setActive] = useState(0)
@@ -15,19 +16,8 @@ export default function Faq() {
                 <div className='flex flex-col items-center gap-6'>
                     <p className='text-[#001E62] text-2xl lg:text-3xl mx-auto max-w-[450px] text-center'>Comprehensive <span className='text-[#D13851]'>Questions</span> About Our Services </p>
                 </div>
-                <div>
-                    <p onClick={() => {
-                        if (active === 1) {
-                            setActive(0)
-                        } else {
-                            setActive(1)
+                <Question active={active} setActive={setActive} />
 
-                        }
-
-                    }} >question1</p>
-
-                    {active === 1 ? <p>answer1</p> : null}
-                </div>
                 <div>
                     <p
                         onClick={() => {
