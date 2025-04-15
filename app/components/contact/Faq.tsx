@@ -16,22 +16,22 @@ export default function Faq() {
                 <div className='flex flex-col items-center gap-6'>
                     <p className='text-[#001E62] text-2xl lg:text-3xl mx-auto max-w-[450px] text-center'>Comprehensive <span className='text-[#D13851]'>Questions</span> About Our Services </p>
                 </div>
-                {questions.map((questionObj, index) => {
-                    return (
-                        <div key={index}>
-                            <Question
-                                questionNumber={index + 1}
-                                questionObj={questionObj}
-                                active={active}
-                                setActive={setActive}
-                            />
-
-                        </div>
-
-                    )
-                })}
 
             </div>
+            <div className="flex flex-col items-center justify-center">
+                <div className="flex flex-col w-full max-w-[700px] gap-4">
+                    {questions.map((questionObj, index) => (
+                        <Question
+                            key={index}
+                            questionNumber={index + 1}
+                            questionObj={questionObj}
+                            active={active}
+                            setActive={setActive}
+                        />
+                    ))}
+                </div>
+            </div>
+
         </div>
     )
 }
