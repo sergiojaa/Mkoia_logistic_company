@@ -16,24 +16,73 @@ export default function Faq() {
                     <p className='text-[#001E62] text-2xl lg:text-3xl mx-auto max-w-[450px] text-center'>Comprehensive <span className='text-[#D13851]'>Questions</span> About Our Services </p>
                 </div>
                 <div>
-                    <p onClick={() => setActive(1)} >question1</p>
-                    <p>answer1</p>
+                    <p onClick={() => {
+                        if (active === 1) {
+                            setActive(0)
+                        } else {
+                            setActive(1)
+
+                        }
+
+                    }} >question1</p>
+
+                    {active === 1 ? <p>answer1</p> : null}
                 </div>
                 <div>
-                    <p onClick={() => setActive(2)}>question2</p>
-                    <p>answer2</p>
+                    <p
+                        onClick={() => {
+                            if (active === 2) {
+                                setActive(0)
+                            } else {
+                                setActive(2)
+
+                            }
+
+                        }}
+                    >question2</p>
+                    {active === 2 ? <p>answer2</p> : null}
                 </div>
                 <div>
-                    <p onClick={() => setActive(3)}>question3</p>
-                    <p>answer3</p>
+                    <p
+                        onClick={() => {
+                            if (active === 3) {
+                                setActive(0)
+                            } else {
+                                setActive(3)
+
+                            }
+
+                        }
+                        }>question3</p>
+                    {active === 3 ? <p>answer3</p> : null}
                 </div>
                 <div>
-                    <p onClick={() => setActive(4)}>question4</p>
-                    <p>answer4</p>
+                    <p
+                        onClick={() => {
+                            if (active === 4) {
+                                setActive(0)
+                            } else {
+                                setActive(4)
+
+                            }
+
+                        }
+                        }>questio4</p>
+                    {active === 4 ? <p>answer4</p> : null}
                 </div>
                 <div>
-                    <p onClick={() => setActive(5)}>question5</p>
-                    <p>answer5</p>
+                    <p
+                        onClick={() => {
+                            if (active === 5) {
+                                setActive(0)
+                            } else {
+                                setActive(5)
+
+                            }
+
+                        }
+                        }>question5</p>
+                    {active === 5 ? <p>answer5</p> : null}
                 </div>
             </div>
         </div>
