@@ -1,19 +1,19 @@
 import React from 'react'
-export default function Question({ active, setActive }: any) {
+export default function Question({ active, setActive, questionNumber }: any) {
     return (
         <div>
             <div>
                 <p onClick={() => {
-                    if (active === 1) {
+                    if (active === questionNumber) {
                         setActive(0)
                     } else {
-                        setActive(1)
+                        setActive(questionNumber)
 
                     }
 
-                }} >question1</p>
+                }} >question {questionNumber}</p>
 
-                {active === 1 ? <p>answer1</p> : null}
+                {active === questionNumber ? <p>answer {questionNumber}</p> : null}
             </div>
         </div>
     )

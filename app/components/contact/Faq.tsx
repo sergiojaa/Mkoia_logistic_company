@@ -16,64 +16,10 @@ export default function Faq() {
                 <div className='flex flex-col items-center gap-6'>
                     <p className='text-[#001E62] text-2xl lg:text-3xl mx-auto max-w-[450px] text-center'>Comprehensive <span className='text-[#D13851]'>Questions</span> About Our Services </p>
                 </div>
-                <Question active={active} setActive={setActive} />
-
-                <div>
-                    <p
-                        onClick={() => {
-                            if (active === 2) {
-                                setActive(0)
-                            } else {
-                                setActive(2)
-
-                            }
-
-                        }}
-                    >question2</p>
-                    {active === 2 ? <p>answer2</p> : null}
-                </div>
-                <div>
-                    <p
-                        onClick={() => {
-                            if (active === 3) {
-                                setActive(0)
-                            } else {
-                                setActive(3)
-
-                            }
-
-                        }
-                        }>question3</p>
-                    {active === 3 ? <p>answer3</p> : null}
-                </div>
-                <div>
-                    <p
-                        onClick={() => {
-                            if (active === 4) {
-                                setActive(0)
-                            } else {
-                                setActive(4)
-
-                            }
-
-                        }
-                        }>questio4</p>
-                    {active === 4 ? <p>answer4</p> : null}
-                </div>
-                <div>
-                    <p
-                        onClick={() => {
-                            if (active === 5) {
-                                setActive(0)
-                            } else {
-                                setActive(5)
-
-                            }
-
-                        }
-                        }>question5</p>
-                    {active === 5 ? <p>answer5</p> : null}
-                </div>
+                <Question active={active} setActive={setActive} questionNumber={1} />
+                <Question active={active} setActive={setActive} questionNumber={2} />
+                <Question active={active} setActive={setActive} questionNumber={3} />
+                <Question active={active} setActive={setActive} questionNumber={4} />
             </div>
         </div>
     )
