@@ -6,7 +6,7 @@ export default function Servicesimage() {
             <div className="relative">
                 <div>
                     <Image
-                        className="md:hidden rounded-2xl w-full h-[370px] object-cover "
+                        className="md:hidden rounded-4xl w-full h-[370px] object-cover "
                         src="/services/image-mobile.png"
                         alt="logistic image"
                         width={1200}

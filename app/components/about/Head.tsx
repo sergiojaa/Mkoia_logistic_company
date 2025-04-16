@@ -8,10 +8,10 @@ export default function Head() {
                 <div className="block md:hidden w-full">
                     <Image
                         src="/about/head-mobile.png"
-                        width={380}
-                        height={200}
+                        width={1200}
+                        height={370}
                         alt="Logix mobile header"
-                        className="w-full"
+                        className="md:hidden rounded-4xl w-full h-[370px] object-cover "
                     />
                 </div>
 
