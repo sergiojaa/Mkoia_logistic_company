@@ -11,8 +11,6 @@ export default function Action() {
     const prevRef = useRef(null)
     const nextRef = useRef(null)
     const [isReady, setIsReady] = useState(false)
-
-    // Delay render until refs are ready
     useEffect(() => {
         setIsReady(true)
     }, [])
@@ -34,7 +32,6 @@ export default function Action() {
             </div>
 
             <div className='max-w-[1200px] mt-10 mx-auto'>
-                {/* Swiper */}
                 {isReady && (
                     <Swiper
                         spaceBetween={30}
@@ -62,7 +59,6 @@ export default function Action() {
                     </Swiper>
                 )}
 
-                {/* Arrows BELOW on the LEFT */}
                 <div className='flex gap-4 mt-5 justify-end'>
                     <button
                         ref={prevRef}
