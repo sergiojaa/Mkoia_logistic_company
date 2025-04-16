@@ -3,6 +3,7 @@ import Image from "next/image";
 import { useState } from "react";
 export default function Provide() {
     const [desktopSize, setDesktopSize] = useState(false)
+    console.log(setDesktopSize)
     return (
         <div className="lg:flex max-w-[1300px] mx-auto  flex-row-reverse ">
             {desktopSize ? (

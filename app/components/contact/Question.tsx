@@ -1,7 +1,16 @@
 import React from 'react'
-import { ChevronDown, ChevronUp } from 'lucide-react'
-
-export default function Question({ active, setActive, questionNumber, questionObj, }: any) {
+import { ChevronDown } from 'lucide-react'
+type QuestionType = {
+    question: string
+    answer: string
+}
+type QuestionProps = {
+    active: number
+    setActive: React.Dispatch<React.SetStateAction<number>>
+    questionNumber: number
+    questionObj: QuestionType
+}
+export default function Question({ active, setActive, questionNumber, questionObj, }: QuestionProps) {
     return (
         <div className="px-7 lg:px-0">
             <div className="border-b flex flex-col gap-3 border-b-[#CCD2DF] py-5">

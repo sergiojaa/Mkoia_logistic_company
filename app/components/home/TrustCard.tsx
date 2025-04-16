@@ -16,7 +16,7 @@ export default function TrustCard() {
                         “Allowing us to focus on growth Highly recommended!”
                     </p>
                     <p className='max-w-[500px] text-md text-[#808EB0]'>
-                        "Their seamless coordination and proactive communication have made a real difference in our operations. From customs clearance to last-mile delivery, they’ve handled every detail with expertise and care. We couldn’t ask for a better logistics partner."
+                        Their seamless coordination and proactive communication have made a real difference in our operations. From customs clearance to last-mile delivery, they ve handled every detail with expertise and care. We couldnot ask for a better logistics partner.
                     </p>
                     <p className='text-[#001E62] font-bold text-2xl'>Cocacola</p>
                     <div className='flex items-center gap-3'>
