@@ -15,7 +15,7 @@ export default function Trackway() {
                 </button> */}
             </div>
             <div className='relative'>
-                <Image className=' h-[800px]' src={'/content.png'} width={1440} height={100} alt='content image' />
+                <Image className=' h-[800px]' src='/home/content.png' width={1440} height={100} alt='content image' />
                 <h4 className='absolute top-10 text-white text-[14px] left-15'>WORK PROCESS</h4>
                 <h3 className='absolute top-18 text-[30px] font-bold text-white left-15'>How We Work</h3>
                 <p className='absolute top-30 right-10  max-w-[550px] text-[20px] text-white  '>Our process is simple yet effective. From the initial consultation to understand your logistics needs, to careful planning and execution, we ensure every detail is handled with precision.</p>

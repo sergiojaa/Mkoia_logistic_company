@@ -8,11 +8,11 @@ export default function Provide() {
         <div className="lg:flex max-w-[1300px] mx-auto  flex-row-reverse ">
             {desktopSize ? (
                 <div className="flex items-center justify-end">
-                    <Image src={'/track.png'} alt="track image" width={300} height={300} />
+                    <Image src='/home/track.png' alt="track image" width={300} height={300} />
                 </div>
             ) : (
                 <div className="flex  items-center justify-end">
-                    <Image src={'/track-desktop.png'} alt="track image" width={600} height={600} />
+                    <Image src='/home/track-desktop.png' alt="track image" width={600} height={600} />
                 </div>
             )}
 

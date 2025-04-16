@@ -8,7 +8,7 @@ export default function TrustCard() {
             <div className='flex flex-col lg:flex-row items-center lg:items-start justify-around  p-5 border border-[#CCD2DF] rounded-xl  '>
 
                 <div className='w-[360px] '>
-                    <Image src={'/picture.png'} alt='track' width={330} height={100} />
+                    <Image src='/home/picture.png' alt='track' width={330} height={100} />
                 </div>
                 <div className='flex flex-col mt-5 items-start gap-5'>
                     <h2 className='text-xl text-[#CCD2DF]'>Tbilisi, Georgia</h2>

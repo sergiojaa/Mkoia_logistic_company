@@ -11,24 +11,24 @@ export default function Transit() {
             <div className=" flex flex-col lg:flex-row gap-10  ">
                 <div className='md:flex-row flex flex-col  items-center justify-center gap-10'>
                     <Card
-                        src={'/airplane.png'}
+                        src='/home/airplane.png'
                         button="Air Freight"
                         text="Fast, reliable shipping for high-priority items across the globe."
                     />
                     <Card
-                        src={'/airplane.png'}
+                        src='/home/airplane.png'
                         button="Sea Freight"
                         text="Economical and environmentally friendly, ideal for large volumes and long distances."
                     />
                 </div>
                 <div className='md:flex-row flex flex-col  items-center justify-center gap-10'>
                     <Card
-                        src={'/airplane.png'}
+                        src='/home/airplane.png'
                         button="Rail Freight"
                         text="Cost-effective solutions for bulk goods, with extensive point-to-point coverage."
                     />
                     <Card
-                        src={'/airplane.png'}
+                        src='/home/airplane.png'
                         button="Road Freight"
                         text="Efficient transportation for regional shipments with flexible schedules."
                     />
