@@ -5,7 +5,6 @@ import { ArrowRight } from 'lucide-react';
 export default function Cargo() {
     return (
         <div className="text-white p-6 mt-10 rounded-lg max-w-full mx-auto relative">
-            {/* Background Image */}
             <div className="absolute inset-0 z-0">
                 <Image
                     className="rounded-4xl"
@@ -16,11 +15,9 @@ export default function Cargo() {
                 />
             </div>
 
-            {/* Foreground Content */}
             <div className="relative z-10">
                 <div className="flex flex-col lg:flex-row items-center lg:items-start gap-8">
 
-                    {/* Image Block */}
                     <div className="relative">
                         <Image
                             src="/about/cargo.mobile.png"
@@ -38,7 +35,6 @@ export default function Cargo() {
                         />
                     </div>
 
-                    {/* Text Content */}
                     <div className="flex py-10 flex-col gap-6 lg:gap-10 max-w-xl text-center lg:text-left">
                         <h2 className="text-3xl lg:text-[36px] leading-snug">
                             Let Our Team Handle your <br className="hidden lg:block" />
