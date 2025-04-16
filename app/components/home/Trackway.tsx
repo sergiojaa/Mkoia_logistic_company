@@ -6,7 +6,7 @@ export default function Trackway() {
             <div className='relative '>
                 <Image
                     className='h-[550px]'
-                    src={'/trackway.png'} width={1440} height={100} alt='track way' />
+                    src='/home/trackway.png' width={1440} height={100} alt='track way' />
                 <h2 className='absolute max-w-[700px] left-10 text-white font-bold text-[40px] top-20'>We are revolutionizing logistics to meet a growing market</h2>
                 <h2 className='absolute max-w-[700px] pr-2 top-75 left-10 text-[#EEEEEE] text-[20px]'>Transforming logistics with innovative solutions, by using advanced technologies and data-driven strategies to improve efficiency, reduce costs, and meet the growing demands of the market.</h2>
                 {/* <button className='flex border px-4 py-2 cursor-pointer border-white text-white absolute rounded-full right-20 bottom-20'>Learn more
