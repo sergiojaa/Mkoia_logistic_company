@@ -14,9 +14,9 @@ export default function LastBanner() {
                 <div>
                     <h2>Contact us to discuss how our services can support your business and streamline your logistics needs.</h2>
                     <div >
-                        <button className="flex max-w-max bg-[#001E62] text-white  hover:text-white cursor-pointer items-center gap-3 rounded-full    px-6 py-2 transition-colors ">
+                        <button className="flex max-w-max bg-white text-[#001E62]  hover:text-white cursor-pointer items-center gap-3 rounded-full    px-6 py-2 transition-colors ">
                             <span className=''>Contact Us</span>
-                            <div className="border  rounded-full p-1  ">
+                            <div className="border bg-[#001E62] text-white  rounded-full p-1  ">
                                 <ArrowRight size={16} />
                             </div>
                         </button>
