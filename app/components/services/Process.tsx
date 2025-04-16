@@ -19,7 +19,7 @@ export default function Process() {
                 </div>
                 <div className='lg:flex-row flex flex-col items-center  justify-center gap-16 lg:items-start'>
                     <div>
-                        <Image className='lg:hidden' src='/services/process-desktop.png' alt='logistic process' width={350} height={100} />
+                        <Image className='lg:hidden ' src='/services/process-desktop.png' alt='logistic process' width={350} height={100} />
                         <Image className='hidden lg:mt-24 lg:block' src='/services/process-desktop.png' alt='logistic process' width={608} height={100} />
 
                     </div>

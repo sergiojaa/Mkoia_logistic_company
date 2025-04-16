@@ -6,7 +6,7 @@ export default function Banner() {
             <div className='relative'>
                 <div>
                     <Image
-                        className="md:hidden w-full h-[370px] object-cover brightness-[0.7]"
+                        className="md:hidden rounded-4xl w-full h-[370px] object-cover "
                         src="/contact/banner-mobile.png"
                         alt="contact image about logistic"
                         width={1200}
