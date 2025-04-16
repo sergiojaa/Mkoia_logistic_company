@@ -18,7 +18,7 @@ export default function Action() {
     }, [])
 
     return (
-        <div className='w-full p-5'>
+        <div className='w-full mt-10 p-5'>
             <div className="flex items-center">
                 <div className="w-4 h-4 rounded-full bg-red-500 mr-2"></div>
                 <p className="text-md uppercase text-[#2A437C] tracking-wider">Gallery</p>

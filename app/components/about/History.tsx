@@ -21,10 +21,12 @@ export default function History() {
     ]
 
     return (
-        <div className="text-white p-6 rounded-lg max-w-full mx-auto relative">
+        <div className="text-white p-6 mt-10 rounded-lg max-w-full mx-auto relative">
             {/* Container for the background image */}
             <div className="absolute inset-0 z-0">
-                <Image src='/about/improve-desktop.png' layout="fill" objectFit="cover" alt="history of mkoia" />
+                <Image
+                    className="rounded-4xl"
+                    src='/about/improve-desktop.png' layout="fill" objectFit="cover" alt="history of mkoia" />
             </div>
 
             {/* All the content, positioned on top of the image */}

@@ -12,8 +12,9 @@ export default function page() {
             <Head />
             <Whoarewe />
             <Experience />
-            <Action />
             <History />
+
+            <Action />
             <Cargo />
         </div>
     )
