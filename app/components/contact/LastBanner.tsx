@@ -3,13 +3,13 @@ import Image from 'next/image'
 import { ArrowRight } from 'lucide-react'
 export default function LastBanner() {
     return (
-        <div>
+        <div className='w-full px-7 mt-25'>
             <div>
                 <Image
                     className='md:hidden'
                     src='/contact/lastbanner-mobile.png' width={500} height={300} alt=' logistic company contact image' />
                 <Image
-                    className='hidden md:block'
+                    className='hidden rounded-4xl md:block'
                     src='/contact/lastbanner-desktop.png' width={1200} height={300} alt=' logistic company contact image' />
                 <div>
                     <h2>Contact us to discuss how our services can support your business and streamline your logistics needs.</h2>
