@@ -21,7 +21,7 @@ export default function History() {
     ]
 
     return (
-        <div className="text-white p-6 mt-10 rounded-lg max-w-full mx-auto relative">
+        <div className="text-white mx-4 p-6 mt-10 rounded-lg max-w-full  relative">
             {/* Container for the background image */}
             <div className="absolute inset-0 z-0">
                 <Image
