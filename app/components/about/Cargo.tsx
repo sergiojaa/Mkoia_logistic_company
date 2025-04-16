@@ -4,39 +4,58 @@ import { ArrowRight } from 'lucide-react';
 
 export default function Cargo() {
     return (
-        <div className="bg-[#001E62] rounded-xl flex flex-col lg:flex-row items-center lg:items-start mt-10 p-5 lg:p-10">
-            <div>
+        <div className="text-white p-6 mt-10 rounded-lg max-w-full mx-auto relative">
+            {/* Background Image */}
+            <div className="absolute inset-0 z-0">
                 <Image
-                    src="/about/cargo.mobile.png"
-                    alt="logistic image"
-                    width={322}
-                    height={200}
-                    className="block lg:hidden rounded-lg"
-                />
-                <Image
-                    src="/about/cargo.desktop.png"
-                    alt="logistic image"
-                    width={600}
-                    height={400}
-                    className="hidden lg:block py-5 pr-5 pl-0 rounded-lg"
+                    className="rounded-4xl"
+                    src="/about/improve-desktop.png"
+                    layout="fill"
+                    objectFit="cover"
+                    alt="history of mkoia"
                 />
             </div>
 
-            <div className="flex flex-col gap-6 lg:gap-10 lg:pt-7 lg:pl-5 mt-7 lg:mt-0 max-w-xl text-center lg:text-left">
-                <h2 className="text-white text-3xl lg:text-[36px]  leading-snug">
-                    Let Our Team Handle your <br className="hidden lg:block" />
-                    Cargo with Care
-                </h2>
+            {/* Foreground Content */}
+            <div className="relative z-10">
+                <div className="flex flex-col lg:flex-row items-center lg:items-start gap-8">
 
-                <p className="text-[#BDBDBD]     text-lg">
-                    Our experienced team ensures your cargo is handled with the utmost care,
-                    providing safe and timely delivery every step of the way.
-                </p>
+                    {/* Image Block */}
+                    <div className="relative">
+                        <Image
+                            src="/about/cargo.mobile.png"
+                            alt="logistic image"
+                            width={322}
+                            height={200}
+                            className="block lg:hidden rounded-lg"
+                        />
+                        <Image
+                            src="/about/cargo.desktop.png"
+                            alt="logistic image"
+                            width={600}
+                            height={400}
+                            className="hidden py-5 pl-5 lg:block rounded-lg"
+                        />
+                    </div>
 
-                <button className="flex items-center gap-2 px-5 py-3 bg-white rounded-full max-w-max transition hover:scale-105 hover:shadow-lg">
-                    <span className="text-[#001E62] text-lg font-medium">Contact Us</span>
-                    <ArrowRight className="text-white bg-[#001E62] rounded-full p-1 w-6 h-6" />
-                </button>
+                    {/* Text Content */}
+                    <div className="flex py-10 flex-col gap-6 lg:gap-10 max-w-xl text-center lg:text-left">
+                        <h2 className="text-3xl lg:text-[36px] leading-snug">
+                            Let Our Team Handle your <br className="hidden lg:block" />
+                            Cargo with Care
+                        </h2>
+
+                        <p className="text-[#BDBDBD] text-lg">
+                            Our experienced team ensures your cargo is handled with the utmost care,
+                            providing safe and timely delivery every step of the way.
+                        </p>
+
+                        <button className="flex items-center gap-2 px-5 py-3 bg-white rounded-full max-w-max transition hover:scale-105 hover:shadow-lg mx-auto lg:mx-0">
+                            <span className="text-[#001E62] text-lg font-medium">Contact Us</span>
+                            <ArrowRight className="text-white bg-[#001E62] rounded-full p-1 w-6 h-6" />
+                        </button>
+                    </div>
+                </div>
             </div>
         </div>
     );
