@@ -3,7 +3,7 @@ import Image from "next/image"
 
 export default function Head() {
     return (
-        <div className="w-full mx-auto px-7">
+        <div className="w-full mx-auto ">
             <div className="relative">
                 <div className="block md:hidden w-full">
                     <Image
