@@ -6,7 +6,6 @@ export default function MapImage() {
     return (
         <div className='relative w-full mx-auto mt-10 rounded-xl overflow-hidden'>
 
-            {/* Background Image */}
             <div className="absolute inset-0 z-0">
                 <Image
                     src='/contact/mapBack.png'
@@ -16,10 +15,8 @@ export default function MapImage() {
                 />
             </div>
 
-            {/* Foreground Content */}
             <div className='relative z-10 flex flex-col lg:flex-row items-center lg:items-start gap-10 p-7 md:p-14'>
 
-                {/* Map */}
                 <div className="max-w-[900px] ">
                     <iframe
                         className="w-[350px] px-7 md:w-[500px] h-[350px] rounded-lg shadow-lg"
@@ -29,7 +26,6 @@ export default function MapImage() {
                     ></iframe>
                 </div>
 
-                {/* Text Content */}
                 <div className='flex flex-col mt-10 gap-12'>
                     <div className="flex items-center">
                         <div className="w-3 h-3 rounded-full bg-red-500 mr-2"></div>
