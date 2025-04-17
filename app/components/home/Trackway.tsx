@@ -14,7 +14,7 @@ export default function Trackway() {
 
                 </button> */}
             </div>
-            <div className='relative'>
+            <div className='relative '>
                 <Image className=' h-[800px]' src='/home/content.png' width={1440} height={100} alt='content image' />
                 <h4 className='absolute top-10 text-white text-[14px] left-15'>WORK PROCESS</h4>
                 <h3 className='absolute top-18 text-[30px] font-bold text-white left-15'>How We Work</h3>

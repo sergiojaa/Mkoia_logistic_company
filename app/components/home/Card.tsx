@@ -8,12 +8,12 @@ interface CardProps {
 export default function Card({ src, text, button }: CardProps) {
 
     return (
-        <div className='flex flex-col  items-center'>
+        <div className='flex flex-col   items-center'>
             <div className='relative  max-w-[700px] '>
                 <Image
                     src={src}
                     alt='shipping image'
-                    width={300}
+                    width={350}
                     height={100}
                     className='object-cover'
                 />
