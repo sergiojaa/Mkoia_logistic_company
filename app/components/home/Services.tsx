@@ -3,7 +3,7 @@ import ServiceCards from './ServiceCards'
 
 export default function Services() {
     return (
-        <div className='max-w-[1200px] mt-10 mx-auto '>
+        <div className='max-w-[1200px] mt-10 px-7 mx-auto '>
             <div className='flex flex-col items-center justify-between'>
                 <h3>OUR LOGISTIC SERIVCES</h3>
                 <h2 className='text-[#001E62] max-w-[420px] text-center text-[22px]'>Comprehensive <span className='text-[#D13851]'>Logix Services</span>  Tailored to Meet Your Unique <span className='text-[#D13851]'>Needs</span> </h2>
