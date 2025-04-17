@@ -17,7 +17,7 @@ export default function Provide() {
             )}
 
 
-            <div className="max-w-[600px] mx-auto pl-10 flex flex-col gap-7 " >
+            <div className="max-w-[600px] mx-auto p-7 flex flex-col gap-7 " >
                 <div className="">
                     <h3 className="text-[#2A437C] text-[18px]">LOGIX AT YOUR SERVICE</h3>
                     <h2 className="text-[#001E62] max-w-[500px] font-bold text-[32px]">We Provide <span className="text-[#D13851]">End-to-end Logistics Services</span>  for Timely, Secure Delivery. </h2>
