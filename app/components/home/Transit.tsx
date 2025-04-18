@@ -5,32 +5,32 @@ export default function Transit() {
     return (
         <div className='max-w-[1200px] p-7 mx-auto '>
             <div className='flex flex-col items-center'>
-                <h4 className='text-[#2A437C] text-[14px]'>OUR FREIGHT SOLUTION</h4>
-                <h2 className='text-[#001E62] text-[22px] max-w-[430px]  text-center'> <span className='text-[#D13851]'>Expertly Managing </span> Every Step From Transit to Warehousing</h2>
+                <h4 className='text-[#2A437C] text-[14px]'>ჩვენი სატვირთო გადაწყვეტა </h4>
+                <h2 className='text-[#001E62] text-[22px] max-w-[430px]  text-center'> <span className='text-[#D13851]'>ყოველი ნაბიჯის </span> პროფესიონალურად მართვა ტრანზიტიდან საწყობამდე</h2>
             </div>
             <div className=" flex flex-col mt-10 lg:flex-row gap-10  ">
                 <div className='md:flex-row  flex flex-col  items-center justify-center gap-10'>
                     <Card
                         src='/home/airplane.png'
-                        button="Air Freight"
-                        text="Fast, reliable shipping for high-priority items across the globe."
+                        button="საჰაერო გადაზიდვა"
+                        text="სწრაფი და სანდო გადაზიდვა მაღალი მნიშვნელობის ტვირთებისთვის მსოფლიოს გარშემო"
                     />
                     <Card
                         src='/home/airplane.png'
-                        button="Sea Freight"
-                        text="Economical and environmentally friendly, ideal for large volumes and long distances."
+                        button="საზღვაო გადაზიდვა"
+                        text="ეკონომიური და ეკოლოგიურად სუფთა, იდეალურია დიდი მოცულობისა და შორ მანძილზე."
                     />
                 </div>
                 <div className='md:flex-row flex flex-col  items-center justify-center gap-10'>
                     <Card
                         src='/home/airplane.png'
-                        button="Rail Freight"
-                        text="Cost-effective solutions for bulk goods, with extensive point-to-point coverage."
+                        button="სარკინიგზო ტვირთი"
+                        text="გონივრული გადაზიდვის გადაწყვეტილებები ნაყარი ტვირთისთვის."
                     />
                     <Card
                         src='/home/airplane.png'
-                        button="Road Freight"
-                        text="Efficient transportation for regional shipments with flexible schedules."
+                        button="სახმელეთო გადაზიდვა"
+                        text="ეფექტური ტრანსპორტირება რეგიონალური გადაზიდვებისთვის მოქნილი გრაფიკით."
                     />
                 </div>
 
