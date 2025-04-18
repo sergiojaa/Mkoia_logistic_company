@@ -3,20 +3,20 @@ import Image from "next/image"
 export default function History() {
     const milestones = [
         {
-            year: "1999",
-            description: "Established company with focus on providing efficient regional logistics solutions.",
-        },
-        {
-            year: "2012",
-            description: "Opened new offices across major global trade hubs, strengthening global reach.",
-        },
-        {
-            year: "2018",
-            description: "Launched our proprietary tracking technology for real-time shipment visibility.",
+            year: "2022",
+            description: "დაარსდა კომპანია რეგიონული ლოჯისტიკის განვითარებისთვის.",
         },
         {
             year: "2023",
-            description: "Achieved 99% on-time delivery rate, establishing as a trusted industry leader.",
+            description: "გაიხსნა ახალი ოფისები რეგიონალურ მასშტაბზე.",
+        },
+        {
+            year: "2024",
+            description: "დავიწყეთ ჩვენი ექსკლუზიური ტვირთის ტრეკინგის საშუალება.",
+        },
+        {
+            year: "2025",
+            description: "90% დროული მიწოდება და აღიარებული ლიდერის სტატუსი",
         },
     ]
 
@@ -34,9 +34,9 @@ export default function History() {
                 <div className="border border-dashed p-4 mb-6 rounded-md text-center lg:border-0 lg:p-0">
                     <div className="flex items-center justify-center gap-2 mb-2">
                         <div className="h-3 w-3 bg-red-500 rounded-full"></div>
-                        <p className="text-sm font-medium tracking-wider">MILESTONE</p>
+                        <p className="text-sm font-medium tracking-wider">მნიშვნელოვანი ეტაპები</p>
                     </div>
-                    <h2 className="text-2xl font-bold">Our History Since Inception</h2>
+                    <h2 className="text-2xl font-bold">ჩვენი ისტორია</h2>
                 </div>
 
                 {/* Milestones for smaller screens */}
