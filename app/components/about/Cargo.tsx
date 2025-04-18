@@ -37,13 +37,12 @@ export default function Cargo() {
 
                     <div className="flex py-10 flex-col gap-6 lg:gap-10 max-w-xl text-center lg:text-left">
                         <h2 className="text-3xl lg:text-[36px] leading-snug">
-                            Let Our Team Handle your <br className="hidden lg:block" />
-                            Cargo with Care
+                            ანდეთ ჩვენს გუნდს <br className="hidden lg:block" />
+                            თქვენი ტვირთი
                         </h2>
 
                         <p className="text-[#BDBDBD] text-lg">
-                            Our experienced team ensures your cargo is handled with the utmost care,
-                            providing safe and timely delivery every step of the way.
+                            ჩვენი გამოცდილი გუნდი უზრუნველყოფს თქვენი ტვირთის მაქსიმალური სიფრთხილით დამუშავებას, უზრუნველყოფს უსაფრთხო და დროულ მიწოდებას ყოველ ნაბიჯზე.
                         </p>
 
                         <button className="flex items-center gap-2 px-5 py-3 bg-white rounded-full max-w-max transition hover:scale-105 hover:shadow-lg mx-auto lg:mx-0">
