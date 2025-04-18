@@ -11,28 +11,28 @@ interface ValueCardProps {
 export default function App() {
     const values: ValueCardProps[] = [
         {
-            title: "We ensure every delivery meets our high standards",
-            description: "From start to finish",
+            title: "ჩვენ უზრუნველვყოფთ, რომ თითოეული მიწოდება აკმაყოფილებს ჩვენს მაღალ სტანდარტებს",
+            description: "დასაწყისიდან დასასრულამდე",
             icon: <Shield className="w-6 h-6 text-blue-900" />,
-            tag: "Reliability"
+            tag: "სანდოობა"
         },
         {
-            title: "Embracing the latest technology",
-            description: "For a seamless logistics experience.",
+            title: "ხალი, თანამედროვე ტექნოლოგიების დაუფლება და ინტეგრაცია",
+            description: "შეუფერხებელი ლოჯისტიკის გამოცდილებისთვის.",
             icon: <Lightbulb className="w-6 h-6 text-blue-900" />,
-            tag: "Innovation"
+            tag: "ინოვაცია"
         },
         {
-            title: "Your needs are our priority",
-            description: "Every mile of the journey.",
+            title: "თქვენი მოთხოვნები პრიორიტეტია",
+            description: "გზის ყველა ეტაპზე ჩვენს გვერდით",
             icon: <Users className="w-6 h-6 text-blue-900" />,
-            tag: "Customer Focus"
+            tag: "მომხმარებელზე ფოკუსირება"
         },
         {
-            title: "Committed to eco-friendly practices",
-            description: "In every aspect of our service.",
+            title: "მკაცრი გარემოსდაცვითი პრაქტიკების დაცვა.",
+            description: "ჩვენი სერვისის ყველა ასპეკტში",
             icon: <Leaf className="w-6 h-6 text-blue-900" />,
-            tag: "Sustainability"
+            tag: "მდგრადობა"
         }
     ];
 
@@ -43,18 +43,17 @@ export default function App() {
                     <div className="flex items-center gap-2 mb-4">
                         <div className="w-2 h-2 rounded-full bg-red-600"></div>
                         <span className="text-sm font-medium uppercase tracking-wider text-gray-600">
-                            Core Values
+                            ძირითადი ღირებულებები
                         </span>
                     </div>
                     <h1 className="text-4xl font-bold mb-4">
-                        <span>Built on </span>
-                        <span className="text-red-600">Trust</span>
-                        <span> and</span>
+                        <span>დაფუძნებული </span>
+                        <span className="text-red-600">ნდობაზე</span>
+                        <span> და </span>
                     </h1>
-                    <h2 className="text-4xl font-bold text-red-600">Excellence</h2>
+                    <h2 className="text-4xl font-bold text-red-600">ხარისხზე</h2>
                     <p className="mt-4 text-gray-600 max-w-2xl">
-                        We foster strong relationships by staying true to our values of integrity,
-                        quality, and accountability.
+                        ხელს ვუწყობთ სწორი ბიზნეს ურთიერთობის ჩამოყალიბებას, ჩვენი  ღირებულბების დაცვით, კეთილსინდისიერება, პასუხისმგებლობა და ხარისხი
                     </p>
                 </div>
 
