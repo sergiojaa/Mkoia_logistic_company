@@ -14,7 +14,11 @@ export default function Header() {
             <div className="max-w-[1200px] mx-auto px-10 py-5 flex justify-between items-center relative">
                 {/* Logo */}
                 <div className="z-10">
-                    <Image src="/logo.png" width={105} height={28} alt="logo of mkoia" />
+                    <Link href={'/'}>
+                        <h1 className="text-4xl text-[#001E62]">M<span className="text-[#D13851]">K</span>O<span className="text-[#D13851]">I</span>A</h1>
+
+                    </Link>
+                    {/* <Image src="/logo.png" width={105} height={28} alt="logo of mkoia" /> */}
                 </div>
 
                 {/* Hamburger Icon */}
