@@ -2,10 +2,10 @@ import React from 'react'
 import Image from 'next/image'
 import { CheckCheck, Lightbulb, Users, Leaf } from 'lucide-react';
 const values = [
-    { icon: <CheckCheck className="text-[#001E62]" size={24} />, label: 'Reliability' },
-    { icon: <Lightbulb className="text-[#001E62]" size={24} />, label: 'Innovation' },
-    { icon: <Users className="text-[#001E62]" size={24} />, label: 'Customer Focus' },
-    { icon: <Leaf className="text-[#001E62]" size={24} />, label: 'Sustainability' },
+    { icon: <CheckCheck className="text-[#001E62]" size={24} />, label: 'სანდოობა' },
+    { icon: <Lightbulb className="text-[#001E62]" size={24} />, label: 'ინოვაცია' },
+    { icon: <Users className="text-[#001E62]" size={24} />, label: 'თქვენი მოთხოვნა' },
+    { icon: <Leaf className="text-[#001E62]" size={24} />, label: 'მდგრადობა' },
 ];
 export default function Whoarewe() {
     return (
@@ -14,14 +14,15 @@ export default function Whoarewe() {
                 <div className='flex max-w-[700px] flex-col gap-7'>
                     <div className='flex items-center'>
                         <div className="w-3 h-3 rounded-full bg-red-500 mr-2"></div>
-                        <h3>Who are we</h3>
+                        <h3>ვინ ვართ ჩვენ</h3>
                     </div>
-                    <h2 className='text-[#001E62] max-w-[520px] text-4xl'>We Specialize in <span className='text-[#D13851]'> End-to-end Logistics Services</span> That Ensure Timely and Secure Delivery</h2>
-                    <p className='text-[#2A437C] max-w-[550px] text-md '>Our dedicated team works around the clock to provide tailored solutions for good businesses of all sizes, helping you meet your goals with ease and reliability. Start from customs brokerage to last-mile delivery, we’re committed to quality and precision in every service we offer. </p>
+                    <h2 className='text-[#001E62] max-w-[520px] text-4xl'>ჩვენ ვსპეციალიზირდებით <span className='text-[#D13851]'> მახალი ხარისხის ლოჯისტიკურ სერვისში</span> რომელიც გპირდებათ დროულ და უსაფრთხო მიწოდებას</h2>
+                    <p className='text-[#2A437C] max-w-[550px] text-md '>
+                        ჩვენი ერთგული გუნდი მუშაობს უწყვეტ რეჟიმში, რათა უზრუნველყოს მორგებული გადაწყვეტილებები ყველა ზომის ბიზნესისთვის, რაც გეხმარებათ მიზნების მარტივად და სანდრო შესრულებაში. საბაჟო ბროკერობიდან დაწყებული, ბოლო კილომეტრის მიწოდებამდე, ჩვენ ვალდებულნი ვართ ვუზრუნველყოთ მაღალი ხარისხი და სიზუსტე თითოეულ სერვისში
+                    </p>
                     <div className='max-w-[490px] border-b-4 border-b-[#D13851] rounded-xl p-5 bg-[#EEF4FF]'>
                         <h2 className='text-[#001E62] font-bold'>
-                            We simplify logistics with advanced technology, so you can focus on business growth
-                        </h2>
+                            ჩვენ ვამარტივებთ ლოჯისტიკას მოწინავე ტექნოლოგიით, ასე რომ თქვენ შეგიძლიათ ფოკუსირება მოახდინოთ ბიზნესის ზრდაზე                        </h2>
                     </div>
                 </div>
                 <div className="relative w-full max-w-[400px]">
