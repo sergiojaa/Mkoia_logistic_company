@@ -19,16 +19,16 @@ export default function Provide() {
 
             <div className="max-w-[600px] mx-auto p-7 flex flex-col gap-7 " >
                 <div className="">
-                    <h3 className="text-[#2A437C] text-[18px]">LOGIX AT YOUR SERVICE</h3>
-                    <h2 className="text-[#001E62] max-w-[500px] font-bold text-[32px]">We Provide <span className="text-[#D13851]">End-to-end Logistics Services</span>  for Timely, Secure Delivery. </h2>
+                    <h3 className="text-[#2A437C] text-[18px]">ემკოია თქვენს სამსახურში</h3>
+                    <h2 className="text-[#001E62] max-w-[500px] font-bold text-[32px]">ჩვენ გთავაზობთ <span className="text-[#D13851]">უმაღლესი ხარისხის ლოჯისტიკურ სერვისს</span>  დროული და უსაფრთხო მიწოდებისთვის </h2>
                 </div>
                 <div className="flex lg:flex-row lg:gap-20 flex-col gap-4">
-                    <h4 className="text-[#C8102E] font-bold text-[20px]">01 Vision</h4>
-                    <p className="text-[#2A437C]">Our mission is to lead the global logistics industry by providing seamless, reliable, and innovative solutions that not only meet but exceed client expectations, driving long-term success and growth for businesses worldwide.</p>
+                    <h4 className="text-[#C8102E] font-bold text-[20px]">01 ხედვა</h4>
+                    <p className="text-[#2A437C]">ჩვენი მიზანია ვიყოთ გლობალური ლოჯისტიკის ინდუსტრიის ლიდერები, ვაწვდიდეთ უწყვეტ, სანდო და ინოვაციურ გადაწყვეტილებებს, რომლებიც არამხოლოდ აკმაყოფილებენ, არამედ აღემატებიან კლიენტების მოლოდინს, რითაც ხელს ვუწყობთ ბიზნესების გრძელვადიან წარმატებასა და ზრდას მთელს მსოფლიოში</p>
                 </div>
                 <div className="flex lg:flex-row lg:gap-20 flex-col gap-4">
-                    <h4 className="text-[#C8102E] font-bold text-[20px]">02 Vision</h4>
-                    <p className="text-[#2A437C]">We connect businesses to a streamlined and efficient supply chain by offering innovative and responsible logistics solutions that enhance operational performance, reduce costs, and foster growth in a dynamic global market.</p>
+                    <h4 className="text-[#C8102E] font-bold text-[20px]">02 ხედვა</h4>
+                    <p className="text-[#2A437C]">ჩვენ ვაკავშირებთ ბიზნესებს ოპტიმალიზირებულ და ეფექტურ მომარაგების ჯაჭვთან, ინოვაციური და პასუხისმგებლიანი ლოჯისტიკური გადაწყვეტილებების შეთავაზებით, რაც აძლიერებს ოპერაციულ ეფექტურობას, ამცირებს ხარჯებს და ხელს უწყობს ეფექტურობას, ამცირებს ხარჯებს და ხელს უწყობს ზრდას სწრაფად ცვალებად გლობალურ ბაზარზე.</p>
                 </div>
 
             </div>
