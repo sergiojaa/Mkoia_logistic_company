@@ -11,17 +11,17 @@ export default function TrustCard() {
                     <Image src='/home/picture.png' alt='track' width={330} height={100} />
                 </div>
                 <div className='flex flex-col mt-5 items-start gap-5'>
-                    <h2 className='text-xl text-[#CCD2DF]'>Tbilisi, Georgia</h2>
+                    <h2 className='text-xl text-[#CCD2DF]'>თბილისი, საქართველო</h2>
                     <p className='text-3xl text-[#001E62] font-bold max-w-[600px]'>
-                        “Allowing us to focus on growth Highly recommended!”
+                        "გვეხმარება ჩვენი პროექტების დროულად დასრულებაში!”
                     </p>
                     <p className='max-w-[500px] text-md text-[#808EB0]'>
-                        Their seamless coordination and proactive communication have made a real difference in our operations. From customs clearance to last-mile delivery, they ve handled every detail with expertise and care. We couldnot ask for a better logistics partner.
+                        მათმა შეუფერხებელმა კოორდინაციამ და წინასწარმა კომუნიკაციამ ნამდვილად შეცვალა ჩვენი ოპერაციები. საბაჟო გამტარობიდან დაწყებული, ბოლო კილომეტრის მიწოდებამდე. მათ ყველა პრობლემა სპეციალისტური ყურადღებით და ზუსტად მოაგვარეს. ჩვენთვის უკეთესი ლოჯისტიკური პარტნიორი არ არსებობს
                     </p>
-                    <p className='text-[#001E62] font-bold text-2xl'>Cocacola</p>
+                    <p className='text-[#001E62] font-bold text-2xl'>Coca-cola Bottlers Georgia </p>
                     <div className='flex items-center gap-3'>
                         <BriefcaseBusiness className='text-[#808EB0]' />
-                        <p className='text-md text-[#808EB0]'>Client since 2010</p>
+                        <p className='text-md text-[#808EB0]'>თანამშრომლობა 2023 წლიდან</p>
                     </div>
                 </div>
             </div>
