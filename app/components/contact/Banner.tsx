@@ -18,10 +18,10 @@ export default function Banner() {
                 </div>
                 <div className="absolute inset-0 text-center text-white flex flex-col items-center justify-center px-4">
                     <h2 className='font-bold text-3xl lg:text-4xl  mb-4'>დაუკავშირდით ემკოიას</h2>
-                    <p className="max-w-xl text-sm md:text-lg mb-6 ">ჩვენ აქ ვართ, რათა დავეხმაროთ თქვენს ლოჯისტიკურ საჭიროებებში. დაგვიკავშირდით ნებისმიერი კითხვით.</p>
+                    <p className="max-w-xl text-sm md:text-lg mb-6 ">ჩვენ აქ ვართ, რათა დაგეხმაროთ თქვენი პროექტების დროულად დასრულებაში </p>
                     <div className="flex items-center">
                         <div className="w-2 h-2 md:w-3 md:h-3 rounded-full bg-red-500 mr-2"></div>
-                        <p className="text-xs md:text-sm font-medium tracking-wider">გლობალური ბიზნესის გაძლიერება</p>
+                        <p className="text-xs md:text-sm font-medium tracking-wider">ადგილობრივი ბაზრის ლიდერები</p>
                     </div>
                 </div>
             </div>

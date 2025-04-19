@@ -29,18 +29,18 @@ export default function MapImage() {
                 <div className='flex flex-col mt-10 gap-12'>
                     <div className="flex items-center">
                         <div className="w-3 h-3 rounded-full bg-red-500 mr-2"></div>
-                        <p className="text-white font-medium">FIND US</p>
+                        <p className="text-white font-medium">ჩვენი მისამართი</p>
                     </div>
 
                     <div className='max-w-[350px]'>
                         <p className='text-white text-2xl leading-snug'>
-                            Conveniently Located for Easy <br /> Access to All Major Logistics Routes
+                            მოსახერხებელი მდებარეობა მიწოდების ეფექტური მართვისთვის
                         </p>
                     </div>
 
                     <div>
                         <button className="flex items-center gap-3 rounded-full bg-white text-white  py-2 px-4 cursor-pointer max-w-max transition hover:scale-105 hover:shadow-lg">
-                            <span className='text-[#001E62]'>Find The Direction</span>
+                            <span className='text-[#001E62]'>მიმართულება</span>
                             <div className="border bg-[#001E62] rounded-full p-1">
                                 <ArrowRight className='text-white' size={16} />
                             </div>
