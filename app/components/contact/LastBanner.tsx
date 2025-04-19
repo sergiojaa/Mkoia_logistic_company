@@ -15,7 +15,7 @@ export default function LastBanner() {
                     <h2 className="font-bold  text-xl  max-w-[650px] lg:text-xl   mb-4">დაგვიკავშირდით, რათა განვიხილოთ როგორ შეგვიძლია მხარი დავუჭიროთ თქვენს ბიზნესს გაამარტივოს<br /> ლოჯისტიკური საჭიროებები.</h2>
                     <div >
                         <button className="flex max-w-max bg-white text-[#001E62]   cursor-pointer  gap-3 rounded-full    px-6 py-2 transition-colors ">
-                            <span className=''>დაგვიკავშირდი</span>
+                            <span className=''>დაგვიკავშირდით</span>
                             <div className="border bg-[#001E62] text-white  rounded-full p-1  ">
                                 <ArrowRight size={16} />
                             </div>

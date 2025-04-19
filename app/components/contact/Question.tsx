@@ -35,7 +35,7 @@ export default function Question({ active, setActive, questionNumber, questionOb
                 </div>
 
                 <div
-                    className={`text-[#556996] text-sm overflow-hidden transition-all duration-300 ease-in-out ${active === questionNumber ? 'max-h-[500px] opacity-100' : 'max-h-0 opacity-0'
+                    className={`text-[#556996] text-sm lg:text-md overflow-hidden transition-all duration-300 ease-in-out ${active === questionNumber ? 'max-h-[500px] opacity-100' : 'max-h-0 opacity-0'
                         }`}
                 >
                     {questionObj.answer}
