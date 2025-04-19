@@ -8,8 +8,8 @@ export default function Transit() {
                 <h4 className='text-[#2A437C] text-[14px]'>ჩვენი სატვირთო გადაწყვეტა </h4>
                 <h2 className='text-[#001E62] text-[22px] max-w-[430px]  text-center'> <span className='text-[#D13851]'>ყოველი ნაბიჯის </span> პროფესიონალურად მართვა ტრანზიტიდან საწყობამდე</h2>
             </div>
-            <div className=" flex flex-col mt-10 lg:flex-row gap-10  ">
-                <div className='md:flex-row  flex flex-col  items-center justify-center gap-10'>
+            <div className=" flex items-center justify-center flex-col mt-10 lg:flex-row gap-10  ">
+                <div className='md:flex-row items-center   flex flex-col    gap-15'>
                     <Card
                         src='/home/airplane.png'
                         button="საჰაერო გადაზიდვა"
@@ -20,13 +20,8 @@ export default function Transit() {
                         button="საზღვაო გადაზიდვა"
                         text="ეკონომიური და ეკოლოგიურად სუფთა, იდეალურია დიდი მოცულობისა და შორ მანძილზე."
                     />
-                </div>
-                <div className='md:flex-row flex flex-col  items-center justify-center gap-10'>
-                    <Card
-                        src='/home/airplane.png'
-                        button="სარკინიგზო ტვირთი"
-                        text="გონივრული გადაზიდვის გადაწყვეტილებები ნაყარი ტვირთისთვის."
-                    />
+
+
                     <Card
                         src='/home/airplane.png'
                         button="სახმელეთო გადაზიდვა"
