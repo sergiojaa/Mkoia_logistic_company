@@ -26,7 +26,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-      // className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        style={{
+          fontFamily: '"Segoe UI", Tahoma, Geneva, Verdana, sans-serif',
+        }}      // className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <Header />
         {children}
