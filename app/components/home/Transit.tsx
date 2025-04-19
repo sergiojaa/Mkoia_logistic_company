@@ -9,7 +9,7 @@ export default function Transit() {
                 <h2 className='text-[#001E62] text-[22px] max-w-[430px]  text-center'> <span className='text-[#D13851]'>ყოველი ნაბიჯის </span> პროფესიონალურად მართვა ტრანზიტიდან საწყობამდე</h2>
             </div>
             <div className=" flex items-center justify-center flex-col mt-10 lg:flex-row gap-10  ">
-                <div className='md:flex-row items-center   flex flex-col    gap-15'>
+                <div className='md:flex-row items-center justify-between  flex flex-col    gap-15'>
                     <Card
                         src='/home/airplane.png'
                         button="საჰაერო გადაზიდვა"
