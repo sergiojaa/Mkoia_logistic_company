@@ -11,7 +11,6 @@ const nextConfig: NextConfig = {
       'www.decksdirect.com'
     ],
   },
-  output: 'export',
 };
 
 export default nextConfig;

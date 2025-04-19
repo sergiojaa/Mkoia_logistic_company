@@ -7,8 +7,8 @@ export default function TrustCard() {
         <div className="w-full mb-10 px-7  mx-auto">
             <div className='flex flex-col lg:flex-row items-center lg:items-start justify-around  p-5 border border-[#CCD2DF] rounded-xl  '>
 
-                <div className='w-[300px] mt-25 bg-red-100 '>
-                    <Image src='https://1000logos.net/wp-content/uploads/2021/05/Coca-Cola-logo.png' alt='track' width={330} height={100} />
+                <div className=' px-5 mt-25 bg-red-100 '>
+                    <Image src='https://1000logos.net/wp-content/uploads/2021/05/Coca-Cola-logo.png' alt='track' width={230} height={100} />
                 </div>
                 <div className='flex flex-col mt-5 items-start gap-5'>
                     <h2 className='text-xl text-[#CCD2DF]'>თბილისი, საქართველო</h2>
