@@ -21,9 +21,9 @@ export default function Servicesimage() {
                     />
                 </div>
                 <div className="absolute inset-0 text-center text-white flex flex-col items-center justify-center px-4">
-                    <h2 className="font-bold text-3xl lg:text-4xl   mb-4">ლოჯისტიკური სერვისები</h2>
+                    <h2 className="font-bold text-2xl lg:text-3xl   mb-4">ობიექტზე მიწოდების სერვისები</h2>
                     <p className="max-w-2xl text-sm md:text-lg mb-6">
-                        ჩვენი ყოვლისმომცველი ლოჯისტიკური გადაწყვეტილება შექმნილია თქვენი მიწოდების ჯაჭვის ოპტიმიზაციისა და თქვენი ბიზნეს ოპერაციების გასაუმჯობესებლად.
+                        ჩვენი ყოვლისმომცველი ლოჯისტიკური გადაწყვეტილება შექმნილია თქვენი პროექტები ოპტიმიზაციისა და თქვენი მიზნების გასაუმჯობესებლად.
                     </p>
                     <div className="flex items-center">
                         <div className="w-2 h-2 md:w-3 md:h-3 rounded-full bg-red-500 mr-2"></div>
