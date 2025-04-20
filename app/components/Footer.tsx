@@ -1,9 +1,52 @@
-import React from 'react'
+import React from "react";
+import { Facebook, Instagram } from "lucide-react";
 
 export default function Footer() {
     return (
-        <div>
-            Footer
-        </div>
-    )
+        <footer className="bg-[#0B1B4B] text-white px-6 lg:px-20 py-12">
+            <div className="max-w-7xl mx-auto flex flex-col lg:flex-row justify-between gap-10">
+                {/* Left - Logo & Text */}
+                <div className="lg:w-1/3 space-y-6">
+                    <h1 className="text-4xl font-bold">
+                        LOG<span className="text-red-500">I</span>
+                        <span className="text-blue-500">X</span>
+                    </h1>
+                    <p className="text-sm text-gray-300">
+                        Join our community to unlock exclusive insights and innovative solutions for all your logistics needs
+                    </p>
+
+                    {/* Social Icons */}
+                    <div className="flex items-center gap-4 mt-4">
+                        <a href="#" aria-label="Instagram">
+                            <Instagram />
+                            {/* <Instagram className="w-5 h-5 text-gray-300 hover:text-white transition" /> */}
+                        </a>
+                        <a href="#" aria-label="Facebook">
+                            <Facebook />
+                            {/* <Facebook className="w-5 h-5 text-gray-300 hover:text-white transition" /> */}
+                        </a>
+
+                    </div>
+                </div>
+
+                {/* Middle - Headline */}
+                <div className="lg:w-1/3 flex items-start lg:items-center">
+                    <h2 className="text-xl font-semibold leading-snug">
+                        The Future of Urban<br />Delivery Starts Here
+                    </h2>
+                </div>
+
+                {/* Right - Company Links */}
+                <div className="lg:w-1/3">
+                    <h3 className="font-semibold mb-3">Company</h3>
+                    <ul className="space-y-2 text-gray-300 text-sm">
+                        <li>About</li>
+                        <li>Services</li>
+                        <li>Products</li>
+                        <li>Contact</li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    );
 }
