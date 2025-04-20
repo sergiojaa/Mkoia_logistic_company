@@ -4,7 +4,7 @@ import { BriefcaseBusiness } from 'lucide-react'
 
 export default function TrustCard() {
     return (
-        <div className="w-full mb-10 px-7  mx-auto">
+        <div className="w-full mb-10 px-7 lg:px-0  mx-auto">
             <div className='flex flex-col lg:flex-row items-center lg:items-start justify-around  p-5 border border-[#CCD2DF] rounded-xl  '>
 
                 <div className=' px-5 mt-25 bg-red-100 '>
@@ -19,7 +19,7 @@ export default function TrustCard() {
                     <p className='max-w-[500px] text-md text-[#808EB0]'>
                         მათმა შეუფერხებელმა კოორდინაციამ და წინასწარმა კომუნიკაციამ ნამდვილად შეცვალა ჩვენი ოპერაციები. საბაჟო გამტარობიდან დაწყებული, ბოლო კილომეტრის მიწოდებამდე. მათ ყველა პრობლემა სპეციალისტური ყურადღებით და ზუსტად მოაგვარეს. ჩვენთვის უკეთესი ლოჯისტიკური პარტნიორი არ არსებობს
                     </p>
-                    <p className='text-[#001E62] font-bold text-2xl'>Coca-Cola Bottlers Georgia </p>
+                    <p className='text-[#001E62] font-bold text-2xl'> <span className='text-[#D13851]'> Coca-Cola</span> Bottlers Georgia </p>
                     <div className='flex items-center gap-3'>
                         <BriefcaseBusiness className='text-[#808EB0]' />
                         <p className='text-md text-[#808EB0]'>თანამშრომლობა 2023 წლიდან</p>

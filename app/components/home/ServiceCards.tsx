@@ -8,7 +8,7 @@ interface ServiceCard {
 
 export default function ServiceCards({ icon, title, description }: ServiceCard) {
     return (
-        <div className="px-4 py-2 sm:px-6 md:py-4">
+        <div className=" py-2 md:py-4">
             <div className="border border-[#CCD2DF] rounded-xl p-5 sm:p-6 md:p-8 max-w-[1200px] mx-auto flex flex-col lg:flex-row items-start gap-4 lg:gap-6">
                 <div className="flex-shrink-0">
                     <Image
