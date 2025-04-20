@@ -1,7 +1,7 @@
 import Provide from "./components/home/Provide";
 import Services from "./components/home/Services";
 // import Trackway from "./components/home/Trackway";
-import Transit from "./components/home/Transit";
+// import Transit from "./components/home/Transit";
 import Trust from "./components/home/Trust";
 import ValueCard from "./components/home/ValueCard";
 
