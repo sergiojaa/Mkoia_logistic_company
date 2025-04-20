@@ -5,14 +5,13 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 export default function Footer() {
     return (
-        <footer className="bg-[#0B1B4B] mt-20 text-white px-6 lg:px-20 py-12">
-            <div className="max-w-7xl mx-auto flex flex-col lg:flex-row justify-between gap-10">
-                {/* Left - Logo & Text */}
-                <div className="lg:w-1/3 space-y-6">
+        <footer className="bg-[#0B1B4B] mt-20 text-white px-7 lg:px-20 py-12">
+            <div className="max-w-7xl mx-auto flex flex-col  lg:flex-row justify-between gap-10">
+                <div className=" space-y-6">
                     <h1 className="text-4xl text-white">M<span className="text-[#D13851]">K</span>O<span className="text-[#D13851]">I</span>A</h1>
 
-                    <p className="text-md text-gray-300">
-                        გამოგვყევი სოციალურ პლატმორმებზე რათა მიიღო ინფორმაცია პირველმა
+                    <p className="text-md max-w-[327px] text-gray-300">
+                        გამოგვყევი სოციალურ პლატმორმებზე  რათა  მიიღო  ინფორმაცია პირველმა
                     </p>
 
                     {/* Social Icons */}
@@ -29,15 +28,13 @@ export default function Footer() {
                     </div>
                 </div>
 
-                {/* Middle - Headline */}
-                <div className="lg:w-1/3 flex items-start lg:items-center">
-                    <h2 className="text-xl font-semibold leading-snug">
+                <div className=" flex items-start lg:items-center">
+                    <h2 className="text-xl font-semibold ">
                         თქვენი მიზნების ასრულება<br />იწყება აქ
                     </h2>
                 </div>
 
-                {/* Right - Company Links */}
-                <div className="lg:w-1/3">
+                <div className="">
                     <h3 className="text-xl  mb-3">კომპანია</h3>
                     <ul className="space-y-2 text-gray-300 text-md">
                         <Link href="/about">
