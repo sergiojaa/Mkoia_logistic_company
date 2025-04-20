@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 export default function Footer() {
     return (
-        <footer className="bg-[#0B1B4B] text-white px-6 lg:px-20 py-12">
+        <footer className="bg-[#0B1B4B] mt-20 text-white px-6 lg:px-20 py-12">
             <div className="max-w-7xl mx-auto flex flex-col lg:flex-row justify-between gap-10">
                 {/* Left - Logo & Text */}
                 <div className="lg:w-1/3 space-y-6">
