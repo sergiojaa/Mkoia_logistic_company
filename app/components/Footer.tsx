@@ -1,6 +1,8 @@
 import React from "react";
-import { Facebook, Instagram } from "lucide-react";
-
+import { Facebook, Instagram, } from "lucide-react";
+import Link from "next/link";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 export default function Footer() {
     return (
         <footer className="bg-[#0B1B4B] text-white px-6 lg:px-20 py-12">
@@ -19,13 +21,13 @@ export default function Footer() {
                     <div className="flex items-center gap-4 mt-4">
                         <a href="#" aria-label="Instagram">
                             <Instagram />
-                            {/* <Instagram className="w-5 h-5 text-gray-300 hover:text-white transition" /> */}
                         </a>
                         <a href="#" aria-label="Facebook">
                             <Facebook />
-                            {/* <Facebook className="w-5 h-5 text-gray-300 hover:text-white transition" /> */}
                         </a>
-
+                        <a href="#" aria-label="WhatsApp">
+                            <FontAwesomeIcon icon={faWhatsapp} className="  w-7 h-6" />
+                        </a>
                     </div>
                 </div>
 
@@ -40,10 +42,22 @@ export default function Footer() {
                 <div className="lg:w-1/3">
                     <h3 className="font-semibold mb-3">Company</h3>
                     <ul className="space-y-2 text-gray-300 text-sm">
-                        <li>About</li>
-                        <li>Services</li>
-                        <li>Products</li>
-                        <li>Contact</li>
+                        <Link href="/about">
+                            <li>About</li>
+                        </Link>
+                        <Link href={'/services'}>
+                            <li>Services</li>
+
+                        </Link>
+                        <Link href={'/products'}>
+                            <li>Products</li>
+
+                        </Link>
+
+                        <Link href={'/contact'}>
+                            <li>Contact</li>
+
+                        </Link>
                     </ul>
                 </div>
             </div>
