@@ -6,22 +6,22 @@ export async function POST(req: Request, res: Response) {
             service: "gmail",
             auth: {
                 user: "kaliashvilisergi@gmail.com",
-                pass: "fwtezrchbuvmcbxv"
+                pass: process.env.pass
             }
         });
 
         const mailForMe = {
             from: `${body.name}<${body.email}>`,
-            to: "infoinfo@mkoia.ge",
+            to: "kaliashvilisergi@gmail.com",
             subjects: `მესიჯი ${body.name} ${body.lastName} -სგან`,
             text: `დაინტერესებული პირი: ${body.name} ${body.lastName}\n
                    ელ.ფოსტა: ${body.email}\n
                    ტელეფონი: ${body.phone}\n
-                   შეტყობინება: ${body.message}`  // ტექსტი, რომელიც შედგება ყველა გადასაცემი მონაცემისგან
+                   შეტყობინება: ${body.message}`
 
         }
         const mailForUser = {
-            from: "infoinfo@mkoia.ge",
+            from: "kaliashvilisergi@gmail.com",
             to: `${body.email}`,
             subject: `მადლობა თქვენი ინტერესისთვის, ${body.name} ${body.lastName}`,
             text: `გამარჯობა ${body.name}, გმადლობთ რომ დაგვიკავშირდით! ჩვენ აუცილებლად დაგიკავშირდებით უახლოეს მომავალში. შპს ემკოია`
