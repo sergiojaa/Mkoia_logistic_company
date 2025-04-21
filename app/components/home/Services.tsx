@@ -5,9 +5,14 @@ export default function Services() {
     return (
         <div className='max-w-[1200px] mt-10 px-7 mx-auto '>
             <div className='flex gap-3 flex-col items-center  md:items-start justify-between'>
-                <h3>ჩვენი ლოჯისტიკური სერვისი</h3>
-                <h2 className='text-[#001E62] max-w-[420px] md:text-start text-center text-[22px]'>სრული <span className='text-[#D13851]'>ლოჯისტიკური სერვისები</span>  მორგებული თქვენს უნიკალურ <span className='text-[#D13851]'>საჭიროებებზე</span> </h2>
+                <h1 className="text-3xl text-[#001E62] font-bold mb-4">
+                    <span>ჩვენი </span>
+                    <span className="text-[#D13851]">ლოჯისტიკური სერვისი</span>
+
+                </h1>
             </div>
+
+
             <div className='flex flex-col gap-8 '>
                 <ServiceCards icon='/home/custom-icon.png' title='საწყობი & დისტრიბუცია'
                     description='გთავაზობთ უსაფრთხო შენახვას და ეფექტურ განაწილებას, რათა ინვენტარი შეუფერხებლად გადაადგილდეს.' />

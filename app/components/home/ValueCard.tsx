@@ -11,7 +11,7 @@ interface ValueCardProps {
 export default function App() {
     const values: ValueCardProps[] = [
         {
-            title: "ჩვენ უზრუნველვყოფთ, რომ თითოეული მიწოდება აკმაყოფილებს ჩვენს მაღალ სტანდარტებს",
+            title: "ჩვენ ვუზრუნველვყოფთ, რომ თითოეული მიწოდება აკმაყოფილებს ჩვენს მაღალ სტანდარტებს",
             description: "დასაწყისიდან დასასრულამდე",
             icon: <Shield className="w-6 h-6 text-blue-900" />,
             tag: "სანდოობა"
@@ -46,12 +46,12 @@ export default function App() {
                             ძირითადი ღირებულებები
                         </span>
                     </div>
-                    <h1 className="text-4xl font-bold mb-4">
+                    <h1 className="text-3xl text-[#001E62] font-bold mb-4">
                         <span>დაფუძნებული </span>
-                        <span className="text-red-600">ნდობაზე</span>
+                        <span className="text-[#D13851]">ნდობაზე</span>
                         <span> და </span>
                     </h1>
-                    <h2 className="text-4xl font-bold text-red-600">ხარისხზე</h2>
+                    <h2 className="text-4xl font-bold text-[#D13851]">ხარისხზე</h2>
                     <p className="mt-4 text-gray-600 max-w-2xl">
                         ხელს ვუწყობთ სწორი ბიზნეს ურთიერთობის ჩამოყალიბებას, ჩვენი  ღირებულბების დაცვით, კეთილსინდისიერება, პასუხისმგებლობა და ხარისხი
                     </p>
