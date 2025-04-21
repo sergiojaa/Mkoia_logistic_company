@@ -20,6 +20,13 @@ export async function POST(req: Request, res: Response) {
                    შეტყობინება: ${body.message}`  // ტექსტი, რომელიც შედგება ყველა გადასაცემი მონაცემისგან
 
         }
+        const mailForUser = {
+            from: "infoinfo@mkoia.ge",
+            to: `${body.email}`,
+            subject: `მადლობა თქვენი ინტერესისთვის, ${body.name} ${body.lastName}`,
+            text: `გამარჯობა ${body.name}, გმადლობთ რომ დაგვიკავშირდით! ჩვენ აუცილებლად დაგიკავშირდებით უახლოეს მომავალში. შპს ემკოია`
+        }
+        await transporter.sendMail(mailForUser)
         await transporter.sendMail(mailForMe)
         return Response.json({
             message: 'email send successfully'
