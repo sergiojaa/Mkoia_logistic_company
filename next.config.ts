@@ -12,6 +12,7 @@ const nextConfig: NextConfig = {
       "newlight.ge",
       "www.bautech.ge",
       "scontent.ftbs4-2.fna.fbcdn.net",
+      "delta.gov.ge"
     ],
   },
 };

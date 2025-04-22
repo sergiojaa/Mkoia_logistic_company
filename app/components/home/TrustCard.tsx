@@ -4,12 +4,11 @@ import { BriefcaseBusiness } from 'lucide-react'
 interface TrustCards {
     image: string,
     location: string,
-    title: string,
     description: string,
     companyName: string,
     clientsSince: string
 }
-export default function TrustCard({ image, location, title, description, companyName, clientsSince }: TrustCards) {
+export default function TrustCard({ image, location, description, companyName, clientsSince }: TrustCards) {
     return (
         <div className="w-full mb-10 px-7 lg:px-0  mx-auto">
             <div className='flex flex-col lg:flex-row items-center lg:items-start justify-around  p-5 border border-[#CCD2DF] rounded-xl  '>
@@ -19,9 +18,7 @@ export default function TrustCard({ image, location, title, description, company
                 </div>
                 <div className='flex flex-col mt-5 items-start gap-5'>
                     <h2 className='text-xl text-[#CCD2DF]'>{location}</h2>
-                    <p className='text-2xl text-[#001E62] font-bold max-w-[600px]'>
-                        {title}
-                    </p>
+
 
                     <p className='max-w-[500px] text-md text-[#808EB0]'>
                         {description}
