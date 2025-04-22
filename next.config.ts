@@ -10,7 +10,8 @@ const nextConfig: NextConfig = {
       'www.progressprofiles.com',
       'www.decksdirect.com',
       "newlight.ge",
-      "www.bautech.ge"
+      "www.bautech.ge",
+      "scontent.ftbs4-2.fna.fbcdn.net",
     ],
   },
 };

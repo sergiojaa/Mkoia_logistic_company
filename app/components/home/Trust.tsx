@@ -22,11 +22,11 @@ export default function Trust() {
 
                     />
                     <TrustCard
-                        image='https://1000logos.net/wp-content/uploads/2021/05/Coca-Cola-logo.png'
+                        image='https://scontent.ftbs4-2.fna.fbcdn.net/v/t39.30808-6/449266907_1971718053245440_2545998577636563752_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeGlI6rnCmHkdVgbpJjx012jIjoODRxFrjciOg4NHEWuN4whzlsGTOreOqFGczFBAVhpS5tOGuYVm2q4ynDFRomx&_nc_ohc=ux0ns9qZhr4Q7kNvwHA9Dbt&_nc_oc=AdmcpkJ60XS1bwBMXdsgAazJqXsKq6QC2q4IEiFqA-RD0_fIRw8yoLJXG8cDnceH6x4&_nc_zt=23&_nc_ht=scontent.ftbs4-2.fna&_nc_gid=w-IGBOJ-rbEuFBz3b8J4Ww&oh=00_AfHTDKKtuB89XRsEM8N2C4BUwdZAvwuwUAYsD_djfVRE9w&oe=680D9DE1'
                         location='თბილისი, საქართველო'
                         title='გვეხმარება ჩვენი პროექტების დროულად დასრულებაში'
                         description='მათმა შეუფერხებელმა კოორდინაციამ და წინასწარმა კომუნიკაციამ ნამდვილად შეცვალა ჩვენი ოპერაციები. საბაჟო გამტარობიდან დაწყებული, ბოლო კილომეტრის მიწოდებამდე.მათ ყველა პრობლემა სპეციალისტური ყურადღებით და ზუსტად მოაგვარეს. ჩვენთვის უკეთესი ლოჯისტიკური პარტნიორი არ არსებობს!'
-                        companyName='Coca-Cola Bottlers Georgia'
+                        companyName='შ.პ.ს რებილდი'
                         clientsSince='თანამშრომლობა 2023 წლიდან'
 
                     />
