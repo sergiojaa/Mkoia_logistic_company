@@ -15,6 +15,7 @@ const nextConfig: NextConfig = {
       "scontent.ftbs4-2.fna.fbcdn.net",
       "delta.gov.ge"
     ],
+    unoptimized: true,
   },
 };
 
