@@ -125,18 +125,53 @@
         "description": "თაბაშირ-მუყაოს შეკიდული ჭერი 60*60სმ"
     },
     {
-        "image": "",
-        "title": "",
+        "image": "/products/deki.jpeg",
+        "title": "ტერასის ფიცარი",
+        "description": "ტერასის ფიცარი 30*30სმ"
+    },
+    {
+        "image": "/products/led7.jpeg",
+        "title": "შეკიდული ჭერის სანათი",
+        "description": "ამსტრონგის შეკიდული ჭერის სანათი ალუმინის კარკასით 60*60სმ"
+    },
+    {
+        "image": "/products/led1.jpeg",
+        "title": "ლედ სანათი",
         "description": ""
     },
     {
-        "image": "",
-        "title": "",
+        "image": "/products/led2.jpeg",
+        "title": "ლედ სანათი",
         "description": ""
     },
     {
-        "image": "",
-        "title": "",
+        "image": "/products/led3.jpeg",
+        "title": "ლედ სანათი",
+        "description": ""
+    },
+    {
+        "image": "/products/led4.jpeg",
+        "title": "ლედ სანათი",
+        "description": ""
+    },
+    {
+        "image": "/products/led5.jpeg",
+        "title": "ლედ სანათი",
+        "description": ""
+    },
+    {
+        "image": "/products/led6.jpeg",
+        "title": "ლედ სანათი",
+        "description": ""
+    },
+    {
+        "image": "/products/cherissanati.jpeg",
+        "title": "შეკიდული ჭერის სანათი",
+        "description": "მიმდევრობით ჩართული ჭერის სანათი"
+    },
+    {
+        "image": "/products/jaluzi.jpeg",
+        "title": "ელექტრო ჟალუზი",
         "description": ""
     }
 ]
