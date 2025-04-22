@@ -32,8 +32,10 @@ export async function POST(req: Request,) {
             message: 'email send successfully'
         })
     } catch (error) {
-        return Response.json({
-            error: 'error sending memail'
+        console.error(error)
+        return new Response(JSON.stringify({ error: 'error sending email' }), {
+            status: 500,
+            headers: { 'Content-Type': 'application/json' },
         })
     }
 

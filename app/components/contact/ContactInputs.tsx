@@ -27,6 +27,7 @@ export default function ContactInputs() {
             },
             body: JSON.stringify(input)
         })
+        console.log(response)
     }
 
     return (
