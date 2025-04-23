@@ -6,7 +6,7 @@ Mkoia is a logistics company based in Georgia. This project is an **informative 
 
 ## 🌐 Live Website
 
-🔗 [(https://mkoia.ge/)]
+🔗 https://mkoia.ge/
 
 ---
 
