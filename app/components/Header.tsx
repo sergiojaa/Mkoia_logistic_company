@@ -1,13 +1,19 @@
 "use client";
 import React, { useState } from "react";
-// import Image from "next/image";
 import Link from "next/link";
-import { ArrowRight, X } from "lucide-react";
+import { ArrowDown, ArrowRight, X } from "lucide-react";
 import { usePathname } from "next/navigation";
 
 export default function Header() {
     const pathname = usePathname();
     const [menuOpen, setMenuOpen] = useState(false);
+    const [isOpen, setIsOpen] = useState(false);
+    const [selectedLanguage, setSelectedLanguage] = useState("geo");
+
+    const handleLanguageChange = (lang: React.SetStateAction<string>) => {
+        setSelectedLanguage(lang);
+        setIsOpen(false); // Close the language dropdown after selection
+    };
 
     return (
         <header className="relative z-[100] bg-white">
@@ -16,9 +22,7 @@ export default function Header() {
                 <div className="z-10">
                     <Link href={'/'}>
                         <h1 className="text-4xl text-[#001E62]">M<span className="text-[#D13851]">K</span>O<span className="text-[#D13851]">I</span>A</h1>
-
                     </Link>
-                    {/* <Image src="/logo.png" width={105} height={28} alt="logo of mkoia" /> */}
                 </div>
 
                 {/* Hamburger Icon */}
@@ -56,6 +60,34 @@ export default function Header() {
                                 <Link href={item.path}>{item.name}</Link>
                             </li>
                         ))}
+
+                        {/* Language Dropdown */}
+                        <div className="relative w-[70px]">
+                            <button
+                                onClick={() => setIsOpen(!isOpen)}
+                                className="flex cursor-pointer items-center gap-2 text-xl text-[#001E62]"
+                            >
+                                {selectedLanguage === "geo" ? "🇬🇪 Geo" : "🏴󠁧󠁢󠁥󠁮󠁧󠁿 En"}
+                            </button>
+                            {isOpen && (
+                                <div className="absolute mt-1 bg-[#001E62] rounded-lg shadow-lg w-32">
+                                    <button
+                                        onClick={() => handleLanguageChange("geo")}
+                                        className="w-full cursor-pointer text-white flex items-center gap-2 px-4 py-3 hover:bg-white/10"
+                                    >
+                                        <span className="text-xl">🇬🇪</span> Geo
+                                    </button>
+                                    <button
+                                        onClick={() => handleLanguageChange("en")}
+                                        className="w-full cursor-pointer text-white flex items-center gap-2 px-4 py-3 hover:bg-white/10"
+                                    >
+                                        <span className="text-xl">🏴󠁧󠁢󠁥󠁮󠁧󠁿</span> En
+                                    </button>
+                                </div>
+                            )}
+                        </div>
+
+                        {/* Contact Button */}
                         <li className="bg-[#001E62] flex items-center text-white px-4 py-2 rounded-full">
                             <Link href="/contact" className="flex text-[16px] items-center gap-3">
                                 <span>Contact</span>
@@ -68,7 +100,7 @@ export default function Header() {
                 </div>
             </div>
 
-            {/* Mobile Dropdown */}
+            {/* Mobile Nav */}
             <div
                 className={`fixed top-0 left-0 w-full bg-white z-[150] flex flex-col items-center gap-5 p-5 pt-24 shadow-lg lg:hidden transition-all duration-300 ${menuOpen ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-5 pointer-events-none"
                     }`}
