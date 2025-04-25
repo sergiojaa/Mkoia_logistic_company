@@ -326,5 +326,53 @@
     "company": {
         "ge": "კომპანია",
         "en": "Company"
+    },
+    "we-care": {
+        "ge": "ჩვენ ვუზრუნველვყოფთ, რომ თითოეული მიწოდება აკმაყოფილებს ჩვენს მაღალ სტანდარტებს",
+        "en": "We ensure that each delivery meets our high standards"
+    },
+    "from-begining": {
+        "ge": "დასაწყისიდან დასასრულამდე",
+        "en": "from beginning to end"
+    },
+    "trusting": {
+        "ge": "სანდოობა",
+        "en": "Trust"
+    },
+    "new-technologies": {
+        "ge": "ახალი, თანამედროვე ტექნოლოგიების დაუფლება და ინტეგრაცია",
+        "en": "Mastering and integration of new, modern technologies"
+    },
+    "logistic-experience": {
+        "ge": "შეუფერხებელი ლოჯისტიკის გამოცდილებისთვის.",
+        "en": "For a seamless logistics experience."
+    },
+    "inovation": {
+        "ge": "ინოვაცია",
+        "en": "Inovation"
+    },
+    "priority": {
+        "ge": "თქვენი მოთხოვნები პრიორიტეტია",
+        "en": "Your needs are our priority"
+    },
+    "with-you": {
+        "ge": "გზის ყველა ეტაპზე ჩვენს გვერდით",
+        "en": "By your side every step of the way"
+    },
+    "customer-focus": {
+        "ge": "მომხმარებელზე ფოკუსირება",
+        "en": "Customer Focus"
+    },
+    "eco-practices": {
+        "ge": "მკაცრი გარემოსდაცვითი პრაქტიკების დაცვა.",
+        "en": "Strict adherence to environmental practices."
+    },
+    "eco-service": {
+        "ge": "ჩვენი სერვისის ყველა ასპეკტში",
+        "en": "In every aspect of our service"
+    },
+    "sustainability": {
+        "ge": "მდგრადობა",
+        "en": "Sustainability"
     }
 }

@@ -15,28 +15,28 @@ export default function App() {
 
     const values: ValueCardProps[] = [
         {
-            title: "ჩვენ ვუზრუნველვყოფთ, რომ თითოეული მიწოდება აკმაყოფილებს ჩვენს მაღალ სტანდარტებს",
-            description: "დასაწყისიდან დასასრულამდე",
+            title: t("we-care"),
+            description: t("from-begining"),
             icon: <Shield className="w-6 h-6 text-blue-900" />,
-            tag: "სანდოობა"
+            tag: t("trusting")
         },
         {
-            title: "ახალი, თანამედროვე ტექნოლოგიების დაუფლება და ინტეგრაცია",
-            description: "შეუფერხებელი ლოჯისტიკის გამოცდილებისთვის.",
+            title: t("new-technologies"),
+            description: t("logistic-experience"),
             icon: <Lightbulb className="w-6 h-6 text-blue-900" />,
-            tag: "ინოვაცია"
+            tag: t("inovation")
         },
         {
-            title: "თქვენი მოთხოვნები პრიორიტეტია",
-            description: "გზის ყველა ეტაპზე ჩვენს გვერდით",
+            title: t("priority"),
+            description: t("with-you"),
             icon: <Users className="w-6 h-6 text-blue-900" />,
-            tag: "მომხმარებელზე ფოკუსირება"
+            tag: t("customer-focus")
         },
         {
-            title: "მკაცრი გარემოსდაცვითი პრაქტიკების დაცვა.",
-            description: "ჩვენი სერვისის ყველა ასპეკტში",
+            title: t("eco-practices"),
+            description: t("eco-service"),
             icon: <Leaf className="w-6 h-6 text-blue-900" />,
-            tag: "მდგრადობა"
+            tag: t("sustainability")
         }
     ];
 
