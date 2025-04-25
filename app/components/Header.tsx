@@ -1,18 +1,21 @@
 "use client";
 import React, { useState } from "react";
 import Link from "next/link";
-import { ArrowDown, ArrowRight, X } from "lucide-react";
+import { ArrowRight, X } from "lucide-react";
 import { usePathname } from "next/navigation";
+import { useLanguage } from "../context/LanguageContext";
 
 export default function Header() {
     const pathname = usePathname();
+    const { toggleLanguage, language } = useLanguage();
     const [menuOpen, setMenuOpen] = useState(false);
     const [isOpen, setIsOpen] = useState(false);
     const [selectedLanguage, setSelectedLanguage] = useState("geo");
 
     const handleLanguageChange = (lang: React.SetStateAction<string>) => {
+        toggleLanguage()
         setSelectedLanguage(lang);
-        setIsOpen(false); // Close the language dropdown after selection
+        setIsOpen(false);
     };
 
     return (

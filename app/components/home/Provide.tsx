@@ -1,9 +1,12 @@
 'use client'
+import { useTranslate } from "@/app/utils/translate";
 import Image from "next/image";
 import { useState } from "react";
 export default function Provide() {
     const [desktopSize, setDesktopSize] = useState(false)
     console.log(setDesktopSize)
+    const t = useTranslate()
+
     return (
         <div className="lg:flex max-w-[1300px] mx-auto  flex-row-reverse ">
             {desktopSize ? (
@@ -19,16 +22,16 @@ export default function Provide() {
 
             <div className="max-w-[600px] mx-auto p-7 flex flex-col gap-7 " >
                 <div className="">
-                    <h3 className="text-[#2A437C] text-[18px]">ემკოია თქვენს სამსახურში</h3>
-                    <h2 className="text-[#001E62] max-w-[500px] font-bold text-[28px]">ჩვენ გთავაზობთ <span className="text-[#D13851]">უმაღლესი ხარისხის ლოჯისტიკურ სერვისს</span>  დროული და უსაფრთხო მიწოდებისთვის </h2>
+                    <h3 className="text-[#2A437C] text-[18px]">{t('mkoia_in_your_service')}</h3>
+                    <h2 className="text-[#001E62] max-w-[500px] font-bold text-[28px]"> {t('high_services')}  </h2>
                 </div>
                 <div className="flex lg:flex-row lg:gap-20 flex-col gap-4">
-                    <h4 className="text-[#C8102E] font-bold text-[20px]">01 ხედვა</h4>
-                    <p className="text-[#2A437C]">ჩვენი მიზანია ვიყოთ გლობალური ლოჯისტიკის ინდუსტრიის ლიდერები, ვიღებდეთ ინოვაციურ და სანდო გადაწყვეტილებებს, რომლებიც აღემატება კლიენტების მოლოდინს და ხელს უწყობს მათ გრძელვადიან წარმატებას</p>
+                    <h4 className="text-[#C8102E] font-bold text-[20px]">{t('01view')}</h4>
+                    <p className="text-[#2A437C]"> {t('01viewText')} </p>
                 </div>
                 <div className="flex lg:flex-row lg:gap-20 flex-col gap-4">
-                    <h4 className="text-[#C8102E] font-bold text-[20px]">02 ხედვა</h4>
-                    <p className="text-[#2A437C]">ჩვენ ვაკავშირებთ ბიზნესებს ეფექტურ და ინოვაციურ მომარაგების ჯაჭვთან, რითაც ვაძლიერებთ ოპერაციულ ეფექტურობას, ვამცირებთ ხარჯებს და ხელს ვუწყობთ მათ ზრდას</p>
+                    <h4 className="text-[#C8102E] font-bold text-[20px]">{t('02view')}</h4>
+                    <p className="text-[#2A437C]">{t('02ViewText')} </p>
                 </div>
 
             </div>
