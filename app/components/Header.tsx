@@ -70,7 +70,7 @@ export default function Header() {
                                 onClick={() => setIsOpen(!isOpen)}
                                 className="flex cursor-pointer items-center gap-2 text-xl text-[#001E62]"
                             >
-                                {selectedLanguage === "geo" ? "🇬🇪 Geo" : "🏴󠁧󠁢󠁥󠁮󠁧󠁿 En"}
+                                {selectedLanguage === "geo" ? "🇬🇪 Geo" : "🇬🇧 En"}
                             </button>
                             {isOpen && (
                                 <div className="absolute mt-1 bg-[#001E62] rounded-lg shadow-lg w-32">
@@ -84,7 +84,7 @@ export default function Header() {
                                         onClick={() => handleLanguageChange("en")}
                                         className="w-full cursor-pointer text-white flex items-center gap-2 px-4 py-3 hover:bg-white/10"
                                     >
-                                        <span className="text-xl">🏴󠁧󠁢󠁥󠁮󠁧󠁿</span> En
+                                        <span className="text-xl">🇬🇧</span> En
                                     </button>
                                 </div>
                             )}
