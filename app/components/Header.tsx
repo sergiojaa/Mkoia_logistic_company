@@ -64,7 +64,6 @@ export default function Header() {
                             </li>
                         ))}
 
-                        {/* Language Dropdown */}
                         <div className="relative w-[80px]">
                             <button
                                 onClick={() => setIsOpen(!isOpen)}
@@ -90,7 +89,6 @@ export default function Header() {
                             )}
                         </div>
 
-                        {/* Contact Button */}
                         <li className="bg-[#001E62] flex items-center text-white px-4 py-2 rounded-full">
                             <Link href="/contact" className="flex text-[16px] items-center gap-3">
                                 <span>Contact</span>
@@ -103,7 +101,6 @@ export default function Header() {
                 </div>
             </div>
 
-            {/* Mobile Nav */}
             <div
                 className={`fixed top-0 left-0 w-full bg-white z-[150] flex flex-col items-center gap-5 p-5 pt-24 shadow-lg lg:hidden transition-all duration-300 ${menuOpen ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-5 pointer-events-none"
                     }`}

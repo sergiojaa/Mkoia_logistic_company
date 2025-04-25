@@ -182,5 +182,17 @@
     "our-work-easy": {
         "ge": "ჩვენი პროცესი მარტივია, მაგრამ ეფექტური. თითოეული პროექტი უნიკალურია, თუმცა ჩვენ ვასრულებთ ყველას.",
         "en": "Our process is simple yet effective. Each project is unique, but we complete them all."
+    },
+    "contact-to-mkoia": {
+        "ge": "დაუკავშირდით ემკოიას",
+        "en": "Contact with Mkoia"
+    },
+    "we-are-here": {
+        "ge": "ჩვენ აქ ვართ, რათა დაგეხმაროთ თქვენი პროექტების დროულად დასრულებაში",
+        "en": "We are here to help you complete your projects on time"
+    },
+    "local-leaders": {
+        "ge": "ადგილობრივი ბაზრის ლიდერები",
+        "en": "Local market leaders"
     }
 }
