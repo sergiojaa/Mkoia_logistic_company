@@ -314,5 +314,17 @@
     "cargo": {
         "ge": "ტვირთის მართვა",
         "en": "cargo handling"
+    },
+    "follow-us": {
+        "ge": "გამოგვყევი სოციალურ პლატმორმებზე რათა მიიღო ინფორმაცია პირველმა",
+        "en": "Follow us on social platforms to be the first to receive information"
+    },
+    "contact": {
+        "ge": "კონტაქტი",
+        "en": "Contact"
+    },
+    "company": {
+        "ge": "კომპანია",
+        "en": "Company"
     }
 }

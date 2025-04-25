@@ -1,10 +1,14 @@
+'use client'
 import React from "react";
 import { Facebook, } from "lucide-react";
 import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
+import { useTranslate } from "../utils/translate";
 
 export default function Footer() {
+    const t = useTranslate()
+
     return (
         <footer className="bg-[#0B1B4B] mt-20 text-white px-7 lg:px-20 py-12">
             <div className="max-w-[1100px] mx-auto flex flex-col lg:flex-row  justify-between gap-10">
@@ -14,7 +18,7 @@ export default function Footer() {
                     </h1>
 
                     <p className="text-md max-w-[327px] text-gray-300">
-                        გამოგვყევი სოციალურ პლატმორმებზე რათა მიიღო ინფორმაცია პირველმა
+                        {t('follow-us')}
                     </p>
 
                     {/* Social Icons */}
@@ -33,7 +37,7 @@ export default function Footer() {
                 </div>
 
                 <div>
-                    <h3 className="text-xl mb-3">კონტაქტი</h3>
+                    <h3 className="text-xl mb-3">{t('contact')}</h3>
                     <ul className="space-y-2 text-gray-300 text-md">
                         <li>
                             <a href="mailto:info@mkoia.ge" className="hover:text-[#D13851]">info@mkoia.ge</a>
@@ -44,7 +48,7 @@ export default function Footer() {
                     </ul>
                 </div>
                 <div>
-                    <h3 className="text-xl mb-3">კომპანია</h3>
+                    <h3 className="text-xl mb-3">{t('company')}</h3>
                     <ul className="space-y-2 text-gray-300 text-md">
                         <Link href="/about">
                             <li>About</li>
