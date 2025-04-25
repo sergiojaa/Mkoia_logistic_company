@@ -34,5 +34,29 @@
     "promotion": {
         "ge": "ხელს ვუწყობთ სწორი ბიზნეს ურთიერთობის ჩამოყალიბებას, ჩვენი ღირებულბების დაცვით, კეთილსინდისიერება, პასუხისმგებლობა და ხარისხი",
         "en": "We promote the development of proper business relationships by upholding our values: integrity, responsibility, and quality."
+    },
+    "our": {
+        "ge": "ჩვენი",
+        "en": "our"
+    },
+    "logistic_service": {
+        "ge": "ლოჯისტიკური სერვიცი",
+        "en": "logistic service"
+    },
+    "user_feedback": {
+        "ge": "მომხმარებელთა შეფასებები",
+        "en": "User Feedbacks"
+    },
+    "trust": {
+        "ge": "ნდობა",
+        "en": "Trust"
+    },
+    "around_region": {
+        "ge": "რეგიონის გარშემო",
+        "en": "around region"
+    },
+    "cooperate": {
+        "ge": "მრავალ კომპანიასთან უკვე ვთანამშრომლობთ, ქება გვსიამოვნებს, ხოლო კრიტიკა ხელს უწყობს ჩვენს გაუმჯობესებას",
+        "en": "We already collaborate with many companies; praise motivates us, while criticism helps us improve."
     }
 }

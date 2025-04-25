@@ -1,13 +1,17 @@
+'use client'
 import React from 'react'
 import ServiceCards from './ServiceCards'
+import { useTranslate } from '@/app/utils/translate'
 
 export default function Services() {
+    const t = useTranslate()
+
     return (
         <div className='max-w-[1200px] mt-10 px-7 mx-auto '>
             <div className='flex gap-3 flex-col items-center  md:items-start justify-between'>
                 <h1 className="text-3xl text-[#001E62] font-bold mb-4">
-                    <span>ჩვენი </span>
-                    <span className="text-[#D13851]">ლოჯისტიკური სერვისი</span>
+                    <span>{t("our")} </span>
+                    <span className="text-[#D13851]">{t('logistic_service')}</span>
 
                 </h1>
             </div>
