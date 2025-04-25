@@ -1,8 +1,12 @@
+'use client'
 import { ArrowRight } from 'lucide-react'
 import React from 'react'
 import Image from 'next/image'
+import { useTranslate } from '@/app/utils/translate'
 
 export default function MapImage() {
+    const t = useTranslate()
+
     return (
         <div className='relative w-full mx-auto mt-10 rounded-xl overflow-hidden'>
 
@@ -29,18 +33,18 @@ export default function MapImage() {
                 <div className='flex flex-col mt-10 gap-12'>
                     <div className="flex items-center">
                         <div className="w-3 h-3 rounded-full bg-red-500 mr-2"></div>
-                        <p className="text-white font-medium">ჩვენი მისამართი</p>
+                        <p className="text-white font-medium">{t("our-address")}</p>
                     </div>
 
                     <div className='max-w-[350px]'>
                         <p className='text-white text-2xl leading-snug'>
-                            მოსახერხებელი მდებარეობა მიწოდების ეფექტური მართვისთვის
+                            {t('address')}
                         </p>
                     </div>
 
                     <div>
                         <button className="flex items-center gap-3 rounded-full bg-white text-white  py-2 px-4 cursor-pointer max-w-max transition hover:scale-105 hover:shadow-lg">
-                            <span className='text-[#001E62]'>მიმართულება</span>
+                            <span className='text-[#001E62]'>{t('destination')}</span>
                             <div className="border bg-[#001E62] rounded-full p-1">
                                 <ArrowRight className='text-white' size={16} />
                             </div>

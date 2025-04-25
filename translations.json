@@ -238,5 +238,17 @@
     "enter-message": {
         "ge": "შეიყვანეთ თქვენი შეტყობინება",
         "en": "Enter your message"
+    },
+    "our-address": {
+        "ge": "ჩვენი მისამართი",
+        "en": "Our address"
+    },
+    "address": {
+        "ge": "მოსახერხებელი მდებარეობა მიწოდების ეფექტური მართვისთვის",
+        "en": "Convenient location for efficient delivery management"
+    },
+    "destination": {
+        "ge": "მიმართულება",
+        "en": "Destination"
     }
 }
