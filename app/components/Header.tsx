@@ -62,7 +62,7 @@ export default function Header() {
                         ))}
 
                         {/* Language Dropdown */}
-                        <div className="relative w-[70px]">
+                        <div className="relative w-[80px]">
                             <button
                                 onClick={() => setIsOpen(!isOpen)}
                                 className="flex cursor-pointer items-center gap-2 text-xl text-[#001E62]"
@@ -105,6 +105,7 @@ export default function Header() {
                 className={`fixed top-0 left-0 w-full bg-white z-[150] flex flex-col items-center gap-5 p-5 pt-24 shadow-lg lg:hidden transition-all duration-300 ${menuOpen ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-5 pointer-events-none"
                     }`}
             >
+
                 {[
                     { name: "Home", path: "/" },
                     { name: "About", path: "/about" },
@@ -123,6 +124,7 @@ export default function Header() {
                         {item.name}
                     </Link>
                 ))}
+
 
                 <Link
                     href="/contact"
