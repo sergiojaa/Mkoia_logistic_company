@@ -1,6 +1,10 @@
+'use client'
+import { useTranslate } from "@/app/utils/translate"
 import Image from "next/image"
 
 export default function Servicesimage() {
+    const t = useTranslate()
+
     return (
         <div className="w-full p-7">
             <div className="relative">
@@ -21,7 +25,7 @@ export default function Servicesimage() {
                     />
                 </div>
                 <div className="absolute inset-0 text-center text-white flex flex-col items-center justify-center px-4">
-                    <h2 className="font-bold text-2xl lg:text-3xl   mb-4">ობიექტზე მიწოდების სერვისები</h2>
+                    <h2 className="font-bold text-2xl lg:text-3xl   mb-4">{t("services")}</h2>
                     <p className="max-w-2xl text-sm md:text-lg mb-6">
                         ჩვენი ყოვლისმომცველი ლოჯისტიკური გადაწყვეტილება შექმნილია თქვენი პროექტები ოპტიმიზაციისა და თქვენი მიზნების გასაუმჯობესებლად.
                     </p>

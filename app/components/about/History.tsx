@@ -1,6 +1,10 @@
+'use client'
+import { useTranslate } from "@/app/utils/translate"
 import { Circle } from "lucide-react"
 import Image from "next/image"
 export default function History() {
+    const t = useTranslate()
+
     const milestones = [
         {
             year: "2022",
@@ -34,9 +38,9 @@ export default function History() {
                 <div className="border border-dashed p-4 mb-6 rounded-md text-center lg:border-0 lg:p-0">
                     <div className="flex items-center justify-center gap-2 mb-2">
                         <div className="h-3 w-3 bg-red-500 rounded-full"></div>
-                        <p className="text-sm font-medium tracking-wider">მნიშვნელოვანი ეტაპები</p>
+                        <p className="text-sm font-medium tracking-wider">{t('steps')}</p>
                     </div>
-                    <h2 className="text-2xl font-bold">ჩვენი ისტორია</h2>
+                    <h2 className="text-2xl font-bold">{t('our-history')}</h2>
                 </div>
 
                 {/* Milestones for smaller screens */}

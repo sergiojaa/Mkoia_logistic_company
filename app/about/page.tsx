@@ -14,7 +14,7 @@ export default function page() {
             <Experience />
             <History />
 
-            <Action />
+            {/* <Action /> */}
             <Cargo />
         </div>
     )

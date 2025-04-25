@@ -1,8 +1,12 @@
+'use client'
 import React from 'react';
 import Image from 'next/image';
 import { ArrowRight } from 'lucide-react';
+import { useTranslate } from '@/app/utils/translate';
 
 export default function Cargo() {
+    const t = useTranslate()
+
     return (
         <div className="text-white p-6 mt-10 rounded-lg max-w-full mx-auto relative">
             <div className="absolute inset-0 z-0">
@@ -37,16 +41,16 @@ export default function Cargo() {
 
                     <div className="flex py-10 flex-col gap-6 lg:gap-10 max-w-xl text-center lg:text-left">
                         <h2 className="text-2xl lg:text-3xl  leading-snug">
-                            ანდეთ ჩვენს გუნდს თქვენი პროექტის
-                            <span className='text-[#D13851]'> დროული დასრულება</span>
+                            {t('trust-our-team')}
+                            <span className='text-[#D13851]'>  {t('finish')}</span>
                         </h2>
 
                         <p className="text-[#BDBDBD] text-lg">
-                            ჩვენი გამოცდილი გუნდი უზრუნველყოფს თქვენი პროექტების მაქსიმალური სიფრთხილით დამუშავებას, უზრუნველყოფს უსაფრთხო და დროულ მიწოდებას.
+                            {t('safe')}
                         </p>
 
-                        <button className="flex items-center gap-2 px-5 py-3 bg-white rounded-full max-w-max transition hover:scale-105 hover:shadow-lg mx-auto lg:mx-0">
-                            <span className="text-[#001E62] text-lg font-medium">Contact Us</span>
+                        <button className="flex items-center cursor-pointer gap-2 px-5 py-3 bg-white rounded-full max-w-max transition hover:scale-105 hover:shadow-lg mx-auto lg:mx-0">
+                            <span className="text-[#001E62] text-lg font-medium">{t("contact-us")}</span>
                             <ArrowRight className="text-white bg-[#001E62] rounded-full p-1 w-6 h-6" />
                         </button>
                     </div>

@@ -94,5 +94,37 @@
     "our-work": {
         "ge": "ჩვენ ვამარტივებთ ლოჯისტიკას მოწინავე ტექნოლოგიით, ასე რომ თქვენ შეგიძლიათ ფოკუსირება მოახდინოთ ბიზნესის ზრდაზე",
         "en": "We simplify logistics with advanced technology so you can focus on growing your business"
+    },
+    "steps": {
+        "ge": "მნიშვნელოვანი ეტაპები",
+        "en": "Important steps"
+    },
+    "our-history": {
+        "ge": "ჩვენი ისტორია",
+        "en": "Out history"
+    },
+    "trust-our-team": {
+        "ge": "ანდეთ ჩვენს გუნდს თქვენი პროექტის",
+        "en": "Trust our team to complete "
+    },
+    "finish": {
+        "ge": "დროული დასრულება",
+        "en": "your project on time"
+    },
+    "safe": {
+        "ge": "ჩვენი გამოცდილი გუნდი უზრუნველყოფს თქვენი პროექტების მაქსიმალური სიფრთხილით დამუშავებას, უზრუნველყოფს უსაფრთხო და დროულ მიწოდებას.",
+        "en": "Our experienced team ensures that your projects are handled with the utmost care, ensuring safe and timely delivery."
+    },
+    "contact-us": {
+        "ge": "დაგვიკავშირდით",
+        "en": "Contact Us"
+    },
+    "services": {
+        "ge": "ობიექტზე მიწოდების სერვისები",
+        "en": "On-site delivery services"
+    },
+    "our-decision": {
+        "ge": "ჩვენი ყოვლისმომცველი ლოჯისტიკური გადაწყვეტილება შექმნილია თქვენი პროექტები ოპტიმიზაციისა და თქვენი მიზნების გასაუმჯობესებლად.",
+        "en": "Our comprehensive logistics solution is designed to optimize your projects and improve your goals."
     }
 }
