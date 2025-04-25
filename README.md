@@ -1,12 +1,12 @@
 # 🚚 Mkoia - Logistics Company Website
 
-Mkoia is a logistics company based in Georgia. This project is an **informative website** built for their partners and potential clients, aiming to showcase their services, company background, and contact information in a clear and professional way.
+Mkoia is a logistics company based in Georgia, with an office located in Tbilisi. This project is an **informative website** built for their partners and potential clients, aiming to showcase their services, company background, products, and contact information in a clear and professional way.
 
 > ⚠️ **Note:** The project is still in progress. English translation (i18next integration) is planned. Currently, the site is in the Georgian language.
 
 ## 🌐 Live Website
 
-🔗 [Link to Website](#) will be soon...
+🔗 https://mkoia.ge/
 
 ---
 
