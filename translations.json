@@ -58,5 +58,41 @@
     "cooperate": {
         "ge": "მრავალ კომპანიასთან უკვე ვთანამშრომლობთ, ქება გვსიამოვნებს, ხოლო კრიტიკა ხელს უწყობს ჩვენს გაუმჯობესებას",
         "en": "We already collaborate with many companies; praise motivates us, while criticism helps us improve."
+    },
+    "about_mkoia": {
+        "ge": "ჩვენს შესახებ",
+        "en": "About Us"
+    },
+    "offer": {
+        "ge": "გთავაზობთ წარმატებას, მორგებული ლოჯისტიკური გადაწყვეტილებებით, რომლებიც ხელს უწყობს ეფექტურობას, ინოვაციას და მომხმარებელთა კმაყოფილებას.",
+        "en": "We offer success through tailored logistics solutions that enhance efficiency, innovation, and customer satisfaction."
+    },
+    "team": {
+        "ge": "ნიჭიერი გუნდის ხელმძღვანელობით",
+        "en": "Guided by a talendet team"
+    },
+    "who_are_we": {
+        "ge": "ვინ ვართ ჩვენ",
+        "en": "Who are we"
+    },
+    "specialize": {
+        "ge": "ჩვენ ვსპეციალიზირდებით ",
+        "en": "We specialize"
+    },
+    "high-quality": {
+        "ge": "მაღალი ხარისხის სამშენებლო და სარემონტო მასალების",
+        "en": "construction and repair materials"
+    },
+    "delivery": {
+        "ge": "მიწოდების სერვისში",
+        "en": "delivery service"
+    },
+    "our-team": {
+        "ge": "ჩვენი ერთგული გუნდი მუშაობს უწყვეტ რეჟიმში, რათა უზრუნველყოს მორგებული გადაწყვეტილებები ყველა ზომის ბიზნესისთვის, რაც გეხმარებათ მიზნების მარტივად და სანდო შესრულებაში.",
+        "en": "Our dedicated team works around the clock to provide customized solutions for businesses of all sizes, helping you achieve your goals with ease and reliability."
+    },
+    "our-work": {
+        "ge": "ჩვენ ვამარტივებთ ლოჯისტიკას მოწინავე ტექნოლოგიით, ასე რომ თქვენ შეგიძლიათ ფოკუსირება მოახდინოთ ბიზნესის ზრდაზე",
+        "en": "We simplify logistics with advanced technology so you can focus on growing your business"
     }
 }

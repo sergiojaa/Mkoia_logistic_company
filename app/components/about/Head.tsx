@@ -1,7 +1,10 @@
 "use client"
+import { useTranslate } from "@/app/utils/translate"
 import Image from "next/image"
 
 export default function Head() {
+    const t = useTranslate()
+
     return (
         <div className="w-full mx-auto ">
             <div className="relative">
@@ -27,14 +30,14 @@ export default function Head() {
 
                 <div className="absolute inset-0 flex flex-col justify-center px-5 md:px-10 lg:px-16 text-white">
                     <div className="max-w-3xl lg:mx-auto lg:text-center">
-                        <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">ემკოიას შესახებ</h1>
+                        <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">{t('about_mkoia')}</h1>
                         <div className="w-12 h-1 bg-white mb-6 lg:mx-auto"></div>
                         <p className="text-sm md:text-base lg:text-lg mb-8 max-w-2xl lg:mx-auto">
-                            გთავაზობთ წარმატებას, მორგებული ლოჯისტიკური გადაწყვეტილებებით, რომლებიც ხელს უწყობს ეფექტურობას, ინოვაციას და მომხმარებელთა კმაყოფილებას.
+                            {t('offer')}
                         </p>
                         <div className="flex items-center lg:justify-center">
                             <div className="w-3 h-3 rounded-full bg-red-500 mr-2"></div>
-                            <p className="text-xs md:text-sm uppercase tracking-wider">ნიჭიერი გუნდის ხელმძღვანელობით</p>
+                            <p className="text-xs md:text-sm uppercase tracking-wider">{t('team')}</p>
                         </div>
                     </div>
                 </div>

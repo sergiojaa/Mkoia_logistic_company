@@ -1,6 +1,8 @@
+'use client'
 import React from 'react'
 import Image from 'next/image'
 import { CheckCheck, Lightbulb, Users, Leaf } from 'lucide-react';
+import { useTranslate } from '@/app/utils/translate';
 const values = [
     { icon: <CheckCheck className="text-[#001E62]" size={24} />, label: 'სანდოობა' },
     { icon: <Lightbulb className="text-[#001E62]" size={24} />, label: 'ინოვაცია' },
@@ -8,23 +10,25 @@ const values = [
     { icon: <Leaf className="text-[#001E62]" size={24} />, label: 'მდგრადობა' },
 ];
 export default function Whoarewe() {
+    const t = useTranslate()
+
     return (
         <div className='w-full mt-10  py-5'>
             <div className='flex flex-col gap-10 justify-center lg:flex-row lg:justify-between items-center'>
                 <div className='flex max-w-[700px] flex-col gap-7'>
                     <div className='flex  items-center'>
                         <div className="w-3 h-3 rounded-full bg-red-500 mr-2"></div>
-                        <h3>ვინ ვართ ჩვენ</h3>
+                        <h3>{t('who_are_we')}</h3>
                     </div>
                     <h2 className='text-[#001E62] text-2xl max-w-[520px] lg:text-3xl'>
-                        ჩვენ ვსპეციალიზირდებით <span className='text-[#D13851]'> მაღალი ხარისხის სამშენებლო და სარემონტო მასალების </span> მისოწების სერვისში
+                        {t('specialize')} <span className='text-[#D13851]'> {t('high-quality')} </span> {t('delivery')}
                     </h2>
                     <p className='text-[#2A437C] max-w-[550px] text-md'>
-                        ჩვენი ერთგული გუნდი მუშაობს უწყვეტ რეჟიმში, რათა უზრუნველყოს მორგებული გადაწყვეტილებები ყველა ზომის ბიზნესისთვის, რაც გეხმარებათ მიზნების მარტივად და სანდო შესრულებაში.
+                        {t('our-team')}
                     </p>
                     <div className='max-w-[490px] border-b-4 border-b-[#D13851] rounded-xl p-5 bg-[#EEF4FF]'>
                         <h2 className='text-[#001E62] font-bold'>
-                            ჩვენ ვამარტივებთ ლოჯისტიკას მოწინავე ტექნოლოგიით, ასე რომ თქვენ შეგიძლიათ ფოკუსირება მოახდინოთ ბიზნესის ზრდაზე
+                            {t('our-work')}
                         </h2>
                     </div>
                 </div>
