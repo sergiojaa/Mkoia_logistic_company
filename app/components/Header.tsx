@@ -11,7 +11,7 @@ export default function Header() {
     const [menuOpen, setMenuOpen] = useState(false);
     const [isOpen, setIsOpen] = useState(false);
     const [selectedLanguage, setSelectedLanguage] = useState("geo");
-
+    console.log(language)
     const handleLanguageChange = (lang: React.SetStateAction<string>) => {
         toggleLanguage()
         setSelectedLanguage(lang);
