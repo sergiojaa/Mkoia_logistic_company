@@ -13,7 +13,7 @@ export default function ContactInfoTexts() {
                     <p className=" text-[#2A437C]">{t('contact-info')}</p>
                 </div>
                 <div className='flex flex-col gap-5'>
-                    <h2 className='text-[#001E62]  text-4xl   max-w-[545px] leading-tight'>{t('Contact-us-and')} <span className='text-[#D13851]'>{t('your-business')}</span> </h2>
+                    <h2 className='text-[#001E62]  text-4xl   max-w-[545px] leading-tight'>{t('Contact-us-and')} <span className='text-[#D13851]'> {t('your-business')}</span> </h2>
                     {/* <p className='text-[#2A437C] text-[19px] max-w-[595px]'>მზად ხართ აიყვანოთ თქვენი ლოჯისტიკა შემდეგ დონეზე? დაგვიკავშირდით დღეს იმის გასარკვევად, თუ როგორ შეუძლია ჩვენი მორგებული გადაწყვეტილებები და ინდუსტრიის გამოცდილება გარდაქმნას თქვენი მიწოდების ჯაჭვი.</p> */}
                 </div>
             </div>

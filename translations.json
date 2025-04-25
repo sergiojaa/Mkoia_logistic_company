@@ -243,9 +243,21 @@
         "ge": "ჩვენი მისამართი",
         "en": "Our address"
     },
+    "week-days": {
+        "ge": "ორშ – პარ, 09:30 – 17:00 ",
+        "en": "Monday – Friday, 09:30 – 17:00"
+    },
+    "our-office": {
+        "ge": "თბილისი, გურამ ქუთათელაძის 2 ა",
+        "en": "Tbilisi, Guram Kutateladze 1 a"
+    },
     "address": {
         "ge": "მოსახერხებელი მდებარეობა მიწოდების ეფექტური მართვისთვის",
         "en": "Convenient location for efficient delivery management"
+    },
+    "working-hours": {
+        "ge": "სამუშაო საათები",
+        "en": "Working hours"
     },
     "destination": {
         "ge": "მიმართულება",
