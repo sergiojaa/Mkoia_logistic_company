@@ -18,16 +18,16 @@ export default function Services() {
 
 
             <div className='flex flex-col gap-8 '>
-                <ServiceCards icon='/home/custom-icon.png' title='საწყობი & დისტრიბუცია'
-                    description='გთავაზობთ უსაფრთხო შენახვას და ეფექტურ განაწილებას, რათა ინვენტარი შეუფერხებლად გადაადგილდეს.' />
+                <ServiceCards icon='/home/custom-icon.png' title={t('distribution')}
+                    description={t('safe-save')} />
                 <ServiceCards
                     icon='/home/third-icon.png'
-                    title='მიწოდების ჯაჭვის ელემენტი'
-                    description='საბაჟო პროცესების ეფექტურად მართვა, რათა თქვენი ტვირთი სწრაფად და კანონიერად გადმოსცდეს საზღვრებს' />
-                <ServiceCards icon='/home/fifth-icon.png' title='ზუსტ წერტილამდე მოტანა'
-                    description='სანდო ზუსტ წერტილამდე მოტანა, რაც თქვენ გიხსნით კიდევ სხვა პასუხისმგებლობებს' />
-                <ServiceCards icon='/home/sixth-icon.png' title='ტვირთის მართვა'
-                    description='სპეციალიზებული დამუშავება დიდი და რთული გადაზიდვებისთვის, მორგებული გადაწყვეტილებებით.' />
+                    title={t('chain')}
+                    description={t('process')} />
+                <ServiceCards icon='/home/fifth-icon.png' title={t('bring')}
+                    description={t('trust-delivery')} />
+                <ServiceCards icon='/home/sixth-icon.png' title={t('cargo')}
+                    description={t('big-delivery')} />
 
             </div>
 

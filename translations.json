@@ -282,5 +282,37 @@
     "contact-banner": {
         "ge": "დაგვიკავშირდით, რათა განვიხილოთ როგორ შეგვიძლია მხარი დავუჭიროთ თქვენს ბიზნესს გაამარტივოს ლოჯისტიკური საჭიროებები.",
         "en": "Contact us to discuss how we can help make your business easier Logistical needs."
+    },
+    "safe-save": {
+        "ge": "გთავაზობთ უსაფრთხო შენახვას და ეფექტურ განაწილებას, რათა ინვენტარი შეუფერხებლად გადაადგილდეს.",
+        "en": "Offers secure storage and efficient distribution to keep inventory moving smoothly."
+    },
+    "chain": {
+        "ge": "მიწოდების ჯაჭვის ელემენტი",
+        "en": "element of the supply chain"
+    },
+    "process": {
+        "ge": "საბაჟო პროცესების ეფექტურად მართვა, რათა თქვენი ტვირთი სწრაფად და კანონიერად გადმოსცდეს საზღვრებს",
+        "en": "Manage customs processes efficiently to get your cargo across borders quickly and legally"
+    },
+    "trust-delivery": {
+        "ge": "სანდო ზუსტ წერტილამდე მოტანა, რაც თქვენ გიხსნით კიდევ სხვა პასუხისმგებლობებს",
+        "en": "Bringing trust to a precise point, which relieves you of other responsibilities"
+    },
+    "big-delivery": {
+        "ge": "სპეციალიზებული დამუშავება დიდი და რთული გადაზიდვებისთვის, მორგებული გადაწყვეტილებებით.",
+        "en": "Specialized handling for large and complex shipments with customized solutions."
+    },
+    "distribution": {
+        "ge": "საწყობი & დისტრიბუცია",
+        "en": "Warehouse & Distribution"
+    },
+    "bring": {
+        "ge": "ზუსტ წერტილამდე მოტანა",
+        "en": "to bring to a precise point"
+    },
+    "cargo": {
+        "ge": "ტვირთის მართვა",
+        "en": "cargo handling"
     }
 }
