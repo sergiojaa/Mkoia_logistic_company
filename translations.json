@@ -126,5 +126,13 @@
     "our-decision": {
         "ge": "ჩვენი ყოვლისმომცველი ლოჯისტიკური გადაწყვეტილება შექმნილია თქვენი პროექტები ოპტიმიზაციისა და თქვენი მიზნების გასაუმჯობესებლად.",
         "en": "Our comprehensive logistics solution is designed to optimize your projects and improve your goals."
+    },
+    "adjust": {
+        "ge": "მორგებული გადაწყვეტილებები ყველა საჭიროებისთვის",
+        "en": "Customized solutions for every need"
+    },
+    "our-community": {
+        "ge": "ჩვენი საზოგადოება",
+        "en": "Our community"
     }
 }
