@@ -1,5 +1,7 @@
+'use client'
 import React from 'react';
 import { Shield, Lightbulb, Users, Leaf } from 'lucide-react';
+import { useTranslate } from '@/app/utils/translate';
 
 interface ValueCardProps {
     title: string;
@@ -9,6 +11,8 @@ interface ValueCardProps {
 }
 
 export default function App() {
+    const t = useTranslate()
+
     const values: ValueCardProps[] = [
         {
             title: "ჩვენ ვუზრუნველვყოფთ, რომ თითოეული მიწოდება აკმაყოფილებს ჩვენს მაღალ სტანდარტებს",
@@ -43,17 +47,15 @@ export default function App() {
                     <div className="flex items-center gap-2 mb-4">
                         <div className="w-2 h-2 rounded-full bg-red-600"></div>
                         <span className="text-sm font-medium uppercase tracking-wider text-gray-600">
-                            ძირითადი ღირებულებები
+                            {t('values')}
                         </span>
                     </div>
                     <h1 className="text-3xl text-[#001E62] font-bold mb-4">
-                        <span>დაფუძნებული </span>
-                        <span className="text-[#D13851]">ნდობაზე</span>
-                        <span> და </span>
+                        {t('base')}
                     </h1>
-                    <h2 className="text-4xl font-bold text-[#D13851]">ხარისხზე</h2>
+
                     <p className="mt-4 text-gray-600 max-w-2xl">
-                        ხელს ვუწყობთ სწორი ბიზნეს ურთიერთობის ჩამოყალიბებას, ჩვენი  ღირებულბების დაცვით, კეთილსინდისიერება, პასუხისმგებლობა და ხარისხი
+                        {t("promotion")}
                     </p>
                 </div>
 

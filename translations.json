@@ -22,5 +22,17 @@
     "02view": {
         "ge": "02 ხედვა",
         "en": "02 view"
+    },
+    "values": {
+        "ge": "ძირითადი ღირებულებები",
+        "en": "Core values"
+    },
+    "base": {
+        "ge": "დაფუძნებული ნდობაზე დახარისხზე",
+        "en": "Built on trust and quality"
+    },
+    "promotion": {
+        "ge": "ხელს ვუწყობთ სწორი ბიზნეს ურთიერთობის ჩამოყალიბებას, ჩვენი ღირებულბების დაცვით, კეთილსინდისიერება, პასუხისმგებლობა და ხარისხი",
+        "en": "We promote the development of proper business relationships by upholding our values: integrity, responsibility, and quality."
     }
 }

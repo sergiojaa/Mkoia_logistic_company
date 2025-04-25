@@ -1,7 +1,9 @@
+
 import React from 'react'
 import TrustCard from './TrustCard'
 
 export default function Trust() {
+
     return (
         <div className='max-w-[1150px] mt-10  w-full mx-auto'>
 
