@@ -40,7 +40,7 @@
         "en": "our"
     },
     "logistic_service": {
-        "ge": "ლოჯისტიკური სერვიცი",
+        "ge": "ლოჯისტიკური სერვისი",
         "en": "logistic service"
     },
     "user_feedback": {
@@ -134,5 +134,45 @@
     "our-community": {
         "ge": "ჩვენი საზოგადოება",
         "en": "Our community"
+    },
+    "join": {
+        "ge": "შემოუერთდი",
+        "en": "Join"
+    },
+    "grow": {
+        "ge": "მზარდი",
+        "en": "growing"
+    },
+    "business": {
+        "ge": "ბიზნესისა",
+        "en": "business"
+    },
+    "logistic-partners": {
+        "ge": "და ლოჯისტიკის პარტნიორებს",
+        "en": "and logistic's partners"
+    },
+    "join-us": {
+        "ge": "შემოგვიერთდით",
+        "en": "Join Us"
+    },
+    "logistics-services": {
+        "ge": "ლოჯისტიკური სერვისები",
+        "en": "Logistics services"
+    },
+    "comprehensive": {
+        "ge": "ყოვლისმომცველი",
+        "en": "comprehensive"
+    },
+    "tailore": {
+        "ge": "რომლებიც მორგებულია თქვენს",
+        "en": "that are tailored to you"
+    },
+    "unique-needs": {
+        "ge": "უნიკალურ საჭიროებებზე",
+        "en": "for unique needs"
+    },
+    "our-goal": {
+        "ge": "ჩვენი მიზანია ვიყოთ წამყვანი ლოგისტიკური კომპანია სამშენებლო განხრით",
+        "en": "Our goal is to be a leading logistics company in the field of construction"
     }
 }
