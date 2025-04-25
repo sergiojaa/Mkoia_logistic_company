@@ -194,5 +194,49 @@
     "local-leaders": {
         "ge": "ადგილობრივი ბაზრის ლიდერები",
         "en": "Local market leaders"
+    },
+    "contact-info": {
+        "ge": "საკონტაქტო ინფორმაცია",
+        "en": "Contact Info"
+    },
+    "Contact-us-and": {
+        "ge": "დაგვიკავშირდით და დავეხმარებით ",
+        "en": "Contact us and we'll help"
+    },
+    "your-business": {
+        "ge": "თქვენს ბიზნესს",
+        "en": "your business"
+    },
+    "please-fill": {
+        "ge": "გთხოვთ შეავსოთ ქვემოთ მოცემული ფორმა და ჩვენი გუნდი დაგიკავშირდებათ აუცილებლად",
+        "en": "Please fill out the form below and our team will contact you"
+    },
+    "name": {
+        "ge": "სახელი",
+        "en": "Name"
+    },
+    "last-name": {
+        "ge": "გვარი",
+        "en": "Last name"
+    },
+    "email": {
+        "ge": "ელ-ფოსტა",
+        "en": "e-mail"
+    },
+    "phone-number": {
+        "ge": "ტელეფონის ნომერი",
+        "en": "Phone Number"
+    },
+    "message": {
+        "ge": "შეტყობინება",
+        "en": "Message"
+    },
+    "send": {
+        "ge": "გაგზავნა",
+        "en": "Send"
+    },
+    "enter-message": {
+        "ge": "შეიყვანეთ თქვენი შეტყობინება",
+        "en": "Enter your message"
     }
 }

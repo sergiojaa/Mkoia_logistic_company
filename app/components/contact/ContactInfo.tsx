@@ -5,6 +5,7 @@ import ContactInputs from './ContactInputs'
 import ContactInfoTexts from './ContactInfoTexts'
 
 export default function ContactInfo() {
+
     return (
         <div className='flex flex-col lg:flex-row items-center justify-center w-full mx-auto lg:items-start  mt-20'>
             <div>
