@@ -174,5 +174,13 @@
     "our-goal": {
         "ge": "ჩვენი მიზანია ვიყოთ წამყვანი ლოგისტიკური კომპანია სამშენებლო განხრით",
         "en": "Our goal is to be a leading logistics company in the field of construction"
+    },
+    "work-process": {
+        "ge": "სამუშაო პროცესი",
+        "en": "Work process"
+    },
+    "our-work-easy": {
+        "ge": "ჩვენი პროცესი მარტივია, მაგრამ ეფექტური. თითოეული პროექტი უნიკალურია, თუმცა ჩვენ ვასრულებთ ყველას.",
+        "en": "Our process is simple yet effective. Each project is unique, but we complete them all."
     }
 }
