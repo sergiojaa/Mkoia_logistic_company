@@ -250,5 +250,25 @@
     "destination": {
         "ge": "მიმართულება",
         "en": "Destination"
+    },
+    "faq": {
+        "ge": "ხშირად დასმული კითხვები",
+        "en": "Frequently asked question"
+    },
+    "compherensive": {
+        "ge": "ყოვლისმომცველი",
+        "en": "Comprehensive"
+    },
+    "questions": {
+        "ge": "კითხვები",
+        "en": "questions"
+    },
+    "about-our-servies": {
+        "ge": "ჩვენი სერვისების შესახებ ",
+        "en": "about our services"
+    },
+    "contact-banner": {
+        "ge": "დაგვიკავშირდით, რათა განვიხილოთ როგორ შეგვიძლია მხარი დავუჭიროთ თქვენს ბიზნესს გაამარტივოს ლოჯისტიკური საჭიროებები.",
+        "en": "Contact us to discuss how we can help make your business easier Logistical needs."
     }
 }
