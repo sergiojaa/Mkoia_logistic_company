@@ -14,8 +14,10 @@ export default function Header() {
     const [menuOpen, setMenuOpen] = useState(false);
     const [isOpen, setIsOpen] = useState(false);
     console.log(language)
-    const handleLanguageChange = () => {
-        toggleLanguage();
+    const handleLanguageChange = (lang: "ge" | "en") => {
+        if (lang !== language) {
+            toggleLanguage();
+        }
         setIsOpen(false);
     };
 
@@ -75,18 +77,19 @@ export default function Header() {
                             {isOpen && (
                                 <div className="absolute mt-1 bg-[#001E62] rounded-lg shadow-lg w-32">
                                     <button
-                                        onClick={handleLanguageChange}
+                                        onClick={() => handleLanguageChange("ge")}
                                         className="w-full cursor-pointer text-white flex items-center gap-2 px-4 py-3 hover:bg-white/10"
                                     >
                                         <span className="text-xl">🇬🇪</span> Geo
                                     </button>
 
                                     <button
-                                        onClick={handleLanguageChange}
+                                        onClick={() => handleLanguageChange("en")}
                                         className="w-full cursor-pointer text-white flex items-center gap-2 px-4 py-3 hover:bg-white/10"
                                     >
                                         <span className="text-xl">🇬🇧</span> En
                                     </button>
+
 
                                 </div>
                             )}
@@ -121,14 +124,14 @@ export default function Header() {
                     {isOpen && (
                         <div className="absolute mt-1 bg-[#001E62] rounded-lg shadow-lg w-32">
                             <button
-                                onClick={handleLanguageChange}
+                                onClick={() => handleLanguageChange("ge")}
                                 className="w-full cursor-pointer text-white flex items-center gap-2 px-4 py-3 hover:bg-white/10"
                             >
                                 <span className="text-xl">🇬🇪</span> Geo
                             </button>
 
                             <button
-                                onClick={handleLanguageChange}
+                                onClick={() => handleLanguageChange("en")}
                                 className="w-full cursor-pointer text-white flex items-center gap-2 px-4 py-3 hover:bg-white/10"
                             >
                                 <span className="text-xl">🇬🇧</span> En
