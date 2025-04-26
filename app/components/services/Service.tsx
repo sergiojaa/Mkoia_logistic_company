@@ -21,9 +21,9 @@ export default function Service() {
                 </div>
             </div>
             <div className='grid mt-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10'>
-                <ServiceCards Icon={SquareUser} title='საწყობი & დისტრიბუცია' description='უსაფრთხო შენახვა და ეფექტური განაწილება თქვენი ინვენტარის შეუფერხებელი მართვისთვის.' />
-                <ServiceCards Icon={SquareUser} title='მიწოდების ჯაჭვის მენეჯმენტი' description='მიწოდების ჯაჭვის თითოეული ეტაპის ოპტიმიზაცია ეფექტური და ეკონომიური პროცესებისთვის.' />
-                <ServiceCards Icon={SquareUser} title='დროული მიწოდება' description='სანდო ზუსტ წერტილამდე მოტანა, რაც თქვენ გიხსნით კიდევ სხვა პასუხისმგებლობებს.' />
+                <ServiceCards Icon={SquareUser} title={t('distribution')} description={t('safe-saving')} />
+                <ServiceCards Icon={SquareUser} title={t('chain')} description={t('deliver-chain')} />
+                <ServiceCards Icon={SquareUser} title={t('deliver')} description={t('last-delivery')} />
             </div>
 
 

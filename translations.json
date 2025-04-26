@@ -59,6 +59,10 @@
         "ge": "მრავალ კომპანიასთან უკვე ვთანამშრომლობთ, ქება გვსიამოვნებს, ხოლო კრიტიკა ხელს უწყობს ჩვენს გაუმჯობესებას",
         "en": "We already collaborate with many companies; praise motivates us, while criticism helps us improve."
     },
+    "deliver": {
+        "ge": "დროული მიწოდება",
+        "en": "timely delivery"
+    },
     "about_mkoia": {
         "ge": "ჩვენს შესახებ",
         "en": "About Us"
@@ -289,7 +293,7 @@
     },
     "chain": {
         "ge": "მიწოდების ჯაჭვის ელემენტი",
-        "en": "element of the supply chain"
+        "en": "Element of the supply chain"
     },
     "process": {
         "ge": "საბაჟო პროცესების ეფექტურად მართვა, რათა თქვენი ტვირთი სწრაფად და კანონიერად გადმოსცდეს საზღვრებს",
@@ -454,5 +458,17 @@
     "standart": {
         "ge": "ვეცადეთ გაგვეწია კონკურენცია გიგანტი კომპანიებისთვის,რასაც თავი წარმატებით გავართვით",
         "en": "We have set a new standard in logistics companies with our high quality performance"
+    },
+    "safe-saving": {
+        "ge": "უსაფრთხო შენახვა და ეფექტური განაწილება თქვენი ინვენტარის შეუფერხებელი მართვისთვის.",
+        "en": "Secure storage and efficient distribution for smooth inventory management."
+    },
+    "deliver-chain": {
+        "ge": "მიწოდების ჯაჭვის თითოეული ეტაპის ოპტიმიზაცია ეფექტური და ეკონომიური პროცესებისთვის.",
+        "en": "Optimizing each stage of the supply chain for efficient and cost-effective processes."
+    },
+    "last-delivery": {
+        "ge": "სანდო ზუსტ წერტილამდე მოტანა, რაც თქვენ გიხსნით კიდევ სხვა პასუხისმგებლობებს.",
+        "en": "Bringing trust to a precise point, which relieves you of other responsibilities."
     }
 }
