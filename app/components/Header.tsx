@@ -10,13 +10,14 @@ export default function Header() {
     const { toggleLanguage, language } = useLanguage();
     const [menuOpen, setMenuOpen] = useState(false);
     const [isOpen, setIsOpen] = useState(false);
-    const [selectedLanguage, setSelectedLanguage] = useState("geo");
+    // const [selectedLanguage, setSelectedLanguage] = useState("geo");
     console.log(language)
-    const handleLanguageChange = (lang: React.SetStateAction<string>) => {
-        toggleLanguage()
-        setSelectedLanguage(lang);
+    const handleLanguageChange = () => {
+        toggleLanguage();
         setIsOpen(false);
     };
+
+
 
     return (
         <header className="relative z-[100] bg-white">
@@ -69,22 +70,25 @@ export default function Header() {
                                 onClick={() => setIsOpen(!isOpen)}
                                 className="flex cursor-pointer items-center gap-2 text-xl text-[#001E62]"
                             >
-                                {selectedLanguage === "geo" ? "🇬🇪 Geo" : "🇬🇧 En"}
+                                {language === "ge" ? "🇬🇪 Geo" : "🇬🇧 En"}
                             </button>
+
                             {isOpen && (
                                 <div className="absolute mt-1 bg-[#001E62] rounded-lg shadow-lg w-32">
                                     <button
-                                        onClick={() => handleLanguageChange("geo")}
+                                        onClick={handleLanguageChange}
                                         className="w-full cursor-pointer text-white flex items-center gap-2 px-4 py-3 hover:bg-white/10"
                                     >
                                         <span className="text-xl">🇬🇪</span> Geo
                                     </button>
+
                                     <button
-                                        onClick={() => handleLanguageChange("en")}
+                                        onClick={handleLanguageChange}
                                         className="w-full cursor-pointer text-white flex items-center gap-2 px-4 py-3 hover:bg-white/10"
                                     >
                                         <span className="text-xl">🇬🇧</span> En
                                     </button>
+
                                 </div>
                             )}
                         </div>
