@@ -20,7 +20,7 @@ export default function ServiceCards({ icon, title, description }: ServiceCard) 
                     />
                 </div>
                 <div className="flex flex-col max-w-[900px] lg:flex-row lg:items-center w-full justify-between gap-3 lg:gap-6">
-                    <h3 className="text-[#001E62] text-2xl sm:text-xl font-medium max-w-[350px]">{title}</h3>
+                    <h3 className="text-[#001E62] text-2xl sm:text-xl  max-w-[350px]">{title}</h3>
                     <p className="text-[#556996] text-base max-w-[500px]">{description}</p>
                 </div>
             </div>
