@@ -24,7 +24,7 @@ export default function Header() {
 
     return (
         <header className="relative z-[100] bg-white">
-            <div className="max-w-[1200px] mx-auto px-10 py-5 flex justify-between items-center relative">
+            <div className="max-w-[1200px] mx-auto px-7 py-5 flex justify-between items-center relative">
                 <div className="z-10">
                     <Link href={'/'}>
                         <h1 className="text-4xl text-[#001E62]">M<span className="text-[#D13851]">K</span>O<span className="text-[#D13851]">I</span>A</h1>

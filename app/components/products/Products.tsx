@@ -11,7 +11,7 @@ export default function Products() {
     const [products, setProducts] = useState<ProductsType[]>(json)
     console.log(setProducts)
     return (
-        <div className="w-full px-10">
+        <div className="w-full px-7">
             <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
                 {products.map((item, index) => (
                     <div key={index} className="overflow-hidden cursor-pointer border-[#001E62] rounded-lg border bg-white shadow-sm transition-all duration-200 hover:shadow-md">
