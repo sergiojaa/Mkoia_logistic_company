@@ -374,5 +374,37 @@
     "sustainability": {
         "ge": "მდგრადობა",
         "en": "Sustainability"
+    },
+    "location": {
+        "ge": "თბილისი, საქართველო",
+        "en": "Tbilisi, Georgia"
+    },
+    "work-from": {
+        "ge": "თანამშრომლობა 2023 წლიდან",
+        "en": "Cooperation since 2023"
+    },
+    "rebuild": {
+        "ge": "შ.პ.ს რებილდი",
+        "en": "Rebuild LLC"
+    },
+    "delta": {
+        "ge": "შ.პ.ს დელტა მშენებელი",
+        "en": "Delta Builder LLC"
+    },
+    "coca-cola": {
+        "ge": "კოკა კოლა ბოთლერს ჯორჯია",
+        "en": "Coca-Cola Bottlers Georgia"
+    },
+    "cocacola-feedback": {
+        "ge": "მათმა შეუფერხებელმა კოორდინაციამ და წინასწარმა კომუნიკაციამ ნამდვილად შეცვალა ჩვენი ოპერაციები. საბაჟო გამტარობიდან დაწყებული, ბოლო კილომეტრის მიწოდებამდე.მათ ყველა პრობლემა სპეციალისტური ყურადღებით და ზუსტად მოაგვარეს. ჩვენთვის უკეთესი ლოჯისტიკური პარტნიორი არ არსებობს!",
+        "en": "Their impeccable coordination and advance communication really changed our operations. From customs clearance to delivery. There is no better logistics partner for us!"
+    },
+    "rebuild-feecback": {
+        "ge": "წინასწარ ჩამოყალიბებული კომუნიკაცია და შეუფერხებელი კოორდინაცია მათი მხრიდან ჩვენი ოპერაციების წარმატების მთავარი საფუძველი გახდა. ისინი უზადო ზრუნვით აგვარებენ ყველა დეტალს. მათთან თანამშრომლობა უპირატესობაა!",
+        "en": "Pre-established communication and smooth coordination on their part became the main basis for the success of our operations. They handle every detail with impeccable care. Cooperation with them is an advantage!"
+    },
+    "delta-feedback": {
+        "ge": "მათი შეუფერხებელი კოორდინაცია და წინასწარი კომუნიკაცია ჩვენი ოპერაციების მსვლელობაზე გარდამტეხად აისახა — საბაჟო პროცედურებიდან ბოლო კილომეტრის მიწოდებამდე. თითოეული გამოწვევა სპეციალისტური ყურადღებითა და სიზუსტით მოგვარდა. ჩვენთვის წარმოუდგენელია უკეთესი ლოჯისტიკური პარტნიორი!",
+        "en": "Their seamless coordination and proactive communication had a transformative impact on the flow of our operations — from customs procedures to last-mile delivery. Every challenge was addressed with expert attention and precision. We can’t imagine a better logistics partner!"
     }
 }
