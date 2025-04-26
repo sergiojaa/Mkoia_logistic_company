@@ -23,7 +23,7 @@ export default function Provide() {
             <div className="max-w-[600px] mx-auto p-7 flex flex-col gap-7 " >
                 <div className="">
                     <h3 className="text-[#2A437C] text-[18px]">{t('mkoia_in_your_service')}</h3>
-                    <h2 className="text-[#001E62] max-w-[500px] font-bold text-[28px]"> {t('we-offer')} <span className="text-[#C8102E]" > {t('high')} </span> {t('delivery-service')}  </h2>
+                    <h2 className="text-[#001E62] max-w-[500px] font-bold text-[25px]"> {t('we-offer')} <span className="text-[#C8102E]" > {t('high')} </span> {t('delivery-service')}  </h2>
                 </div>
                 <div className="flex lg:flex-row lg:gap-20 flex-col gap-4">
                     <h4 className="text-[#C8102E] font-bold text-[20px]">{t('01view')}</h4>

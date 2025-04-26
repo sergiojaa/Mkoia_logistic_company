@@ -50,11 +50,11 @@ export default function App() {
                             {t('values')}
                         </span>
                     </div>
-                    <h1 className="text-3xl text-[#001E62] font-bold mb-4">
+                    <h1 className="text-2xl text-[#001E62] font-bold mb-4">
                         {t('base')} <span className="text-[#C8102E]">{t('quelity')}</span>
                     </h1>
 
-                    <p className="mt-4 text-[#2A437C] max-w-2xl">
+                    <p className="mt-4 text-[#2A437C] max-w-xl">
                         {t("promotion")}
                     </p>
                 </div>
@@ -72,7 +72,7 @@ export default function App() {
                                     </span>
                                 </div>
                                 <div className="space-y-2">
-                                    <h3 className="text-xl font-semibold text-blue-900">{value.title}</h3>
+                                    <h3 className="text-xl  text-blue-900">{value.title}</h3>
                                     <p className="text-gray-600">{value.description}</p>
                                 </div>
                             </div>

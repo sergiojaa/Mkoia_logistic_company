@@ -9,7 +9,7 @@ export default function Services() {
     return (
         <div className='max-w-[1200px] mt-10 px-7 mx-auto '>
             <div className='flex gap-3 flex-col items-center  md:items-start justify-between'>
-                <h1 className="text-3xl text-[#001E62] font-bold mb-4">
+                <h1 className="text-2xl text-[#001E62] font-bold mb-4">
                     <span>{t("our")} </span>
                     <span className="text-[#D13851]">{t('logistic_service')}</span>
 

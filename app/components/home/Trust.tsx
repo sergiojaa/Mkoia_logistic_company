@@ -21,7 +21,7 @@ export default function Trust() {
             <div className='flex  flex-col gap-5 items-start'>
                 <h3 className='text-[#2A437C] lg:px-0 px-7'>{t('user_feedback')}</h3>
                 <div className='lg:flex items-center px-7 lg:px-0 gap-52  '>
-                    <h1 className='text-[#001E62]  text-3xl font-bold'> <span className='text-[#C8102E]'>{t("trust")}</span> {t('around_region')}</h1>
+                    <h1 className='text-[#001E62]  text-2xl font-bold'> <span className='text-[#C8102E]'>{t("trust")}</span> {t('around_region')}</h1>
                     <p className='text-[#2A437C] max-w-[620px] text-lg'>{t('cooperate')}</p>
                 </div>
                 <div className='max-w-[1200px]  w-full flex flex-col'>
