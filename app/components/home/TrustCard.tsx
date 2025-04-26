@@ -11,7 +11,7 @@ interface TrustCards {
 export default function TrustCard({ image, location, description, companyName, clientsSince }: TrustCards) {
     return (
         <div className="w-full mb-10 px-7 lg:px-0  mx-auto">
-            <div className='flex flex-col lg:flex-row items-center   justify-around  p-5 border border-[#CCD2DF] rounded-xl  '>
+            <div className='flex flex-col lg:flex-row items-center h-[900px] md:h-[600px] lg:h-[400px]   justify-around  p-5 border border-[#CCD2DF] rounded-xl  '>
 
                 <div className=''>
                     <Image src={image} alt='track' width={230} height={100} />
