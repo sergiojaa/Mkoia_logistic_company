@@ -534,5 +534,25 @@
     "faq_answer_3": {
         "ge": "შეკვეთის დასრულება დამოკიდებულია მანძილზე, თუმცა უმეტეს შემთხვევაში იმავე დღეს.",
         "en": "Order completion depends on the distance, but usually it happens on the same day."
+    },
+    "home": {
+        "ge": "მთავარი",
+        "en": "Home"
+    },
+    "about": {
+        "ge": "ჩვენს შესახებ",
+        "en": "About"
+    },
+    "services-header": {
+        "ge": "სერვისები",
+        "en": "Services"
+    },
+    "products": {
+        "ge": "პროდუქტები",
+        "en": "Products"
+    },
+    "contact-header": {
+        "ge": "კონტაქტი",
+        "en": "Contact"
     }
 }
