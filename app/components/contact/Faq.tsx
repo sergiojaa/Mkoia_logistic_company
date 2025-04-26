@@ -31,7 +31,7 @@ export default function Faq() {
                     <p className="text-[#2A437C] text-md">{t('faq')}</p>
                 </div>
                 <div className='flex flex-col items-center gap-6'>
-                    <p className='text-[#001E62] text-2xl lg:text-3xl mx-auto max-w-[450px] text-center'>
+                    <p className='text-[#001E62] text-xl lg:text-2xl  mx-auto max-w-[450px] text-center'>
                         {t('compherensive')} <span className='text-[#D13851]'>{t('questions')}</span> {t('about-our-servies')}
                     </p>
                 </div>

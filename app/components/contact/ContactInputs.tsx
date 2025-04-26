@@ -36,7 +36,7 @@ export default function ContactInputs() {
     return (
         <div className='mt-10 flex flex-col  items-center justify-center px-4 lg:px-10'>
             <div>
-                <p className='text-[#2A437C] text-2xl  max-w-xl mb-8'>
+                <p className='text-[#2A437C] text-xl  max-w-xl mb-8'>
                     {t('please-fill')}
                 </p>
 
@@ -44,7 +44,7 @@ export default function ContactInputs() {
                     onSubmit={handleSubmit}
                     className='grid grid-cols-1 lg:grid-cols-2 gap-6 max-w-3xl'>
                     <div>
-                        <label className='block text-[#001E62] font-medium mb-2'>{t('name')}</label>
+                        <label className='block text-[#001E62]  mb-2'>{t('name')}</label>
                         <input
                             id='name'
                             name='name'
@@ -56,7 +56,7 @@ export default function ContactInputs() {
                     </div>
 
                     <div>
-                        <label className='block text-[#001E62] font-medium mb-2'>{t('last-name')}</label>
+                        <label className='block text-[#001E62]  mb-2'>{t('last-name')}</label>
                         <input
                             onChange={handleChange}
 
@@ -69,7 +69,7 @@ export default function ContactInputs() {
                     </div>
 
                     <div>
-                        <label className='block text-[#001E62] font-medium mb-2'>{t('email')}</label>
+                        <label className='block text-[#001E62]  mb-2'>{t('email')}</label>
                         <input
                             onChange={handleChange}
 
@@ -82,7 +82,7 @@ export default function ContactInputs() {
                     </div>
 
                     <div>
-                        <label className='block text-[#001E62] font-medium mb-2'>{t('phone-number')}</label>
+                        <label className='block text-[#001E62]  mb-2'>{t('phone-number')}</label>
                         <input
                             onChange={handleChange}
 
@@ -94,7 +94,7 @@ export default function ContactInputs() {
                         />
                     </div>
                     <div className='md:col-span-2 max-w-[570px]'>
-                        <label className='block text-[#1E2A4A] font-medium mb-2'>{t('message')}</label>
+                        <label className='block text-[#1E2A4A]  mb-2'>{t('message')}</label>
                         <textarea
                             onChange={handleChange}
                             value={input.message}

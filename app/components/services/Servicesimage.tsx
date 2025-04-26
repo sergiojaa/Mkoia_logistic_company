@@ -25,7 +25,7 @@ export default function Servicesimage() {
                     />
                 </div>
                 <div className="absolute inset-0 text-center text-white flex flex-col items-center justify-center px-4">
-                    <h2 className="font-bold text-2xl lg:text-3xl   mb-4">{t("services")}</h2>
+                    <h2 className="font-bold text-xl lg:text-2xl   mb-4">{t("services")}</h2>
                     <p className="max-w-2xl text-sm md:text-lg mb-6">
                         {t('our-decision')}
                     </p>

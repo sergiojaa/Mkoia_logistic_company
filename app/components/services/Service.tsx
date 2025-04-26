@@ -9,14 +9,14 @@ export default function Service() {
 
     return (
         <div className='w-full mx-auto mt-10 px-7 '>
-            <div className='flex  flex-col gap-7 justify-center items-center'>
+            <div className='flex  flex-col gap-7 justify-center lg:items-start items-center'>
                 <div className="flex  items-center">
                     <div className="w-2 h-2 md:w-3 md:h-3 rounded-full bg-red-500 mr-2"></div>
                     <p className=" text-[#2A437C] text-md   ">{t('logistics-services')}</p>
                 </div>
-                <div className='flex flex-col items-center gap-6'>
-                    <p className='text-[#001E62] text-xl lg:text-2xl mx-auto max-w-[510px] text-center'>{t('comprehensive')} <span className='text-[#D13851]'>{t('logistics-services')}</span>  {t('tailore')} <span className='text-[#D13851]'>{t('unique-needs')}</span> </p>
-                    <p className='text-[#2A437C] text-center mx-auto max-w-[800px]'>
+                <div className='flex flex-col lg:items-start items-center gap-6'>
+                    <p className='text-[#001E62] text-xl lg:text-2xl  max-w-[500px] lg:text-start text-center'>{t('comprehensive')} <span className='text-[#D13851]'>{t('logistics-services')}</span>  {t('tailore')} <span className='text-[#D13851]'>{t('unique-needs')}</span> </p>
+                    <p className='text-[#2A437C] lg:text-start text-center mx-auto max-w-[800px]'>
                         {t('our-goal')}</p>
                 </div>
             </div>

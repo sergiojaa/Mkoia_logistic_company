@@ -16,7 +16,7 @@ export default function Community() {
                         <p className=" text-[#2A437C]   ">{t('our-community')}</p>
                     </div>
                     <div className='flex flex-col gap-15'>
-                        <h2 className='text-[#001E62] max-w-[700px] text-4xl md:text-4xl font-bold leading-tight'>{t('join')} <span className='text-[#D13851]'>{t('grow')} <br /> {t('business')}</span> {t('logistic-partners')}</h2>
+                        <h2 className='text-[#001E62] max-w-[700px] text-xl  lg:text-3xl  leading-tight'>{t('join')} <span className='text-[#D13851]'>{t('grow')} <br /> {t('business')}</span> {t('logistic-partners')}</h2>
                         {/* <p className='text-[#2A437C] text-[19px] max-w-[595px]'>შეუერთდით ბიზნესისა და ლოჯისტიკური პარტნიორების დინამიურ საზოგადოებას.მომარაგების ჯაჭვების ოპტიმიზაცია და ზრდის სტიმულირება </p> */}
                         <Link href={'/contact'}>
                             <button className="flex max-w-max hover:bg-[#001E62] hover:text-white cursor-pointer items-center gap-3 rounded-full border border-[#001E62] text-[#001E62] px-6 py-2 transition-colors hover:border-[#3366CC]">

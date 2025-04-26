@@ -33,11 +33,11 @@ export default function MapImage() {
                 <div className='flex flex-col mt-10 gap-12'>
                     <div className="flex items-center">
                         <div className="w-3 h-3 rounded-full bg-red-500 mr-2"></div>
-                        <p className="text-white font-medium">{t("our-address")}</p>
+                        <p className="text-white ">{t("our-address")}</p>
                     </div>
 
                     <div className='max-w-[350px]'>
-                        <p className='text-white text-2xl leading-snug'>
+                        <p className='text-white text-xl leading-snug'>
                             {t('address')}
                         </p>
                     </div>

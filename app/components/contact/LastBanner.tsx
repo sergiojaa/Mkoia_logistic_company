@@ -17,7 +17,7 @@ export default function LastBanner() {
                     className='hidden rounded-4xl md:block'
                     src='/contact/lastbanner-desktop.png' width={1200} height={300} alt=' logistic company contact image' />
                 <div className="absolute lg:left-20  inset-0 text-white flex flex-col items-center md:items-start justify-center gap-4 px-4  md:px-10 text-center md:text-left">
-                    <h2 className="font-bold  text-xl  max-w-[650px] lg:text-xl   mb-4">{t('contact-banner')}</h2>
+                    <h2 className="  text-xl  max-w-[650px] lg:text-md   mb-4">{t('contact-banner')}</h2>
                     <div >
                         <Link href={'/contact'}>
                             <button className="flex max-w-max bg-white text-[#001E62]   cursor-pointer  gap-3 rounded-full    px-6 py-2 transition-colors ">

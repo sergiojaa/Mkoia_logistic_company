@@ -24,7 +24,7 @@ export default function Question({ active, setActive, questionNumber, questionOb
                     }}
                     className="flex cursor-pointer items-center justify-between"
                 >
-                    <p className="text-[#001E62] text-base lg:text-2xl max-w-[85%]">
+                    <p className="text-[#001E62] text-base lg:text-xl max-w-[85%]">
                         {questionObj.question}
                     </p>
                     <span className={`shrink-0 transition-transform duration-300 ease-in-out ${active === questionNumber ? 'rotate-180' : 'rotate-0'
