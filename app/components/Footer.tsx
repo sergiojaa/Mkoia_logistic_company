@@ -40,7 +40,8 @@ export default function Footer() {
                     <h3 className="text-xl mb-3">{t('contact')}</h3>
                     <ul className="space-y-2 text-gray-300 text-md">
                         <li>
-                            <a href="mailto:info@mkoia.ge" className="hover:text-[#D13851]">info@mkoia.ge</a>
+                            <a href="mailto:infoinfo@mkoia.ge" className="hover:text-[#D13851]">infoinfo@mkoia.ge
+                            </a>
                         </li>
                         <li>
                             <a href="tel:+995574013708" className="hover:text-[#D13851]">+995 574 013 708</a>
@@ -50,6 +51,9 @@ export default function Footer() {
                 <div>
                     <h3 className="text-xl mb-3">{t('company')}</h3>
                     <ul className="space-y-2 text-gray-300 text-md">
+                        <Link href="/">
+                            <li>Home</li>
+                        </Link>
                         <Link href="/about">
                             <li>About</li>
                         </Link>

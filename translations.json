@@ -1,11 +1,19 @@
 {
     "mkoia_in_your_service": {
         "ge": "ემკოია თქვენს სამსახურში",
-        "en": "Mkoia at your work"
+        "en": "Mkoia at your service"
     },
-    "high_services": {
-        "en": "We offer top-quality logistics service for timely and safe delivery.",
-        "ge": "ჩვენ გთავაზობთ უმაღლესი ხარისხის ლოჯისტიკურ სერვისს დროული და უსაფრთხო მიწოდებისთვის"
+    "we-offer": {
+        "ge": "ჩვენ გთავაზობთ ",
+        "en": "We offer "
+    },
+    "high": {
+        "ge": "უმაღლესი ხარისხის სამშენებლო და სარემონტო მასალების",
+        "en": " the highest quality construction and repair materials"
+    },
+    "delivery-service": {
+        "ge": " მიწოდების სერვისს",
+        "en": "delivery service"
     },
     "01viewText": {
         "ge": "ჩვენი მიზანია ვიყოთ გლობალური ლოჯისტიკის ინდუსტრიის ლიდერები, ვიღებდეთ ინოვაციურ და სანდო გადაწყვეტილებებს, რომლებიც აღემატება კლიენტების მოლოდინს და ხელს უწყობს მათ გრძელვადიან წარმატებას",
