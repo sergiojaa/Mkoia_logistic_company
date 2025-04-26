@@ -498,5 +498,29 @@
     "your-logistic": {
         "ge": "თქვენი ლოჯისტიკური საჭიროებების ღრმა აღქმა საუკეთესო შესაძლო გადაწყვეტილებების შეთავაზებისთვის.",
         "en": "A deep understanding of your logistics needs to offer the best possible solutions."
+    },
+    "faq_question_1": {
+        "ge": "რამდენი დრო სჭირდება პასუხის მიღებას ჩემს კითხვაზე?",
+        "en": "How long does it take to receive an answer to my question?"
+    },
+    "faq_answer_1": {
+        "ge": "ჩვენი მიზანია გიპასუხოთ ყველაზე მოკლე დროში, ხშირად პასუხი მიიღება იმავე დღეს.",
+        "en": "Our goal is to respond as quickly as possible, often on the same day."
+    },
+    "faq_question_2": {
+        "ge": "რა ინფორმაცია უნდა შევიტანო ჩემს შეტყობინებაში მესიჯის მისაღებად?",
+        "en": "What information should I include in my message to get a reply?"
+    },
+    "faq_answer_2": {
+        "ge": "შეტყობინებაში უნდა მიუთითოთ რაც შეიძლება კონკრეტულად და ნათლად ის, რაც გაინტერესებს.",
+        "en": "In the message, you should specify what you are interested in as specifically and clearly as possible."
+    },
+    "faq_question_3": {
+        "ge": "რა დრო სჭირდება შეკვეთის დასრულებას?",
+        "en": "How long does it take to complete an order?"
+    },
+    "faq_answer_3": {
+        "ge": "შეკვეთის დასრულება დამოკიდებულია მანძილზე, თუმცა უმეტეს შემთხვევაში იმავე დღეს.",
+        "en": "Order completion depends on the distance, but usually it happens on the same day."
     }
 }

@@ -32,7 +32,7 @@ export default function Process() {
                         <ProcessCard plan='01' title={t('consultation')} description={t('logistic-need')} />
                         <ProcessCard plan='02' title={t('strategic')} description={t('effective')} />
                         <ProcessCard plan='03' title={t('effect')} description={t('detail')} />
-                        <ProcessCard plan='04' title={t('deliver')} description='თქვენი ლოჯისტიკური საჭიროებების ღრმა აღქმა საუკეთესო შესაძლო გადაწყვეტილებების შეთავაზებისთვის.' />
+                        <ProcessCard plan='04' title={t('deliver')} description={t('your-logistic')} />
 
                     </div>
                 </div>

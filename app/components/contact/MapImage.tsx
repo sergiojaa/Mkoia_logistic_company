@@ -43,12 +43,15 @@ export default function MapImage() {
                     </div>
 
                     <div>
-                        <button className="flex items-center gap-3 rounded-full bg-white text-white  py-2 px-4 cursor-pointer max-w-max transition hover:scale-105 hover:shadow-lg">
-                            <span className='text-[#001E62]'>{t('destination')}</span>
-                            <div className="border bg-[#001E62] rounded-full p-1">
-                                <ArrowRight className='text-white' size={16} />
-                            </div>
-                        </button>
+                        <a href="https://www.google.com/maps?ll=41.772773,44.813951&z=10&t=m&hl=ka&gl=GE&mapclient=embed&cid=1342471376840932550" target='_blank'>
+                            <button className="flex items-center gap-3 rounded-full bg-white text-white  py-2 px-4 cursor-pointer max-w-max transition hover:scale-105 hover:shadow-lg">
+                                <span className='text-[#001E62]'>{t('destination')}</span>
+                                <div className="border bg-[#001E62] rounded-full p-1">
+                                    <ArrowRight className='text-white' size={16} />
+                                </div>
+                            </button>
+                        </a>
+
                     </div>
                 </div>
             </div>
