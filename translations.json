@@ -36,8 +36,12 @@
         "en": "Core values"
     },
     "base": {
-        "ge": "დაფუძნებული ნდობაზე დახარისხზე",
-        "en": "Built on trust and quality"
+        "ge": "დაფუძნებული ნდობაზე დახ არისხზე",
+        "en": "Built on"
+    },
+    "quelity": {
+        "ge": "ნდობაზე და ხარისხზე",
+        "en": "trust and quality"
     },
     "promotion": {
         "ge": "ხელს ვუწყობთ სწორი ბიზნეს ურთიერთობის ჩამოყალიბებას, ჩვენი ღირებულბების დაცვით, კეთილსინდისიერება, პასუხისმგებლობა და ხარისხი",
@@ -45,11 +49,11 @@
     },
     "our": {
         "ge": "ჩვენი",
-        "en": "our"
+        "en": "Our"
     },
     "logistic_service": {
         "ge": "ლოჯისტიკური სერვისი",
-        "en": "logistic service"
+        "en": "Logistic service"
     },
     "user_feedback": {
         "ge": "მომხმარებელთა შეფასებები",

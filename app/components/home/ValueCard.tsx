@@ -51,10 +51,10 @@ export default function App() {
                         </span>
                     </div>
                     <h1 className="text-3xl text-[#001E62] font-bold mb-4">
-                        {t('base')}
+                        {t('base')} <span className="text-[#C8102E]">{t('quelity')}</span>
                     </h1>
 
-                    <p className="mt-4 text-gray-600 max-w-2xl">
+                    <p className="mt-4 text-[#2A437C] max-w-2xl">
                         {t("promotion")}
                     </p>
                 </div>
