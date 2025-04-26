@@ -8,16 +8,16 @@
         "en": "We offer "
     },
     "high": {
-        "ge": "უმაღლესი ხარისხის სამშენებლო და სარემონტო მასალების",
-        "en": " the highest quality construction and repair materials"
+        "ge": "უმაღლესი ხარისხის სამშენებლო - სარემონტო მასალებს",
+        "en": " the highest quality construction - repair materials"
     },
     "delivery-service": {
-        "ge": " მიწოდების სერვისს",
-        "en": "delivery service"
+        "ge": "და  მიწოდების სერვისს",
+        "en": "and delivery service"
     },
     "01viewText": {
-        "ge": "ჩვენი მიზანია ვიყოთ გლობალური ლოჯისტიკის ინდუსტრიის ლიდერები, ვიღებდეთ ინოვაციურ და სანდო გადაწყვეტილებებს, რომლებიც აღემატება კლიენტების მოლოდინს და ხელს უწყობს მათ გრძელვადიან წარმატებას",
-        "en": "Our goal is to be leaders in the global logistics industry by delivering innovative and reliable solutions that exceed client expectations and support their long-term success."
+        "ge": "ჩვენი მიზანია გავხდეთ თქვენი სანდო პარტნიორი, ვიღებდეთ ინოვაციურ და სანდო გადაწყვეტილებებს, რომლებიც აღემატება კლიენტების მოლოდინს და ხელს უწყობს მათ გრძელვადიან წარმატებას",
+        "en": "Our goal is to become your trustworthy partners by delivering innovative and reliable solutions that exceed client expectations and support their long-term success."
     },
     "02ViewText": {
         "ge": "ჩვენ ვაკავშირებთ ბიზნესებს ეფექტურ და ინოვაციურ მომარაგების ჯაჭვთან, რითაც ვაძლიერებთ ოპერაციულ ეფექტურობას, ვამცირებთ ხარჯებს და ხელს ვუწყობთ მათ ზრდას",
@@ -65,7 +65,7 @@
     },
     "around_region": {
         "ge": "რეგიონის გარშემო",
-        "en": "around region"
+        "en": "Around region"
     },
     "cooperate": {
         "ge": "მრავალ კომპანიასთან უკვე ვთანამშრომლობთ, ქება გვსიამოვნებს, ხოლო კრიტიკა ხელს უწყობს ჩვენს გაუმჯობესებას",
@@ -73,7 +73,7 @@
     },
     "deliver": {
         "ge": "დროული მიწოდება",
-        "en": "timely delivery"
+        "en": "Timely delivery"
     },
     "about_mkoia": {
         "ge": "ჩვენს შესახებ",
@@ -325,11 +325,11 @@
     },
     "bring": {
         "ge": "ზუსტ წერტილამდე მოტანა",
-        "en": "to bring to a precise point"
+        "en": "To bring to a precise point"
     },
     "cargo": {
         "ge": "ტვირთის მართვა",
-        "en": "cargo handling"
+        "en": "Cargo handling"
     },
     "follow-us": {
         "ge": "გამოგვყევი სოციალურ პლატმორმებზე რათა მიიღო ინფორმაცია პირველმა",
@@ -349,7 +349,7 @@
     },
     "from-begining": {
         "ge": "დასაწყისიდან დასასრულამდე",
-        "en": "from beginning to end"
+        "en": "From beginning to end"
     },
     "trusting": {
         "ge": "სანდოობა",
