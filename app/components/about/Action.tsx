@@ -26,9 +26,6 @@ export default function Action() {
                 <h3 className='text-[#001E62] max-w-[550px] font-bold text-3xl'>
                     ჩვენი  <span className='text-[#D13851]'>უძრავი</span> და  <span className='text-[#D13851]'>მოძრავი</span> ქონება
                 </h3>
-                {/* <p className='text-[#556996] text-lg max-w-[450px]'>
-                    მიგიყვანთ ჩვენი ფლოტის მოგზაურობაში, სადაც ყოველი ნაბიჯი საგულდაგულოდ იმართება სიზუსტისთვის, სიჩქარისა და საიმედოობისთვის.
-                </p> */}
             </div>
 
             <div className='max-w-[1200px] mt-10 mx-auto'>

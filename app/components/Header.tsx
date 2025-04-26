@@ -13,7 +13,6 @@ export default function Header() {
     const { toggleLanguage, language } = useLanguage();
     const [menuOpen, setMenuOpen] = useState(false);
     const [isOpen, setIsOpen] = useState(false);
-    // const [selectedLanguage, setSelectedLanguage] = useState("geo");
     console.log(language)
     const handleLanguageChange = () => {
         toggleLanguage();
