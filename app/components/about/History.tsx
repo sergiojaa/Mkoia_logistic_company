@@ -8,19 +8,19 @@ export default function History() {
     const milestones = [
         {
             year: "2022",
-            description: "დავწყეთ მაღალი ხარისხის სამშენებლო და სარემონტო მასალების ლოჯისტიკა.",
+            description: t('start'),
         },
         {
             year: "2023",
-            description: "განვვითარდით, დაგვემატა მოძრავი ქონება და გაიზარდა კომპანია   ",
+            description: t('improve'),
         },
         {
             year: "2024",
-            description: "ვეცადეთ გაგვეწია კონკურენცია გიგანტი კომპანიებისთვის,რასაც თავი წარმატებით გავართვით",
+            description: t('try'),
         },
         {
             year: "2025",
-            description: "დავაწესეთ ახალი სტანდარტი ლოჯისტიკურ კომპანიებში ჩვენი მაღალი ხარისხის მაჩვენებლით",
+            description: t('standart'),
         },
     ]
 

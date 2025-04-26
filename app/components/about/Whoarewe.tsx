@@ -3,15 +3,15 @@ import React from 'react'
 import Image from 'next/image'
 import { CheckCheck, Lightbulb, Users, Leaf } from 'lucide-react';
 import { useTranslate } from '@/app/utils/translate';
-const values = [
-    { icon: <CheckCheck className="text-[#001E62]" size={24} />, label: 'სანდოობა' },
-    { icon: <Lightbulb className="text-[#001E62]" size={24} />, label: 'ინოვაცია' },
-    { icon: <Users className="text-[#001E62]" size={24} />, label: 'თქვენი მოთხოვნა' },
-    { icon: <Leaf className="text-[#001E62]" size={24} />, label: 'მდგრადობა' },
-];
+
 export default function Whoarewe() {
     const t = useTranslate()
-
+    const values = [
+        { icon: <CheckCheck className="text-[#001E62]" size={24} />, label: t('truster') },
+        { icon: <Lightbulb className="text-[#001E62]" size={24} />, label: t("innovation") },
+        { icon: <Users className="text-[#001E62]" size={24} />, label: t("request") },
+        { icon: <Leaf className="text-[#001E62]" size={24} />, label: t("susta") },
+    ];
     return (
         <div className='w-full mt-10  py-5'>
             <div className='flex flex-col gap-10 justify-center lg:flex-row lg:justify-between items-center'>

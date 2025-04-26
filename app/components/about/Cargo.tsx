@@ -3,7 +3,7 @@ import React from 'react';
 import Image from 'next/image';
 import { ArrowRight } from 'lucide-react';
 import { useTranslate } from '@/app/utils/translate';
-
+import Link from 'next/link';
 export default function Cargo() {
     const t = useTranslate()
 
@@ -48,11 +48,14 @@ export default function Cargo() {
                         <p className="text-[#BDBDBD] text-lg">
                             {t('safe')}
                         </p>
+                        <Link href={'/contact'}
+                        >
+                            <button className="flex items-center cursor-pointer gap-2 px-5 py-3 bg-white rounded-full max-w-max transition hover:scale-105 hover:shadow-lg mx-auto lg:mx-0">
+                                <span className="text-[#001E62] text-lg font-medium">{t("contact-us")}</span>
+                                <ArrowRight className="text-white bg-[#001E62] rounded-full p-1 w-6 h-6" />
+                            </button>
+                        </Link>
 
-                        <button className="flex items-center cursor-pointer gap-2 px-5 py-3 bg-white rounded-full max-w-max transition hover:scale-105 hover:shadow-lg mx-auto lg:mx-0">
-                            <span className="text-[#001E62] text-lg font-medium">{t("contact-us")}</span>
-                            <ArrowRight className="text-white bg-[#001E62] rounded-full p-1 w-6 h-6" />
-                        </button>
                     </div>
                 </div>
             </div>

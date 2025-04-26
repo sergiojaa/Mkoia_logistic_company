@@ -406,5 +406,53 @@
     "delta-feedback": {
         "ge": "მათი შეუფერხებელი კოორდინაცია და წინასწარი კომუნიკაცია ჩვენი ოპერაციების მსვლელობაზე გარდამტეხად აისახა — საბაჟო პროცედურებიდან ბოლო კილომეტრის მიწოდებამდე. თითოეული გამოწვევა სპეციალისტური ყურადღებითა და სიზუსტით მოგვარდა. ჩვენთვის წარმოუდგენელია უკეთესი ლოჯისტიკური პარტნიორი!",
         "en": "Their seamless coordination and proactive communication had a transformative impact on the flow of our operations — from customs procedures to last-mile delivery. Every challenge was addressed with expert attention and precision. We can’t imagine a better logistics partner!"
+    },
+    "truster": {
+        "ge": "სანდოობა",
+        "en": "Trust"
+    },
+    "innovation": {
+        "ge": "ინოვაცია",
+        "en": "Innovation"
+    },
+    "request": {
+        "ge": "თქვენი მოთხოვნა",
+        "en": "your request"
+    },
+    "susta": {
+        "ge": "მდგრადობა",
+        "en": "Sustainability"
+    },
+    "experience": {
+        "ge": "წლიანი გამოცდილება",
+        "en": "Years of experience"
+    },
+    "delivery-rate": {
+        "ge": "მიწოდების მაჩვენებელი",
+        "en": "Delivery rate"
+    },
+    "employee": {
+        "ge": "თანამშრომელი",
+        "en": "employee"
+    },
+    "client": {
+        "ge": "კმაყოფილი კლიენტი",
+        "en": "Satisfied customer"
+    },
+    "start": {
+        "ge": "დავწყეთ მაღალი ხარისხის სამშენებლო და სარემონტო მასალების ლოჯისტიკა.",
+        "en": "We started logistics of high-quality construction and repair materials."
+    },
+    "improve": {
+        "ge": "განვვითარდით, დაგვემატა მოძრავი ქონება და გაიზარდა კომპანია",
+        "en": "We developed, added movable property and the company grew"
+    },
+    "try": {
+        "ge": "ვეცადეთ გაგვეწია კონკურენცია გიგანტი კომპანიებისთვის,რასაც თავი წარმატებით გავართვით",
+        "en": "We tried to compete with giant companies, which we managed successfully"
+    },
+    "standart": {
+        "ge": "ვეცადეთ გაგვეწია კონკურენცია გიგანტი კომპანიებისთვის,რასაც თავი წარმატებით გავართვით",
+        "en": "We have set a new standard in logistics companies with our high quality performance"
     }
 }
