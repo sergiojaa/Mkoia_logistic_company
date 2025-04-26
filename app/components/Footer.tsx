@@ -5,7 +5,7 @@ import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 import { useTranslate } from "../utils/translate";
-
+import Image from "next/image";
 export default function Footer() {
     const t = useTranslate()
 
@@ -24,13 +24,14 @@ export default function Footer() {
                     {/* Social Icons */}
                     <div className="flex items-center gap-4 mt-4">
                         <a href="https://www.facebook.com/profile.php?id=61575527729244" target="_blank" aria-label="Facebook">
-                            <Facebook />
+                            <Facebook className="w-10 " />
                         </a>
                         {/* <a href="#" aria-label="Instagram">
                             <Instagram />
                         </a> */}
                         <a href="https://wa.me/995574013708" aria-label="WhatsApp">
-                            <FontAwesomeIcon icon={faWhatsapp} className="w-7 h-6" />
+                            {/* <FontAwesomeIcon icon={faWhatsapp} className="w-7 h-6" /> */}
+                            <Image src={'/whatsap.png'} width={30} height={6} alt="whatsap icon" />
                         </a>
 
                     </div>
