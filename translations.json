@@ -470,5 +470,33 @@
     "last-delivery": {
         "ge": "სანდო ზუსტ წერტილამდე მოტანა, რაც თქვენ გიხსნით კიდევ სხვა პასუხისმგებლობებს.",
         "en": "Bringing trust to a precise point, which relieves you of other responsibilities."
+    },
+    "consultation": {
+        "ge": "დეტალური კონსულტაცია",
+        "en": "Detailed consultation"
+    },
+    "strategic": {
+        "ge": "სტრატეგიული დაგეგმვა",
+        "en": "Strategic planning"
+    },
+    "effect": {
+        "ge": "ეფექტური შესრულება",
+        "en": "effective performance"
+    },
+    "logistic-need": {
+        "ge": "თქვენი ლოჯისტიკური საჭიროებების ზუსტი შეფასება, რათა ვუზრუნველვყოთ მორგებული და ეფექტური გადაწყვეტილებები.",
+        "en": "Accurate assessment of your logistics needs to provide tailored and efficient solutions."
+    },
+    "effective": {
+        "ge": "ეფექტური და ოპტიმალური მიწოდების უზრუნველსაყოფად საუკეთესო გეგმის შედგენა.",
+        "en": "Making the best plan to ensure efficient and optimal delivery."
+    },
+    "detail": {
+        "ge": "თითოეული დეტალის ყურადღებით კოორდინირება, რათა ვუზრუნველვყოთ დროული მიწოდება.",
+        "en": "Every detail is carefully coordinated to ensure timely delivery."
+    },
+    "your-logistic": {
+        "ge": "თქვენი ლოჯისტიკური საჭიროებების ღრმა აღქმა საუკეთესო შესაძლო გადაწყვეტილებების შეთავაზებისთვის.",
+        "en": "A deep understanding of your logistics needs to offer the best possible solutions."
     }
 }

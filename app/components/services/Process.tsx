@@ -29,10 +29,10 @@ export default function Process() {
                     </div>
                     <div className='grid grid-cols-1  md:mt-0 md:grid-cols-2 lg:grid-cols-1 gap-12'>
 
-                        <ProcessCard plan='01' title='დეტალური კონსულტაცია' description=' თქვენი ლოჯისტიკური საჭიროებების ზუსტი შეფასება, რათა ვუზრუნველვყოთ მორგებული და ეფექტური გადაწყვეტილებები.' />
-                        <ProcessCard plan='02' title='სტრატეგიული დაგეგმვა' description='ეფექტური და ოპტიმალური მიწოდების უზრუნველსაყოფად საუკეთესო გეგმის შედგენა.' />
-                        <ProcessCard plan='03' title='ეფექტური შესრულება' description='თითოეული დეტალის ყურადღებით კოორდინირება, რათა ვუზრუნველვყოთ  დროული მიწოდება.' />
-                        <ProcessCard plan='04' title='დროული მიწოდება' description='თქვენი ლოჯისტიკური საჭიროებების ღრმა აღქმა საუკეთესო შესაძლო გადაწყვეტილებების შეთავაზებისთვის.' />
+                        <ProcessCard plan='01' title={t('consultation')} description={t('logistic-need')} />
+                        <ProcessCard plan='02' title={t('strategic')} description={t('effective')} />
+                        <ProcessCard plan='03' title={t('effect')} description={t('detail')} />
+                        <ProcessCard plan='04' title={t('deliver')} description='თქვენი ლოჯისტიკური საჭიროებების ღრმა აღქმა საუკეთესო შესაძლო გადაწყვეტილებების შეთავაზებისთვის.' />
 
                     </div>
                 </div>
