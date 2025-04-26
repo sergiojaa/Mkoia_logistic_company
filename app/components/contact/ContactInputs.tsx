@@ -47,7 +47,7 @@ export default function ContactInputs() {
                         <label className='block text-[#001E62] font-medium mb-2'>{t('name')}</label>
                         <input
                             id='name'
-                            name='firstname'
+                            name='name'
                             placeholder={t('name')}
                             type="text"
                             onChange={handleChange}
