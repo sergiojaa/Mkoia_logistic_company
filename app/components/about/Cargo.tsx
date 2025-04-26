@@ -40,18 +40,18 @@ export default function Cargo() {
                     </div>
 
                     <div className="flex py-10 flex-col gap-6 lg:gap-10 max-w-xl text-center lg:text-left">
-                        <h2 className="text-2xl lg:text-3xl  leading-snug">
+                        <h2 className="text-xl lg:text-2xl  leading-snug">
                             {t('trust-our-team')}
                             <span className='text-[#D13851]'>  {t('finish')}</span>
                         </h2>
 
-                        <p className="text-[#BDBDBD] text-lg">
+                        <p className="text-[#BDBDBD] text-md">
                             {t('safe')}
                         </p>
                         <Link href={'/contact'}
                         >
                             <button className="flex items-center cursor-pointer gap-2 px-5 py-3 bg-white rounded-full max-w-max transition hover:scale-105 hover:shadow-lg mx-auto lg:mx-0">
-                                <span className="text-[#001E62] text-lg font-medium">{t("contact-us")}</span>
+                                <span className="text-[#001E62] text-lg ">{t("contact-us")}</span>
                                 <ArrowRight className="text-white bg-[#001E62] rounded-full p-1 w-6 h-6" />
                             </button>
                         </Link>

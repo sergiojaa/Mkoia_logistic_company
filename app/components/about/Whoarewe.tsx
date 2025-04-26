@@ -20,14 +20,14 @@ export default function Whoarewe() {
                         <div className="w-3 h-3 rounded-full bg-red-500 mr-2"></div>
                         <h3>{t('who_are_we')}</h3>
                     </div>
-                    <h2 className='text-[#001E62] text-2xl max-w-[520px] lg:text-3xl'>
+                    <h2 className='text-[#001E62] text-xl max-w-[520px] lg:text-2xl'>
                         {t('specialize')} <span className='text-[#D13851]'> {t('high-quality')} </span> {t('delivery')}
                     </h2>
                     <p className='text-[#2A437C] max-w-[550px] text-md'>
                         {t('our-team')}
                     </p>
                     <div className='max-w-[490px] border-b-4 border-b-[#D13851] rounded-xl p-5 bg-[#EEF4FF]'>
-                        <h2 className='text-[#001E62] font-bold'>
+                        <h2 className='text-[#001E62] '>
                             {t('our-work')}
                         </h2>
                     </div>
@@ -42,7 +42,7 @@ export default function Whoarewe() {
                     />
                     <div className="bottom-5 mx-auto left-5 bg-white rounded-xl shadow-md p-6 w-[70%] max-w-xs space-y-4">
                         {values.map(({ icon, label }) => (
-                            <div key={label} className="flex items-center gap-3 text-[#001E62] font-medium text-lg">
+                            <div key={label} className="flex items-center gap-3 text-[#001E62]  text-lg">
                                 {icon}
                                 <span>{label}</span>
                             </div>

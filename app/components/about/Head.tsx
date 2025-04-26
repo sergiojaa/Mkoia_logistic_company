@@ -30,7 +30,7 @@ export default function Head() {
 
                 <div className="absolute inset-0 flex flex-col justify-center px-5 md:px-10 lg:px-16 text-white">
                     <div className="max-w-3xl lg:mx-auto lg:text-center">
-                        <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">{t('about_mkoia')}</h1>
+                        <h1 className="text-2xl md:text-3xl font-bold mb-4">{t('about_mkoia')}</h1>
                         <div className="w-12 h-1 bg-white mb-6 lg:mx-auto"></div>
                         <p className="text-sm md:text-base lg:text-lg mb-8 max-w-2xl lg:mx-auto">
                             {t('offer')}
