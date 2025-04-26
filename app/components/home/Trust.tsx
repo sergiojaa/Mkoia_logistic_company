@@ -13,7 +13,7 @@ export default function Trust() {
     const nextRef = useRef(null)
     const [isReady, setIsReady] = useState(false)
     useEffect(() => {
-        setIsReady(true)
+        setIsReady(!isReady)
     }, [])
     return (
         <div className='max-w-[1150px] mt-10  w-full mx-auto'>
