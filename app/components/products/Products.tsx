@@ -2,14 +2,16 @@
 import React, { useState } from 'react'
 import Image from 'next/image'
 import json from './products.json'
+import enJson from './products-en.json'
+import { useLanguage } from '@/app/context/LanguageContext'
 interface ProductsType {
     image: string,
     title: string,
     description: string
 }
 export default function Products() {
-    const [products, setProducts] = useState<ProductsType[]>(json)
-    console.log(setProducts)
+    const { language } = useLanguage()
+    const products: ProductsType[] = language === 'ge' ? json : enJson
     return (
         <div className="w-full px-7">
             <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
