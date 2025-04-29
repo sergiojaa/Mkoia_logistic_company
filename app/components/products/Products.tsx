@@ -34,11 +34,7 @@ export default function Products() {
                 ))}
             </div>
             <div className="flex w-full mt-10 items-center justify-center">
-                <div className="rounded-lg border border-gray-200 bg-white p-8 shadow-md">
-                    <div>
-                        <h2 className="text-xl font-medium">პროდუქტები მალე დაემატება...</h2>
-                    </div>
-                </div>
+
             </div>
         </div>
     )
