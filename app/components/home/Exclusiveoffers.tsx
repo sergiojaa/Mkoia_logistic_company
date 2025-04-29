@@ -17,7 +17,6 @@ export default function Exclusiveoffers() {
         { offer: t('offer-8') },
         { offer: t('offer-9') }
     ]
-    const [offers] = useState(consultation)
 
     return (
         <section className="w-full py-12 ">
@@ -35,12 +34,12 @@ export default function Exclusiveoffers() {
                 <h3 className="text-lg text-[#2A437C] font-semibold mb-6 lg:text-start text-center">{t('client-offer')}</h3>
 
                 <div className="grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
-                    {offers.map((offer, index) => (
+                    {consultation.map((offer, index) => (
                         <div
                             key={index}
                             className="bg-white p-6 rounded-xl border border-slate-200 shadow-sm hover:shadow-md transition-shadow"
                         >
-                            <p className="text-[#2A437C]">{t('offer')}</p>
+                            <p className="text-[#2A437C]">{offer.offer}</p>
                         </div>
                     ))}
                 </div>
