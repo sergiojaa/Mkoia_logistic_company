@@ -20,19 +20,19 @@ export default function Exclusiveoffers() {
     const [offers] = useState(consultation)
 
     return (
-        <section className="w-full py-12 bg-slate-50">
+        <section className="w-full py-12 ">
             <div className="max-w-[1200px] px-7 mx-auto">
                 <div className="flex flex-col items-center lg:items-start lg:text-start text-center mb-10">
                     {/* <div className="inline-block rounded-lg bg-red-100 px-3 py-1 text-sm text-red-700 mb-4">შეზღუდული დროით</div> */}
-                    <h2 className="font-bold tracking-tight text-xl lg:text-3xl text-[#2A437C]">
+                    <h2 className="font-bold tracking-tight text-xl lg:text-2xl text-[#2A437C]">
                         <span className="text-[#C8102E]">{t('exclusive')} </span>{t('offers')}
                     </h2>
-                    <p className="max-w-[700px] text-[#2A437C] md:text-xl mt-4">
+                    <p className="max-w-[700px] text-[#2A437C] text-md mt-4">
                         {t('mkoia-offer')}
                     </p>
                 </div>
 
-                <h3 className="text-xl text-[#2A437C] font-semibold mb-6 lg:text-start text-center">{t('client-offer')}</h3>
+                <h3 className="text-lg text-[#2A437C] font-semibold mb-6 lg:text-start text-center">{t('client-offer')}</h3>
 
                 <div className="grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
                     {offers.map((offer, index) => (
