@@ -1,3 +1,4 @@
+import Exclusiveoffers from "./components/home/Exclusiveoffers";
 import Provide from "./components/home/Provide";
 import Services from "./components/home/Services";
 // import Trackway from "./components/home/Trackway";
@@ -11,6 +12,7 @@ export default function Home() {
       <Provide />
       {/* <Transit /> */}
       <ValueCard />
+      <Exclusiveoffers />
       {/* <Trackway /> */}
       <Services />
       <Trust />
