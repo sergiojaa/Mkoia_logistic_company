@@ -554,5 +554,69 @@
     "contact-header": {
         "ge": "კონტაქტი",
         "en": "Contact"
+    },
+    "offer-1": {
+        "ge": "საკონსულტაციო მომსახურებას, რომელიც ითვალისწინებს პროექტებისა და შესაბამისი ხარჯთაღრიცხვების კვლევასა და ოპტიმალური შეთავაზების მომზადება.",
+        "en": "Consulting services, which include the research of projects and relevant cost estimates and the preparation of an optimal offer."
+    },
+    "offer-2": {
+        "ge": "სატენდერო დოკუმენტაციის დამუშავებას და მიღებული წინადადებების პროფესიონალრ შეფასება-მოლაპარაკებას.",
+        "en": "Tender documentation processing and professional evaluation-negotiation of received proposals."
+    },
+    "offer-3": {
+        "ge": "სამშენებლო პროექტების სამუშაო და ფინანსერი გრაფიკების შედგენას და პროცესის ეფექტურ მართვას.",
+        "en": "Compilation of work and financial schedules of construction projects and effective management of the process."
+    },
+    "offer-4": {
+        "ge": "მშენებლობის პროცესში ხარისხის კონტროლს და შრომის უსაფრთხოების წესების დაცვის უზრუნველყოფას.",
+        "en": "Quality control during the construction process and ensuring compliance with labor safety rules."
+    },
+    "offer-5": {
+        "ge": "მასალების და მანქანა მექანიზმების მოძიებასა და ობიექტზე დაუყოვნებლივ და დროულ მიწოდებას, დამატებითი ხარჯების თავიდან ასაცილებლად.",
+        "en": "Searching for materials and machinery and immediate and timely delivery to the site to avoid additional costs."
+    },
+    "offer-6": {
+        "ge": "მასალათა ფართო არჩევას და დამკმეთისთვის ოპტიმალური შეთავაზების მომზადებას.",
+        "en": "A wide selection of materials and preparation of an optimal offer for the customer."
+    },
+    "offer-7": {
+        "ge": "დაუყოვნებლივ სატრანსპორტო მომსახურებასა და სასაწყობე ფართების მოძიებას.",
+        "en": "Immediate transportation services and warehousing facilities."
+    },
+    "offer-8": {
+        "ge": "სამშენებლო მოედანზე, მასალათა და სამუშაოთა ხარისხის ვიზუალიზაციას დამკვეთის მიერ შერჩეული მასალებითა და ტექნოლოგიებით (MocUp).",
+        "en": "Visualization of the quality of materials and works on the construction site with materials and technologies selected by the customer (MocUp)."
+    },
+    "offer-9": {
+        "ge": "მასალებისა და სამუშაოთა დოკუმენტაციის მართვასა და რეკომენდაციების მომზადებას.",
+        "en": "Management of materials and work documentation and preparation of recommendations."
+    },
+    "exclusive": {
+        "ge": "ექსკლუზიური",
+        "en": "Exclusive"
+    },
+    "offers": {
+        "ge": "შეთავაზებები",
+        "en": "offers"
+    },
+    "mkoia-offer": {
+        "ge": "კომპანია „ემკოია“ გთავაზობთ პროექტების შეფასებისა, ეფექტური მართვის და საკონსულტაციო მომსახურებას, დაფუძნებულს ადგილობრივი და პარტნიორი ქვეყნების ბაზრის კვლევასა და მრავალწლიან გამოცდილებაზე.",
+        "en": "Mkoia company offers project evaluation, effective management and consulting services, based on local and partner country market research and many years of experience."
+    },
+    "client-offer": {
+        "ge": "კერძოდ, კომპანია სთავაზობს დამკვეთს შემდეგ მომსახურებებს:",
+        "en": "In particular, the company offers the following services to the customer:"
+    },
+    "mkoia-desc": {
+        "ge": "კომპანიის წარმატება ეფუძნება თანამშრომელთა მრავალწლიან გამოცდილებას, როგორც ადგილობრივ მცირე, ასევე საერთაშორისო დიდ პროექტებში. კომპანია ორიენტირებულია დამკვეთისთვის სასურველი სერვისის მიწოდებასა და მომავალ პროექტებში ჩართულობაზე.",
+        "en": "The success of the company is based on many years of experience of the employees, both in local small and international large projects. The company is focused on providing the desired service to the customer and involvement in future projects."
+    },
+    "success": {
+        "ge": "გისურვებთ წარმატებას და ფინანსურ სიძლიერეს,",
+        "en": "wish you success and financial strength,"
+    },
+    "respect": {
+        "ge": "პატივისცემით ემკოია",
+        "en": "Sincerely Mkoia"
     }
 }
