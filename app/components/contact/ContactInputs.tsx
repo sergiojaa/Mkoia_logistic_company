@@ -4,6 +4,7 @@ import React, { useState } from 'react'
 
 export default function ContactInputs() {
     const t = useTranslate()
+    const [success, setSuccess] = useState(false);
 
     const [input, setInput] = useState({
         name: '',
@@ -31,6 +32,22 @@ export default function ContactInputs() {
             body: JSON.stringify(input)
         })
         console.log(response)
+        // if (response.ok) {
+        setSuccess(true);
+
+        setInput({
+            name: '',
+            lastName: '',
+            email: '',
+            phone: '',
+            message: ''
+        });
+
+        setTimeout(() => {
+            setSuccess(false);
+        }, 3000);
+        // }
+
     }
 
     return (
@@ -48,6 +65,7 @@ export default function ContactInputs() {
                         <input
                             id='name'
                             name='name'
+                            value={input.name}
                             placeholder={t('name')}
                             type="text"
                             onChange={handleChange}
@@ -61,6 +79,7 @@ export default function ContactInputs() {
                             onChange={handleChange}
 
                             id='lastname'
+                            value={input.lastName}
                             name='lastName'
                             placeholder={t('last-name')}
                             type="text"
@@ -75,6 +94,7 @@ export default function ContactInputs() {
 
                             id='email'
                             name='email'
+                            value={input.email}
                             placeholder={t('email')}
                             type="text"
                             className='w-full border border-[#AAB4CB] rounded-md px-4 py-3 text-gray-600 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#3E64AA]'
@@ -87,6 +107,7 @@ export default function ContactInputs() {
                             onChange={handleChange}
 
                             id='phone'
+                            value={input.phone}
                             name='phone'
                             placeholder={t('phone-number')}
                             type="text"
@@ -99,6 +120,7 @@ export default function ContactInputs() {
                             onChange={handleChange}
                             value={input.message}
                             id="message"
+
                             name="message"
                             placeholder={t('enter-message')}
                             className="w-full border border-[#AAB4CB] focus:ring-[#3E64AA] text-left pl-3 pt-3 h-[150px]"
@@ -110,6 +132,8 @@ export default function ContactInputs() {
                             <button type='submit' className='bg-[#001E62] mt-5 cursor-pointer py-2 rounded-full text-white w-[400px]'>{t('send')}</button>
 
                         </div>
+                        {success && <p className="text-green-600 mt-4">{t('message-sent')}</p>}
+
                     </div>
 
                 </form>

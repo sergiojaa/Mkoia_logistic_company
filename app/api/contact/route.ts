@@ -10,7 +10,9 @@ export async function POST(req: Request) {
             service: "gmail",
             auth: {
                 user: "infoinfo@mkoia.ge",
-                pass: process.env.pass
+                pass:
+                    "rylgwnxgnbdhdnoq"
+                // process.env.pass
             }
         });
 

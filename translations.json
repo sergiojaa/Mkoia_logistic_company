@@ -618,5 +618,9 @@
     "respect": {
         "ge": "პატივისცემით ემკოია",
         "en": "Sincerely Mkoia"
+    },
+    "message-sent": {
+        "ge": "მესიჯი წარმატებით გაიგზავნა!",
+        "en": "Message sent successfully!"
     }
 }
