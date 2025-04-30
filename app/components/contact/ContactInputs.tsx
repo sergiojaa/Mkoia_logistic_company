@@ -14,7 +14,6 @@ export default function ContactInputs() {
         message: ''
     })
 
-    // Handle input changes
     const handleChange = (event: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
         const target = event.target as HTMLInputElement
         setInput({
@@ -23,10 +22,9 @@ export default function ContactInputs() {
         })
     }
 
-    // Check if all form fields are filled out
-    // const isFormValid = () => {
-    //     return input.name && input.lastName && input.email && input.phone && input.message;
-    // }
+    const isFormValid = () => {
+        return input.name && input.lastName && input.email && input.phone && input.message;
+    }
 
     const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
         event.preventDefault()
@@ -41,22 +39,21 @@ export default function ContactInputs() {
 
         console.log(response)
 
-        // On successful submission, set success message and reset form
-        // if (response.ok) {
-        // setSuccess(true);
+        if (response.ok) {
+            setSuccess(true);
 
-        // setInput({
-        //     name: '',
-        //     lastName: '',
-        //     email: '',
-        //     phone: '',
-        //     message: ''
-        // });
+            setInput({
+                name: '',
+                lastName: '',
+                email: '',
+                phone: '',
+                message: ''
+            });
 
-        // setTimeout(() => {
-        //     setSuccess(false);
-        // }, 3000);
-        // }
+            setTimeout(() => {
+                setSuccess(false);
+            }, 3000);
+        }
     }
 
     return (
@@ -134,10 +131,10 @@ export default function ContactInputs() {
                             <button
                                 type='submit'
                                 className={`bg-[#001E62] mt-5 cursor-pointer py-2 rounded-full text-white w-[400px]
-                                     `}
-                            //  ${!isFormValid() ? 'opacity-50 cursor-not-allowed' : ''}
+                                                               ${!isFormValid() ? 'opacity-50 cursor-not-allowed' : ''}
+   `}
 
-                            // disabled={!isFormValid()}
+                                disabled={!isFormValid()}
                             >
                                 {t('send')}
                             </button>
