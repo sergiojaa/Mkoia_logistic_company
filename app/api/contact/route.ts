@@ -3,16 +3,14 @@ import nodemailer from 'nodemailer';
 export async function POST(req: Request) {
     try {
         const body = await req.json();
-        if (!process.env.EMAIL_PASS) {
-            throw new Error("EMAIL_PASS not defined");
-        }
+
         const transporter = nodemailer.createTransport({
             service: "gmail",
             auth: {
                 user: "infoinfo@mkoia.ge",
                 pass:
                     "rylgwnxgnbdhdnoq"
-                // process.env.pass
+                // process.env.EMAIL_PASS
             }
         });
 
