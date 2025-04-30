@@ -41,14 +41,14 @@ export async function POST(req: Request) {
         const mailForUser = {
             from: "infoinfo@mkoia.ge",
             to: `${body.email}`,
-            subject: `მადლობა თქვენი ინტერესისთვის, ${body.name} ${body.lastName}`,
+            subject: `Thank you for your Interest, ${body.name} ${body.lastName}`,
             html: `
         <div style="font-family: Arial, sans-serif; padding: 20px;">
           <img src="cid:logo" alt="Logo" style="width: 150px; margin-bottom: 20px;">
-          <h2>მადლობა რომ დაგვიკავშირდით!</h2>
-          <p>გამარჯობა ${body.name},</p>
-          <p>გმადლობთ რომ დაგვიკავშირდით! ჩვენ აუცილებლად დაგიკავშირდებით უახლოეს მომავალში.</p>
-          <p>შპს ემკოია</p>
+          <h2>Thanks for contacting us!</h2>
+          <p>Hello ${body.name},</p>
+          <p>Thank you for contacting us! We will definitely get back to you as soon as possible.</p>
+          <p>LLC Mkoia</p>
         </div>
       `,
             attachments: [
