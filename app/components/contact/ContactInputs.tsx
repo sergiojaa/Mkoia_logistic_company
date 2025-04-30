@@ -1,6 +1,6 @@
 'use client'
 import { useTranslate } from '@/app/utils/translate'
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
 
 export default function ContactInputs() {
     const t = useTranslate()
