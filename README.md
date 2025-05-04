@@ -25,8 +25,7 @@ Mkoia is a logistics company based in Georgia, with an office located in Tbilisi
 - Clean and modern UI
 - Contact form that sends emails via Nodemailer
 - Lucide icon usage for UI enhancement
-- Custom multilingual support implemented using React Context and a useTranslate hook
-- Organized component structure for scalability
+- Built a website with Georgian and English support using React Context and a custom useTranslate hook.
 - Organized component structure for scalability
 
 ---
