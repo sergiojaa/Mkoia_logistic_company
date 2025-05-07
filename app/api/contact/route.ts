@@ -2,7 +2,6 @@ import { readFileSync } from 'fs';
 import nodemailer from 'nodemailer';
 import { join } from 'path';
 import dotenv from 'dotenv';
-import { CustomError } from './CustomError';
 dotenv.config();
 
 export async function POST(req: Request) {
