@@ -1,6 +1,5 @@
 import { readFileSync } from 'fs';
 import nodemailer from 'nodemailer';
-import path from 'path';
 import { join } from 'path';
 import dotenv from 'dotenv';
 
