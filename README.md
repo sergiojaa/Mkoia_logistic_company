@@ -1,8 +1,7 @@
 # 🚚 Mkoia - Logistics Company Website
 
-Mkoia is a logistics company based in Georgia, with an office located in Tbilisi. This project is an **informative website** built for their partners and potential clients, aiming to showcase their services, company background, products, and contact information in a clear and professional way.
+Mkoia is a logistics company based in Georgia, with an office located in Tbilisi. This project is an **informative website** built for their partners and potential clients, aiming to showcase their services, company background, products, and contact information in a clear and professional way.The  website is available in both Georgian and English. Users can switch between languages using a button that dynamically updates the displayed content.
 
-> ⚠️ **Note:** The project is still in progress. English translation (i18next integration) is planned. Currently, the site is in the Georgian language.
 
 ## 🌐 Live Website
 
@@ -26,7 +25,7 @@ Mkoia is a logistics company based in Georgia, with an office located in Tbilisi
 - Clean and modern UI
 - Contact form that sends emails via Nodemailer
 - Lucide icon usage for UI enhancement
-- Planned multilingual support using **i18next**
+- Built a website with Georgian and English support using React Context and a custom useTranslate hook.
 - Organized component structure for scalability
 
 ---
