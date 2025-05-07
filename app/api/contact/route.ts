@@ -2,6 +2,7 @@ import { readFileSync } from 'fs';
 import nodemailer from 'nodemailer';
 import { join } from 'path';
 import dotenv from 'dotenv';
+import { CustomError } from './CustomError';
 dotenv.config();
 
 export async function POST(req: Request) {
@@ -73,10 +74,20 @@ export async function POST(req: Request) {
         });
 
     } catch (error: unknown) {
-        console.error('Detailed error sending email:', error); // Log the full error for debugging
-        return new Response(JSON.stringify({ error: error.message || 'Unknown error' }), {
-            status: 500,
-            headers: { 'Content-Type': 'application/json' },
-        });
+        // Narrow the type to Error using instanceof
+        if (error instanceof Error) {
+            console.error('Error caught:', error.message);  // Access error.message safely
+            return new Response(JSON.stringify({ error: error.message }), {
+                status: 500,
+                headers: { 'Content-Type': 'application/json' },
+            });
+        } else {
+            // Handle unexpected error types
+            console.error('An unknown error occurred:', error);
+            return new Response(JSON.stringify({ error: 'Unknown error' }), {
+                status: 500,
+                headers: { 'Content-Type': 'application/json' },
+            });
+        }
     }
 }
