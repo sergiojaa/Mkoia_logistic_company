@@ -1,25 +1,17 @@
 import { readFileSync } from 'fs';
 import nodemailer from 'nodemailer';
 import { join } from 'path';
-import dotenv from 'dotenv';
-dotenv.config();
 
 export async function POST(req: Request) {
     try {
-        console.log('EMAIL_USER:', process.env.EMAIL_USER);
-        console.log('EMAIL_PASS:', process.env.EMAIL_PASS);
-
-        if (!process.env.EMAIL_USER || !process.env.EMAIL_PASS) {
-            throw new Error('Missing email credentials in environment variables');
-        }
 
         const body = await req.json();
 
         const transporter = nodemailer.createTransport({
             service: "gmail",
             auth: {
-                user: process.env.EMAIL_USER,
-                pass: process.env.EMAIL_PASS,
+                user: "infoinfo@mkoia.ge",
+                pass: "rylgwnxgnbdhdnoq",
             },
         });
 
@@ -73,15 +65,13 @@ export async function POST(req: Request) {
         });
 
     } catch (error: unknown) {
-        // Narrow the type to Error using instanceof
         if (error instanceof Error) {
-            console.error('Error caught:', error.message);  // Access error.message safely
+            console.error('Error caught:', error.message);
             return new Response(JSON.stringify({ error: error.message }), {
                 status: 500,
                 headers: { 'Content-Type': 'application/json' },
             });
         } else {
-            // Handle unexpected error types
             console.error('An unknown error occurred:', error);
             return new Response(JSON.stringify({ error: 'Unknown error' }), {
                 status: 500,
